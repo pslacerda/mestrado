@@ -1,0 +1,51 @@
+HETATM    1  C02 LIG     8P    -16.364   3.479  38.390  0.00  0.00           C  
+HETATM    2  C04 LIG     8P    -17.723   2.825  38.259  0.00  0.00           C  
+HETATM    3  C07 LIG     8P    -18.835   3.877  38.447  0.00  0.00           C  
+HETATM    4  O08 LIG     8P    -19.746   3.541  39.249  0.00  0.00           O  
+HETATM    5  O09 LIG     8P    -18.833   4.984  37.847  0.00  0.00           O  
+HETATM    6  C10 LIG     8P    -15.208   2.525  38.592  0.00  0.00           C  
+HETATM    7  C13 LIG     8P    -13.897   3.265  38.430  0.00  0.00           C  
+HETATM    8  C16 LIG     8P    -12.772   2.453  39.032  0.00  0.00           C  
+HETATM    9  C19 LIG     8P    -11.440   2.985  38.549  0.00  0.00           C  
+HETATM   10  C22 LIG     8P    -11.060   2.635  37.128  0.00  0.00           C  
+HETATM   11  F01 LIG     8P    -16.401   4.320  39.431  0.00  0.00           F  
+HETATM   12  F03 LIG     8P    -16.133   4.191  37.279  0.00  0.00           F  
+HETATM   13  F05 LIG     8P    -17.852   1.854  39.173  0.00  0.00           F  
+HETATM   14  F06 LIG     8P    -17.838   2.247  37.056  0.00  0.00           F  
+HETATM   15  F11 LIG     8P    -15.279   1.530  37.699  0.00  0.00           F  
+HETATM   16  F12 LIG     8P    -15.274   1.983  39.814  0.00  0.00           F  
+HETATM   17  F14 LIG     8P    -13.963   4.445  39.059  0.00  0.00           F  
+HETATM   18  F15 LIG     8P    -13.643   3.459  37.129  0.00  0.00           F  
+HETATM   19  F17 LIG     8P    -12.901   1.167  38.677  0.00  0.00           F  
+HETATM   20  F18 LIG     8P    -12.797   2.560  40.366  0.00  0.00           F  
+HETATM   21  F20 LIG     8P    -10.486   2.516  39.363  0.00  0.00           F  
+HETATM   22  F21 LIG     8P    -11.463   4.319  38.656  0.00  0.00           F  
+HETATM   23  F23 LIG     8P     -9.887   3.204  36.826  0.00  0.00           F  
+HETATM   24  F24 LIG     8P    -12.004   3.083  36.290  0.00  0.00           F  
+HETATM   25  F25 LIG     8P    -10.954   1.305  37.009  0.00  0.00           F  
+CONECT    1    2   11   12    6
+CONECT    2    1    3   13   14
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3
+CONECT    6    1   15   16    7
+CONECT    7    6    8   17   18
+CONECT    8    7    9   19   20
+CONECT    9    8   10   21   22
+CONECT   10    9   23   24   25
+CONECT   11    1
+CONECT   12    1
+CONECT   13    2
+CONECT   14    2
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    8
+CONECT   20    8
+CONECT   21    9
+CONECT   22    9
+CONECT   23   10
+CONECT   24   10
+CONECT   25   10
+END

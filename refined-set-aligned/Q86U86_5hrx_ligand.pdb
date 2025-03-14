@@ -1,0 +1,65 @@
+HETATM    1  CAA LIG    64F     19.660  26.283  10.465  0.00  0.00           C  
+HETATM    2  CAB LIG    64F     20.790  26.482  11.274  0.00  0.00           C  
+HETATM    3  CAC LIG    64F     21.458  27.709  11.250  0.00  0.00           C  
+HETATM    4  CAD LIG    64F     21.020  28.829  10.477  0.00  0.00           C  
+HETATM    5  CAE LIG    64F     19.868  28.604   9.654  0.00  0.00           C  
+HETATM    6  CAF LIG    64F     19.232  27.355   9.688  0.00  0.00           C  
+HETATM    7  CAG LIG    64F     21.653  30.049  10.410  0.00  0.00           C  
+HETATM    8  CAH LIG    64F     21.153  31.003   9.576  0.00  0.00           C  
+HETATM    9  CAJ LIG    64F     19.384  29.659   8.870  0.00  0.00           C  
+HETATM   10  CAL LIG    64F     22.734  30.682  10.968  0.00  0.00           C  
+HETATM   11  CAO LIG    64F     23.735  30.176  11.993  0.00  0.00           C  
+HETATM   12  CAP LIG    64F     24.809  31.262  12.162  0.00  0.00           C  
+HETATM   13  CAQ LIG    64F     25.743  30.847  13.301  0.00  0.00           C  
+HETATM   14  CAR LIG    64F     26.887  31.872  13.402  0.00  0.00           C  
+HETATM   15  NAM LIG    64F     22.818  31.903  10.500  0.00  0.00           N  
+HETATM   16  NAN LIG    64F     21.852  32.107   9.682  0.00  0.00           N  
+HETATM   17  OAI LIG    64F     20.017  30.804   8.836  0.00  0.00           O  
+HETATM   18  OAK LIG    64F     18.391  29.583   8.124  0.00  0.00           O  
+HETATM   19  H1  LIG    64F     22.354  27.818  11.850  0.00  0.00           H  
+HETATM   20  H2  LIG    64F     21.144  25.684  11.917  0.00  0.00           H  
+HETATM   21  H3  LIG    64F     19.140  25.331  10.446  0.00  0.00           H  
+HETATM   22  H4  LIG    64F     18.353  27.216   9.069  0.00  0.00           H  
+HETATM   23  H5  LIG    64F     21.657  32.991   9.189  0.00  0.00           H  
+HETATM   24  H6  LIG    64F     24.197  29.242  11.638  0.00  0.00           H  
+HETATM   25  H7  LIG    64F     23.231  29.993  12.953  0.00  0.00           H  
+HETATM   26  H8  LIG    64F     24.331  32.222  12.406  0.00  0.00           H  
+HETATM   27  H9  LIG    64F     25.384  31.365  11.230  0.00  0.00           H  
+HETATM   28  H10 LIG    64F     26.158  29.849  13.095  0.00  0.00           H  
+HETATM   29  H11 LIG    64F     25.184  30.823  14.248  0.00  0.00           H  
+HETATM   30  H12 LIG    64F     27.566  31.585  14.217  0.00  0.00           H  
+HETATM   31  H13 LIG    64F     26.469  32.869  13.606  0.00  0.00           H  
+HETATM   32  H14 LIG    64F     27.443  31.895  12.453  0.00  0.00           H  
+CONECT    1    6   21    2
+CONECT    2    1   20    3
+CONECT    3    2   19    4
+CONECT    4    3    5    7
+CONECT    5    4    9    6
+CONECT    6    1    5   22
+CONECT    7    4    8   10
+CONECT    8    7   16   17
+CONECT    9    5   17   18
+CONECT   10    7   11   15
+CONECT   11   10   12   24   25
+CONECT   12   11   13   26   27
+CONECT   13   12   14   28   29
+CONECT   14   13   30   31   32
+CONECT   15   10   16
+CONECT   16    8   15   23
+CONECT   17    9    8
+CONECT   18    9
+CONECT   19    3
+CONECT   20    2
+CONECT   21    1
+CONECT   22    6
+CONECT   23   16
+CONECT   24   11
+CONECT   25   11
+CONECT   26   12
+CONECT   27   12
+CONECT   28   13
+CONECT   29   13
+CONECT   30   14
+CONECT   31   14
+CONECT   32   14
+END

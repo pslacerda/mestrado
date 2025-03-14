@@ -1,0 +1,37 @@
+HETATM    1  C1  LIG    23B    -23.013  31.820  83.038  0.00  0.00           C  
+HETATM    2  O1  LIG    23B    -23.929  32.209  82.278  0.00  0.00           O  
+HETATM    3  C2  LIG    23B    -23.201  30.473  83.656  0.00  0.00           C  
+HETATM    4  O2  LIG    23B    -21.970  32.481  83.294  0.00  0.00           O1-
+HETATM    5  C3  LIG    23B    -24.563  30.433  84.382  0.00  0.00           C  
+HETATM    6  O3  LIG    23B    -22.127  30.295  84.609  0.00  0.00           O  
+HETATM    7  C4  LIG    23B    -24.921  29.067  84.919  0.00  0.00           C  
+HETATM    8  O4  LIG    23B    -24.549  31.381  85.479  0.00  0.00           O  
+HETATM    9  C5  LIG    23B    -23.105  29.387  82.571  0.00  0.00           C  
+HETATM   10  H1  LIG    23B    -25.340  30.731  83.663  0.00  0.00           H  
+HETATM   11  H2  LIG    23B    -22.226  29.456  85.043  0.00  0.00           H  
+HETATM   12  H3  LIG    23B    -25.899  29.115  85.421  0.00  0.00           H  
+HETATM   13  H4  LIG    23B    -24.155  28.744  85.639  0.00  0.00           H  
+HETATM   14  H5  LIG    23B    -24.970  28.348  84.088  0.00  0.00           H  
+HETATM   15  H6  LIG    23B    -23.905  31.110  86.122  0.00  0.00           H  
+HETATM   16  H7  LIG    23B    -22.124  29.447  82.078  0.00  0.00           H  
+HETATM   17  H8  LIG    23B    -23.900  29.541  81.826  0.00  0.00           H  
+HETATM   18  H9  LIG    23B    -23.223  28.396  83.033  0.00  0.00           H  
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1    5    6    9
+CONECT    4    1
+CONECT    5    3    7    8   10
+CONECT    6    3   11
+CONECT    7    5   12   13   14
+CONECT    8    5   15
+CONECT    9    3   16   17   18
+CONECT   10    5
+CONECT   11    6
+CONECT   12    7
+CONECT   13    7
+CONECT   14    7
+CONECT   15    8
+CONECT   16    9
+CONECT   17    9
+CONECT   18    9
+END

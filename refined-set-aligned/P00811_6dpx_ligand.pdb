@@ -1,0 +1,67 @@
+HETATM    1 CL1  LIG H   7G    -34.664   3.643  19.591  0.00  0.00          Cl  
+HETATM    2  O01 LIG H   7G    -40.040   1.874   8.659  0.00  0.00           O  
+HETATM    3  C02 LIG H   7G    -39.657   2.039   9.847  0.00  0.00           C  
+HETATM    4  O03 LIG H   7G    -40.245   1.396  10.767  0.00  0.00           O1-
+HETATM    5  C04 LIG H   7G    -38.493   3.017  10.118  0.00  0.00           C  
+HETATM    6  C05 LIG H   7G    -38.163   3.288  11.588  0.00  0.00           C  
+HETATM    7  C06 LIG H   7G    -39.080   3.915  12.414  0.00  0.00           C  
+HETATM    8  C07 LIG H   7G    -38.774   4.157  13.750  0.00  0.00           C  
+HETATM    9  C08 LIG H   7G    -37.531   3.780  14.252  0.00  0.00           C  
+HETATM   10  C09 LIG H   7G    -36.613   3.156  13.419  0.00  0.00           C  
+HETATM   11  N10 LIG H   7G    -35.316   2.734  13.936  0.00  0.00           N  
+HETATM   12  S11 LIG H   7G    -34.103   3.923  14.135  0.00  0.00           S  
+HETATM   13  O12 LIG H   7G    -32.777   3.311  14.148  0.00  0.00           O  
+HETATM   14  O13 LIG H   7G    -34.116   4.809  12.976  0.00  0.00           O  
+HETATM   15  C14 LIG H   7G    -34.362   4.778  15.722  0.00  0.00           C  
+HETATM   16  C15 LIG H   7G    -34.499   6.154  15.787  0.00  0.00           C  
+HETATM   17  C16 LIG H   7G    -34.694   6.770  17.012  0.00  0.00           C  
+HETATM   18  C17 LIG H   7G    -34.747   6.023  18.184  0.00  0.00           C  
+HETATM   19  C18 LIG H   7G    -34.603   4.641  18.110  0.00  0.00           C  
+HETATM   20  C20 LIG H   7G    -34.415   4.021  16.882  0.00  0.00           C  
+HETATM   21  O21 LIG H   7G    -34.285   2.619  16.816  0.00  0.00           O  
+HETATM   22  C22 LIG H   7G    -36.924   2.917  12.089  0.00  0.00           C  
+HETATM   23  H1  LIG H   7G    -34.453   6.748  14.881  0.00  0.00           H  
+HETATM   24  H2  LIG H   7G    -34.899   6.510  19.141  0.00  0.00           H  
+HETATM   25  H3  LIG H   7G    -36.199   2.440  11.440  0.00  0.00           H  
+HETATM   26  H4  LIG H   7G    -38.747   3.978   9.648  0.00  0.00           H  
+HETATM   27  H5  LIG H   7G    -37.591   2.603   9.643  0.00  0.00           H  
+HETATM   28  H6  LIG H   7G    -40.042   4.220  12.019  0.00  0.00           H  
+HETATM   29  H7  LIG H   7G    -39.499   4.636  14.397  0.00  0.00           H  
+HETATM   30  H8  LIG H   7G    -37.281   3.973  15.289  0.00  0.00           H  
+HETATM   31  H9  LIG H   7G    -34.807   7.847  17.058  0.00  0.00           H  
+HETATM   32  H10 LIG H   7G    -35.141   1.777  14.168  0.00  0.00           H  
+HETATM   33  H11 LIG H   7G    -33.534   2.347  17.331  0.00  0.00           H  
+CONECT    1   19
+CONECT    2    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3   26   27    6
+CONECT    6    5    7   22
+CONECT    7    6   28    8
+CONECT    8    7   29    9
+CONECT    9    8   30   10
+CONECT   10    9   22   11
+CONECT   11   10   12   32
+CONECT   12   11   13   14   15
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   16   20
+CONECT   16   15   17   23
+CONECT   17   16   18   31
+CONECT   18   17   24   19
+CONECT   19    1   18   20
+CONECT   20   15   19   21
+CONECT   21   20   33
+CONECT   22   10    6   25
+CONECT   23   16
+CONECT   24   18
+CONECT   25   22
+CONECT   26    5
+CONECT   27    5
+CONECT   28    7
+CONECT   29    8
+CONECT   30    9
+CONECT   31   17
+CONECT   32   11
+CONECT   33   21
+END

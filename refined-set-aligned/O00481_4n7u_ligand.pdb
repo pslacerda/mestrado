@@ -1,0 +1,57 @@
+HETATM    1  CAA LIG     2J     34.109  32.109  85.667  0.00  0.00           C  
+HETATM    2  CAH LIG     2J     33.080  34.238  84.509  0.00  0.00           C  
+HETATM    3  CAI LIG     2J     34.251  33.942  83.603  0.00  0.00           C  
+HETATM    4  CAJ LIG     2J     31.939  33.199  86.651  0.00  0.00           C  
+HETATM    5  CAK LIG     2J     33.595  33.269  82.410  0.00  0.00           C  
+HETATM    6  CAM LIG     2J     33.015  33.170  85.593  0.00  0.00           C  
+HETATM    7  OAB LIG     2J     34.146  33.548  78.256  0.00  0.00           O1-
+HETATM    8  OAC LIG     2J     34.310  31.631  80.479  0.00  0.00           O  
+HETATM    9  OAD LIG     2J     30.696  33.129  85.958  0.00  0.00           O  
+HETATM   10  OAE LIG     2J     33.527  35.651  79.590  0.00  0.00           O  
+HETATM   11  OAF LIG     2J     35.832  35.477  78.485  0.00  0.00           O1-
+HETATM   12  OAG LIG     2J     36.019  32.239  82.293  0.00  0.00           O1-
+HETATM   13  OAL LIG     2J     35.332  34.040  80.538  0.00  0.00           O  
+HETATM   14  PAN LIG     2J     34.673  34.586  79.175  0.00  0.00           P  
+HETATM   15  PAO LIG     2J     34.803  32.733  81.346  0.00  0.00           P  
+HETATM   16  H   LIG     2J     32.998  32.412  82.752  0.00  0.00           H  
+HETATM   17  H   LIG     2J     32.942  33.989  81.894  0.00  0.00           H  
+HETATM   18  H   LIG     2J     34.763  34.868  83.304  0.00  0.00           H  
+HETATM   19  H   LIG     2J     34.968  33.267  84.093  0.00  0.00           H  
+HETATM   20  H   LIG     2J     32.148  34.229  83.924  0.00  0.00           H  
+HETATM   21  H   LIG     2J     33.212  35.227  84.972  0.00  0.00           H  
+HETATM   22  H   LIG     2J     32.395  32.526  84.951  0.00  0.00           H  
+HETATM   23  H   LIG     2J     33.901  31.425  86.503  0.00  0.00           H  
+HETATM   24  H   LIG     2J     35.082  32.596  85.825  0.00  0.00           H  
+HETATM   25  H   LIG     2J     34.132  31.540  84.726  0.00  0.00           H  
+HETATM   26  H   LIG     2J     32.000  34.131  87.231  0.00  0.00           H  
+HETATM   27  H   LIG     2J     32.047  32.338  87.327  0.00  0.00           H  
+HETATM   28  H   LIG     2J     29.984  33.145  86.586  0.00  0.00           H  
+CONECT    1   23   24   25    6
+CONECT    2    6   20   21    3
+CONECT    3    2   18   19    5
+CONECT    4    9   26   27    6
+CONECT    5    3   16   17   15
+CONECT    6    2    1    4   22
+CONECT    7   14
+CONECT    8   15
+CONECT    9    4   28
+CONECT   10   14
+CONECT   11   14
+CONECT   12   15
+CONECT   13   15   14
+CONECT   14   10    7   11   13
+CONECT   15   13    5    8   12
+CONECT   16    5
+CONECT   17    5
+CONECT   18    3
+CONECT   19    3
+CONECT   20    2
+CONECT   21    2
+CONECT   22    6
+CONECT   23    1
+CONECT   24    1
+CONECT   25    1
+CONECT   26    4
+CONECT   27    4
+CONECT   28    9
+END

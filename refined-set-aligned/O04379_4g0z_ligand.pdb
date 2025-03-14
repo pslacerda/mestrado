@@ -1,0 +1,75 @@
+HETATM    1  P   LIG     5G     25.383  34.659  38.342  0.00  0.00           P  
+HETATM    2  O1P LIG     5G     25.928  36.000  38.757  0.00  0.00           O  
+HETATM    3  O2P LIG     5G     25.691  34.319  36.901  0.00  0.00           O1-
+HETATM    4  O3P LIG     5G     23.956  34.371  38.748  0.00  0.00           O1-
+HETATM    5  C5' LIG     5G     27.682  33.575  39.130  0.00  0.00           C  
+HETATM    6  O5' LIG     5G     26.250  33.592  39.187  0.00  0.00           O  
+HETATM    7  C4' LIG     5G     28.166  32.482  40.086  0.00  0.00           C  
+HETATM    8  O4' LIG     5G     27.621  31.221  39.705  0.00  0.00           O  
+HETATM    9  C3' LIG     5G     29.681  32.316  40.111  0.00  0.00           C  
+HETATM   10  O3' LIG     5G     30.200  32.807  41.353  0.00  0.00           O  
+HETATM   11  C2' LIG     5G     29.927  30.828  40.058  0.00  0.00           C  
+HETATM   12  O2' LIG     5G     30.532  30.467  41.298  0.00  0.00           O  
+HETATM   13  C1' LIG     5G     28.559  30.173  39.942  0.00  0.00           C  
+HETATM   14  N1  LIG     5G     29.154  29.459  34.832  0.00  0.00           N1+
+HETATM   15  C2  LIG     5G     29.332  30.587  35.538  0.00  0.00           C  
+HETATM   16  N2  LIG     5G     29.717  31.726  34.908  0.00  0.00           N  
+HETATM   17  N3  LIG     5G     29.140  30.607  36.879  0.00  0.00           N  
+HETATM   18  C4  LIG     5G     28.754  29.483  37.528  0.00  0.00           C  
+HETATM   19  C5  LIG     5G     28.565  28.313  36.805  0.00  0.00           C  
+HETATM   20  C6  LIG     5G     28.771  28.321  35.433  0.00  0.00           C  
+HETATM   21  O6  LIG     5G     28.596  27.266  34.784  0.00  0.00           O  
+HETATM   22  N7  LIG     5G     28.184  27.353  37.680  0.00  0.00           N  
+HETATM   23  C8  LIG     5G     28.145  27.913  38.912  0.00  0.00           C  
+HETATM   24  N9  LIG     5G     28.504  29.208  38.816  0.00  0.00           N  
+HETATM   25  H1  LIG     5G     28.082  34.552  39.442  0.00  0.00           H  
+HETATM   26  H2  LIG     5G     28.014  33.353  38.105  0.00  0.00           H  
+HETATM   27  H3  LIG     5G     27.823  32.739  41.099  0.00  0.00           H  
+HETATM   28  H4  LIG     5G     30.151  32.833  39.262  0.00  0.00           H  
+HETATM   29  H5  LIG     5G     29.816  32.316  42.071  0.00  0.00           H  
+HETATM   30  H6  LIG     5G     30.570  30.551  39.210  0.00  0.00           H  
+HETATM   31  H7  LIG     5G     31.349  30.942  41.399  0.00  0.00           H  
+HETATM   32  H8  LIG     5G     28.317  29.650  40.879  0.00  0.00           H  
+HETATM   33  H9  LIG     5G     27.868  27.400  39.832  0.00  0.00           H  
+HETATM   34  H10 LIG     5G     29.308  29.466  33.844  0.00  0.00           H  
+HETATM   35  H11 LIG     5G     29.855  32.592  35.448  0.00  0.00           H  
+HETATM   36  H12 LIG     5G     29.872  31.724  33.890  0.00  0.00           H  
+HETATM   37  H13 LIG     5G     29.288  31.480  37.406  0.00  0.00           H  
+CONECT    1    2    3    4    6
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    7   25   26    6
+CONECT    6    1    5
+CONECT    7    5    8    9   27
+CONECT    8    7   13
+CONECT    9    7   10   11   28
+CONECT   10    9   29
+CONECT   11    9   12   13   30
+CONECT   12   11   31
+CONECT   13    8   11   24   32
+CONECT   14   15   34   20
+CONECT   15   14   16   17
+CONECT   16   15   35   36
+CONECT   17   15   18   37
+CONECT   18   17   19   24
+CONECT   19   18   20   22
+CONECT   20   19   14   21
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   33   24
+CONECT   24   13   18   23
+CONECT   25    5
+CONECT   26    5
+CONECT   27    7
+CONECT   28    9
+CONECT   29   10
+CONECT   30   11
+CONECT   31   12
+CONECT   32   13
+CONECT   33   23
+CONECT   34   14
+CONECT   35   16
+CONECT   36   16
+CONECT   37   17
+END

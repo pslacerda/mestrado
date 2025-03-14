@@ -1,0 +1,39 @@
+HETATM    1  N   LIG     4C     21.962  39.009  72.147  0.00  0.00           N  
+HETATM    2  CA  LIG     4C     22.227  40.168  73.019  0.00  0.00           C  
+HETATM    3  CAA LIG     4C     20.853  36.787  71.641  0.00  0.00           C  
+HETATM    4  CAD LIG     4C     20.843  39.121  74.807  0.00  0.00           C  
+HETATM    5  CAI LIG     4C     21.128  37.971  72.584  0.00  0.00           C  
+HETATM    6  C   LIG     4C     23.529  40.846  72.613  0.00  0.00           C  
+HETATM    7  O   LIG     4C     24.078  41.635  73.382  0.00  0.00           O1-
+HETATM    8  NAG LIG     4C     20.578  37.994  73.875  0.00  0.00           N  
+HETATM    9  CB  LIG     4C     22.201  39.748  74.476  0.00  0.00           C  
+HETATM   10  OXT LIG     4C     24.022  40.622  71.501  0.00  0.00           O  
+HETATM   11  H1  LIG     4C     21.416  40.897  72.872  0.00  0.00           H  
+HETATM   12  H2  LIG     4C     22.362  40.630  75.114  0.00  0.00           H  
+HETATM   13  H3  LIG     4C     22.998  39.012  74.659  0.00  0.00           H  
+HETATM   14  H4  LIG     4C     20.053  39.879  74.700  0.00  0.00           H  
+HETATM   15  H5  LIG     4C     20.854  38.747  75.841  0.00  0.00           H  
+HETATM   16  H6  LIG     4C     20.184  36.069  72.139  0.00  0.00           H  
+HETATM   17  H7  LIG     4C     21.802  36.291  71.389  0.00  0.00           H  
+HETATM   18  H8  LIG     4C     20.376  37.154  70.720  0.00  0.00           H  
+HETATM   19  H9  LIG     4C     22.392  38.962  71.212  0.00  0.00           H  
+CONECT    1   19    2    5
+CONECT    2    1    9   11    6
+CONECT    3   16   17   18    5
+CONECT    4    8   14   15    9
+CONECT    5    1    3    8
+CONECT    6    2   10    7
+CONECT    7    6
+CONECT    8    4    5
+CONECT    9    2    4   12   13
+CONECT   10    6
+CONECT   11    2
+CONECT   12    9
+CONECT   13    9
+CONECT   14    4
+CONECT   15    4
+CONECT   16    3
+CONECT   17    3
+CONECT   18    3
+CONECT   19    1
+END

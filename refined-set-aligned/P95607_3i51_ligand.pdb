@@ -1,0 +1,29 @@
+HETATM    1 CL10 LIG    45C     -0.211  -1.557  20.365  0.00  0.00          Cl  
+HETATM    2 CL9  LIG    45C      2.170  -0.027  22.054  0.00  0.00          Cl  
+HETATM    3  C1  LIG    45C      3.142  -2.515  18.465  0.00  0.00           C  
+HETATM    4  C2  LIG    45C      4.120  -1.883  19.173  0.00  0.00           C  
+HETATM    5  C3  LIG    45C      3.846  -1.083  20.284  0.00  0.00           C  
+HETATM    6  C4  LIG    45C      2.517  -1.027  20.658  0.00  0.00           C  
+HETATM    7  C5  LIG    45C      1.520  -1.657  19.916  0.00  0.00           C  
+HETATM    8  C6  LIG    45C      1.811  -2.428  18.822  0.00  0.00           C  
+HETATM    9  O7  LIG    45C      3.459  -3.240  17.377  0.00  0.00           O  
+HETATM   10  O8  LIG    45C      5.370  -2.036  18.712  0.00  0.00           O  
+HETATM   11  H1  LIG    45C      4.622  -0.544  20.815  0.00  0.00           H  
+HETATM   12  H2  LIG    45C      1.037  -2.943  18.265  0.00  0.00           H  
+HETATM   13  H3  LIG    45C      4.399  -3.217  17.245  0.00  0.00           H  
+HETATM   14  H4  LIG    45C      5.359  -2.612  17.956  0.00  0.00           H  
+CONECT    1    7
+CONECT    2    6
+CONECT    3    4    8    9
+CONECT    4    3    5   10
+CONECT    5    4    6   11
+CONECT    6    5    2    7
+CONECT    7    6    1    8
+CONECT    8    3    7   12
+CONECT    9    3   13
+CONECT   10    4   14
+CONECT   11    5
+CONECT   12    8
+CONECT   13    9
+CONECT   14   10
+END

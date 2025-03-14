@@ -1,0 +1,87 @@
+HETATM    1  O01 LIG    82V     15.476   4.542   0.277  0.00  0.00           O  
+HETATM    2  C02 LIG    82V     14.422   5.054   0.652  0.00  0.00           C  
+HETATM    3  C03 LIG    82V     14.360   6.015   1.797  0.00  0.00           C  
+HETATM    4  C04 LIG    82V     13.212   6.468   2.290  0.00  0.00           C  
+HETATM    5  N05 LIG    82V     13.055   7.409   3.352  0.00  0.00           N  
+HETATM    6  C06 LIG    82V     11.807   8.268   3.491  0.00  0.00           C  
+HETATM    7  C07 LIG    82V     11.640   9.092   4.796  0.00  0.00           C  
+HETATM    8  O08 LIG    82V     12.423   8.623   5.831  0.00  0.00           O  
+HETATM    9  C09 LIG    82V     13.744   8.672   5.478  0.00  0.00           C  
+HETATM   10  C10 LIG    82V     14.094   7.658   4.386  0.00  0.00           C  
+HETATM   11  O11 LIG    82V     12.053   6.371   1.540  0.00  0.00           O  
+HETATM   12  C12 LIG    82V     11.975   5.494   0.519  0.00  0.00           C  
+HETATM   13  C13 LIG    82V     13.076   4.868   0.098  0.00  0.00           C  
+HETATM   14  S14 LIG    82V     12.756   3.774  -1.205  0.00  0.00           S  
+HETATM   15  C15 LIG    82V     11.105   4.188  -1.169  0.00  0.00           C  
+HETATM   16  C16 LIG    82V     10.754   5.098  -0.234  0.00  0.00           C  
+HETATM   17  C17 LIG    82V      9.374   5.614  -0.034  0.00  0.00           C  
+HETATM   18  C18 LIG    82V      8.851   5.880   1.243  0.00  0.00           C  
+HETATM   19  C19 LIG    82V      7.538   6.367   1.430  0.00  0.00           C  
+HETATM   20  C20 LIG    82V      6.702   6.610   0.339  0.00  0.00           C  
+HETATM   21  O21 LIG    82V      5.432   7.067   0.522  0.00  0.00           O  
+HETATM   22  C22 LIG    82V      4.814   7.654  -0.623  0.00  0.00           C  
+HETATM   23  C23 LIG    82V      5.073   6.896  -1.880  0.00  0.00           C  
+HETATM   24  O24 LIG    82V      6.441   6.589  -2.052  0.00  0.00           O  
+HETATM   25  C25 LIG    82V      7.192   6.369  -0.947  0.00  0.00           C  
+HETATM   26  C26 LIG    82V      8.500   5.896  -1.078  0.00  0.00           C  
+HETATM   27  H1  LIG    82V     14.997   8.018   3.872  0.00  0.00           H  
+HETATM   28  H2  LIG    82V     14.311   6.698   4.879  0.00  0.00           H  
+HETATM   29  H3  LIG    82V     10.381   3.749  -1.854  0.00  0.00           H  
+HETATM   30  H4  LIG    82V      5.202   8.676  -0.744  0.00  0.00           H  
+HETATM   31  H5  LIG    82V      3.728   7.692  -0.454  0.00  0.00           H  
+HETATM   32  H6  LIG    82V      8.867   5.734  -2.086  0.00  0.00           H  
+HETATM   33  H7  LIG    82V     15.292   6.357   2.244  0.00  0.00           H  
+HETATM   34  H8  LIG    82V     10.938   7.600   3.410  0.00  0.00           H  
+HETATM   35  H9  LIG    82V     11.803   8.979   2.651  0.00  0.00           H  
+HETATM   36  H10 LIG    82V     10.585   9.048   5.106  0.00  0.00           H  
+HETATM   37  H11 LIG    82V     11.918  10.136   4.591  0.00  0.00           H  
+HETATM   38  H12 LIG    82V     13.974   9.682   5.108  0.00  0.00           H  
+HETATM   39  H13 LIG    82V     14.356   8.459   6.367  0.00  0.00           H  
+HETATM   40  H14 LIG    82V      9.475   5.707   2.112  0.00  0.00           H  
+HETATM   41  H15 LIG    82V      7.174   6.553   2.434  0.00  0.00           H  
+HETATM   42  H16 LIG    82V      4.738   7.504  -2.734  0.00  0.00           H  
+HETATM   43  H17 LIG    82V      4.501   5.957  -1.851  0.00  0.00           H  
+CONECT    1    2
+CONECT    2    1   13    3
+CONECT    3    2   33    4
+CONECT    4    3    5   11
+CONECT    5    4    6   10
+CONECT    6    5    7   34   35
+CONECT    7    6    8   36   37
+CONECT    8    7    9
+CONECT    9    8   38   39   10
+CONECT   10    5    9   27   28
+CONECT   11    4   12
+CONECT   12   11   16   13
+CONECT   13    2   12   14
+CONECT   14   13   15
+CONECT   15   14   16   29
+CONECT   16   12   15   17
+CONECT   17   16   18   26
+CONECT   18   17   19   40
+CONECT   19   18   41   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23   30   31
+CONECT   23   22   24   42   43
+CONECT   24   23   25
+CONECT   25   24   20   26
+CONECT   26   17   25   32
+CONECT   27   10
+CONECT   28   10
+CONECT   29   15
+CONECT   30   22
+CONECT   31   22
+CONECT   32   26
+CONECT   33    3
+CONECT   34    6
+CONECT   35    6
+CONECT   36    7
+CONECT   37    7
+CONECT   38    9
+CONECT   39    9
+CONECT   40   18
+CONECT   41   19
+CONECT   42   23
+CONECT   43   23
+END

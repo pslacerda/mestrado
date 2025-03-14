@@ -1,0 +1,244 @@
+---
+title: "Relação Sobreposição e Atividade"
+output:
+  html_document:
+    df_print: paged
+---
+
+This paper is about the correlation analysis between biological activity, as measured by pKi and ligand efficiency (LE), and hotspot overlap, as measured by FO1 and FO2. Proteins sharing the same UniProt accession code are grouped together if there have 5 or more PDB related structures.
+
+For each UniProt group, only one target structure were fragment mapped with FTMap. Hotspots based on Kozakov *et al.* (2015) were identified with XDrugPy and ligands from each related structure had overlapping atoms with hotspots calculated, originating FO1 and FO2.
+
+Pairs of ligands on the same UniProt group had its ECFP4 fingerprints compared by the "overlap similarity" function, and collected if the they presents a value greater than 0.9.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(ggpubr)
+
+theme_set(theme_minimal(base_size=21))
+```
+
+```{r}
+OVERLAP_METRICS = c('fo1_hs', 'fo2_hs', 'dce')
+ACTIVITY_METRICS = c("pki", "le", "bei")
+REMOVE_ZERO_OVERLAPS = TRUE
+
+df = read.csv("ligands.csv") %>%
+  filter(le < 0.6) %>%   # remove 2% which are LE outliers
+  pivot_longer(
+    names_to = "Overlap",
+    values_to = "OverlapValue",
+    cols = OVERLAP_METRICS,
+  ) %>%
+  pivot_longer(
+    names_to = "Activity",
+    values_to = "ActivityValue",
+    cols = ACTIVITY_METRICS
+  ) %>%
+  filter(
+    ifelse(REMOVE_ZERO_OVERLAPS, OverlapValue > 0, TRUE)
+  ) %>%
+  group_by(uniprot, Activity, Overlap) %>%
+  filter(n() >= 5)
+  
+```
+
+# Existe correlação óbvia entre sobreposição a hotspots e atividade biológica?
+
+```{r}
+# Não há correlação imediatamente óbvia para PKI,
+df %>%
+  filter(
+    Activity == "pki",
+  ) %>%
+  ggplot(aes(x = ActivityValue, y = OverlapValue)) +
+  geom_density2d_filled(contour_var = "ndensity") +
+  geom_smooth(se = FALSE, method = "lm") +
+  stat_cor(
+    aes(label = ..rr.label.., geom='label'),
+    method = "spearman",
+    color = "white"
+  ) +
+  facet_grid(Overlap ~ ., scales = "free") +
+  labs(y = "Overlap", x = "pki")
+
+# A correlação negativa entre LE e FO1 indica que quanto maior o ligante, mais explorado o hotspot está. Já a correlação positiva entre LE e FO2 indica que moléculas menores são mais sobrepostas pelo hotspot.
+df %>%
+  filter(Activity == "le") %>%
+  ggplot(aes(x = ActivityValue, y = OverlapValue)) +
+  geom_density2d_filled(contour_var = "ndensity") +
+  geom_smooth(se = FALSE, method = "lm") +
+  stat_cor(
+    aes(label = ..rr.label.., geom='label'),
+    method = "kendall",
+    color = "white"
+  ) +
+  facet_grid(Overlap ~ ., scales = "free") +
+  labs(y = "Overlap", x = "le")
+
+```
+
+# Para cada proteína individualmente, existe correlação entre sobreposição e atividade?
+
+```{r}
+# Para cada proteína individualmente, a correlação de Kendall foi mensurada entre atividade biológica e sobreposição do hotspot. Então o histograma de linhas (geom_frepoly) para as correlações foi exibido.
+
+# Observamos que FO1, o qual indica o grau de exploração do hotspot, é mais correlacionado com a afinidade de ligação (PKI) do que a eficiência de ligação (LE), conforme indicado pela maior frequência de correlações positivas. Também observamos que o LE tem correlações mais positivas que PKI.
+
+df %>%
+group_by(uniprot, Activity, Overlap) %>%
+  summarise(
+    Spearman = cor(ActivityValue, OverlapValue, method = 'spearman')
+  ) %>%
+  ggplot(aes(x = Spearman, color = Activity)) +
+  geom_freqpoly() +
+  labs(y = "Overlap", x = "Spearman correlation") +
+  facet_grid(Overlap ~ .)
+
+df %>%
+  group_by(uniprot, Activity, Overlap) %>%
+  summarise(
+    pdb=pdb,
+    cor = cor(ActivityValue, OverlapValue, method = 'spearman'),
+    MinActivity = min(ActivityValue),
+    MaxActivity = max(ActivityValue),
+    n = n(),
+  ) %>%
+  filter(
+    Overlap == "fo2_hs",
+    Activity == "le",
+    cor < 0,
+  ) %>%
+  distinct(uniprot, .keep_all = TRUE)
+```
+
+# Existe correlação discreta entre sobreposição e atividade?
+
+```{r}
+df %>%
+  filter(Activity == "pki") %>%
+  group_by(uniprot) %>%
+  mutate(
+    class = case_when(
+      ActivityValue >= quantile(ActivityValue, 0.75) ~ '>Q75',
+      ActivityValue <= quantile(ActivityValue, 0.25) ~ '<Q25',
+      TRUE ~ NA
+    )
+  ) %>%
+  filter(!is.na(class)) %>%
+  ggplot(aes(x = class, y = OverlapValue, fill=nha)) +
+  geom_jitter(aes(fill=nha, color=nha), alpha = 0.3) +
+  geom_boxplot(color = "red", alpha = 0) +
+  stat_compare_means(label.y = 1.2) +
+  facet_grid(Overlap ~ Activity, scales = "free") +
+  stat_summary(aes(label = round(..y.., 2)), fun = median, geom = "label") +
+  ylim(0, 1.5)  +
+  labs(y = "Overlap", x = "Activity") +
+  scale_fill_viridis_c() +
+  scale_color_viridis_c()
+
+df %>%
+  filter(Activity == "le") %>%
+  group_by(uniprot) %>%
+  mutate(
+    class = case_when(
+      ActivityValue >= quantile(ActivityValue, 0.75) ~ '>Q75',
+      ActivityValue <= quantile(ActivityValue, 0.25) ~ '<Q25',
+      TRUE ~ NA
+    )
+  ) %>%
+  filter(!is.na(class)) %>%
+  ggplot(aes(x = class, y = OverlapValue, fill=nha)) +
+  geom_jitter(aes(fill=nha, color=nha), alpha = 0.7) +
+  geom_boxplot(color = "red", alpha = 0) +
+  stat_compare_means(label.y = 1.2) +
+  facet_grid(Overlap ~ Activity, scales = "free") +
+  stat_summary(aes(label = round(..y.., 2)), fun = median, geom = "label") +
+  ylim(0, 1.5)  +
+  labs(y = "Overlap", x = "Activity") +
+  scale_fill_viridis_c() +
+  scale_color_viridis_c()
+```
+
+# Para pares de moléculas com subestrutura comum (>0.95), incrementos de sobreposição coincidem com incrementos de atividade?
+#
+
+```{r}
+cors = read.csv('cors.csv')
+cors %>%
+  pivot_longer(names_to = "sign", values_to = "count", cols = c(positive, negative, zero)) %>%
+  ggplot(aes(x = index, y = count, fill = sign)) +
+  geom_bar(stat = "identity") +
+  labs(x = "correlation")
+```
+
+# Qual a influência da quantidade de átomos na atividade?
+
+```{r}
+# Observando a relação entre quantidade de átomos (não-H, NHA) e o LE, percebemos que estes estão negativamente correlacionados, o que confirma a noção que moléculas menores são mais efcientes, apesar do baixo PKI.
+df %>%
+  filter(Activity == "le") %>%
+  ggplot(aes(x = ActivityValue, y = nha)) +
+  geom_density2d_filled(contour_var = "ndensity") +
+  geom_smooth(se = FALSE) +
+  stat_cor(
+    aes(label = ..r.label..),
+    method = "kendall",
+    color = "white"
+  ) +
+  labs(x = "le", y = "nha")
+
+# De um modo geral, os dados mostram que PKI e NHA estão positivamente correlacionado, o que está reforça a noção que a adição de grupos funcionais, quando bem posicionados, aumentam o PKI, apesar de diminuir o LE. 
+df %>%
+  filter(Activity == "pki") %>%
+  ggplot(aes(x = ActivityValue, y = nha)) +
+  geom_density2d_filled(contour_var = "ndensity") +
+  geom_smooth(se = FALSE) +
+  stat_cor(
+    aes(label = ..r.label..),
+    method = "kendall",
+    color = "white"
+  ) +
+  labs(x = "pki", y = "nha")
+```
+
+# Existe uma tendência de atingir-se uma afinidade (PKI) máxima ao se explorar (FO1) quase todo (FO1\>0.8) um hotspot?
+
+```{r}
+line = read_lines("max_pki.txt")
+
+low_boxplot = map(strsplit(line[1], " "), as.numeric)[[1]]
+top_boxplot = map(strsplit(line[2], " "), as.numeric)[[1]]
+data.frame(
+  Values = c(low_boxplot, top_boxplot),
+  Group = c(
+    rep("FO<0.8", length(low_boxplot)),
+    rep("FO>=0.8", length(top_boxplot))
+  )
+) %>%
+  ggplot(aes(x = Group, y = Values, color = Group)) +
+  geom_boxplot() +
+  geom_jitter() +
+  stat_compare_means(label.y = 7) +
+  labs(
+    x = "partition",
+    y = "var(pki)"
+  )
+
+low_hist = map(strsplit(line[3], " "), as.numeric)[[1]]
+top_hist = map(strsplit(line[4], " "), as.numeric)[[1]]
+data.frame(
+  Values = c(low_hist, top_hist),
+  Group = c(
+    rep("FO<0.8", length(low_hist)),
+    rep("FO>=0.8", length(top_hist))
+  )
+) %>%
+  ggplot() +
+  geom_freqpoly(aes(Values, color = Group)) +
+  geom_vline(aes(xintercept=median(Values[Group=="FO<0.8"]), color = "FO<0.8")) +
+  geom_vline(aes(xintercept=median(Values[Group=="FO>=0.8"]), color = "FO>=0.8")) +
+  labs(x = "pki")
+
+```

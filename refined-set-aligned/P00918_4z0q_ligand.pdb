@@ -1,0 +1,77 @@
+HETATM    1  N   LIG     4K     -2.255   5.906  13.555  0.00  0.00           N  
+HETATM    2  C   LIG     4K      0.082   9.324  13.735  0.00  0.00           C  
+HETATM    3  O   LIG     4K     -4.206   6.753  13.771  0.00  0.00           O  
+HETATM    4  C1  LIG     4K     -0.989   9.188  14.562  0.00  0.00           C  
+HETATM    5  N1  LIG     4K     -5.370  -0.315  16.139  0.00  0.00           N  
+HETATM    6  O1  LIG     4K     -5.316   1.112  18.100  0.00  0.00           O  
+HETATM    7  C2  LIG     4K     -1.809   8.074  14.554  0.00  0.00           C  
+HETATM    8  O2  LIG     4K     -7.342   1.052  16.685  0.00  0.00           O  
+HETATM    9  C3  LIG     4K      0.438   8.391  12.806  0.00  0.00           C  
+HETATM   10  C4  LIG     4K     -0.385   7.231  12.760  0.00  0.00           C  
+HETATM   11  C5  LIG     4K     -1.479   7.113  13.621  0.00  0.00           C  
+HETATM   12  C6  LIG     4K     -1.408   4.784  13.581  0.00  0.00           C  
+HETATM   13  C7  LIG     4K     -0.269   4.818  12.578  0.00  0.00           C  
+HETATM   14  C8  LIG     4K     -0.073   6.099  11.811  0.00  0.00           C  
+HETATM   15  C9  LIG     4K     -3.467   5.838  14.020  0.00  0.00           C  
+HETATM   16  C10 LIG     4K     -4.059   4.617  14.694  0.00  0.00           C  
+HETATM   17  C11 LIG     4K     -3.299   3.564  15.130  0.00  0.00           C  
+HETATM   18  C12 LIG     4K     -3.878   2.474  15.723  0.00  0.00           C  
+HETATM   19  C13 LIG     4K     -5.251   2.391  15.923  0.00  0.00           C  
+HETATM   20  C14 LIG     4K     -6.074   3.467  15.498  0.00  0.00           C  
+HETATM   21  C15 LIG     4K     -5.426   4.568  14.831  0.00  0.00           C  
+HETATM   22  S   LIG     4K     -5.895   1.014  16.786  0.00  0.00           S  
+HETATM   23  H1  LIG     4K     -2.649   7.964  15.231  0.00  0.00           H  
+HETATM   24  H2  LIG     4K      1.290   8.524  12.148  0.00  0.00           H  
+HETATM   25  H3  LIG     4K     -1.211   9.989  15.258  0.00  0.00           H  
+HETATM   26  H4  LIG     4K     -0.973   4.708  14.589  0.00  0.00           H  
+HETATM   27  H5  LIG     4K     -2.017   3.891  13.376  0.00  0.00           H  
+HETATM   28  H6  LIG     4K     -0.447   4.017  11.845  0.00  0.00           H  
+HETATM   29  H7  LIG     4K      0.663   4.614  13.125  0.00  0.00           H  
+HETATM   30  H8  LIG     4K      0.966   6.175  11.461  0.00  0.00           H  
+HETATM   31  H9  LIG     4K     -0.755   6.131  10.948  0.00  0.00           H  
+HETATM   32  H10 LIG     4K     -5.659  -0.570  15.216  0.00  0.00           H  
+HETATM   33  H11 LIG     4K     -4.747  -0.908  16.649  0.00  0.00           H  
+HETATM   34  H12 LIG     4K     -3.248   1.653  16.045  0.00  0.00           H  
+HETATM   35  H13 LIG     4K     -2.223   3.594  15.004  0.00  0.00           H  
+HETATM   36  H14 LIG     4K     -7.145   3.460  15.669  0.00  0.00           H  
+HETATM   37  H15 LIG     4K     -6.028   5.374  14.428  0.00  0.00           H  
+HETATM   38  H16 LIG     4K      0.684  10.221  13.819  0.00  0.00           H  
+CONECT    1   11   12   15
+CONECT    2   38    4    9
+CONECT    3   15
+CONECT    4    2   25    7
+CONECT    5   32   33   22
+CONECT    6   22
+CONECT    7    4   23   11
+CONECT    8   22
+CONECT    9    2   24   10
+CONECT   10    9   14   11
+CONECT   11    1    7   10
+CONECT   12    1   13   26   27
+CONECT   13   12   14   28   29
+CONECT   14   10   13   30   31
+CONECT   15    1    3   16
+CONECT   16   15   21   17
+CONECT   17   16   35   18
+CONECT   18   17   19   34
+CONECT   19   18   20   22
+CONECT   20   19   21   36
+CONECT   21   16   20   37
+CONECT   22   19    5    6    8
+CONECT   23    7
+CONECT   24    9
+CONECT   25    4
+CONECT   26   12
+CONECT   27   12
+CONECT   28   13
+CONECT   29   13
+CONECT   30   14
+CONECT   31   14
+CONECT   32    5
+CONECT   33    5
+CONECT   34   18
+CONECT   35   17
+CONECT   36   20
+CONECT   37   21
+CONECT   38    2
+END

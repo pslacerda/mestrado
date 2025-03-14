@@ -1,0 +1,73 @@
+HETATM    1  CAA LIG    36I      5.037  -3.387  34.552  0.00  0.00           C  
+HETATM    2  CAE LIG    36I      9.723  -2.448  33.194  0.00  0.00           C  
+HETATM    3  CAF LIG    36I     10.769  -1.521  33.274  0.00  0.00           C  
+HETATM    4  CAG LIG    36I     12.060  -1.881  32.825  0.00  0.00           C  
+HETATM    5  CAH LIG    36I      4.002  -2.706  35.093  0.00  0.00           C  
+HETATM    6  CAM LIG    36I      9.961  -3.700  32.736  0.00  0.00           C  
+HETATM    7  CAN LIG    36I     11.191  -4.071  32.285  0.00  0.00           C  
+HETATM    8  CAO LIG    36I     12.225  -3.159  32.284  0.00  0.00           C  
+HETATM    9  CAP LIG    36I      5.490   1.112  35.186  0.00  0.00           C  
+HETATM   10  CAR LIG    36I      8.026   1.468  35.140  0.00  0.00           C  
+HETATM   11  CAS LIG    36I      5.427   2.230  36.087  0.00  0.00           C  
+HETATM   12  CAU LIG    36I      7.594   2.463  36.044  0.00  0.00           C  
+HETATM   13  NAQ LIG    36I      6.871   0.615  35.057  0.00  0.00           N  
+HETATM   14  OAT LIG    36I      6.423   3.085  35.601  0.00  0.00           O  
+HETATM   15  SAI LIG    36I      4.519  -1.058  35.420  0.00  0.00           S  
+HETATM   16  N1  LIG    36I      7.410  -3.050  33.822  0.00  0.00           N  
+HETATM   17  C2  LIG    36I      8.442  -2.167  33.706  0.00  0.00           C  
+HETATM   18  N3  LIG    36I      8.267  -0.946  34.141  0.00  0.00           N  
+HETATM   19  C4  LIG    36I      7.073  -0.603  34.655  0.00  0.00           C  
+HETATM   20  C5  LIG    36I      6.057  -1.410  34.773  0.00  0.00           C  
+HETATM   21  C6  LIG    36I      6.191  -2.680  34.365  0.00  0.00           C  
+HETATM   22  H1  LIG    36I      4.956  -4.439  34.281  0.00  0.00           H  
+HETATM   23  H2  LIG    36I     10.590  -0.531  33.679  0.00  0.00           H  
+HETATM   24  H3  LIG    36I     12.892  -1.190  32.898  0.00  0.00           H  
+HETATM   25  H4  LIG    36I      3.011  -3.112  35.293  0.00  0.00           H  
+HETATM   26  H5  LIG    36I      9.154  -4.423  32.728  0.00  0.00           H  
+HETATM   27  H6  LIG    36I     11.357  -5.081  31.928  0.00  0.00           H  
+HETATM   28  H7  LIG    36I     13.181  -3.438  31.857  0.00  0.00           H  
+HETATM   29  H8  LIG    36I      4.851   0.303  35.571  0.00  0.00           H  
+HETATM   30  H9  LIG    36I      5.127   1.427  34.196  0.00  0.00           H  
+HETATM   31  H10 LIG    36I      8.275   1.900  34.160  0.00  0.00           H  
+HETATM   32  H11 LIG    36I      8.897   0.923  35.532  0.00  0.00           H  
+HETATM   33  H12 LIG    36I      5.643   1.918  37.119  0.00  0.00           H  
+HETATM   34  H13 LIG    36I      4.439   2.713  36.049  0.00  0.00           H  
+HETATM   35  H14 LIG    36I      8.385   3.221  36.146  0.00  0.00           H  
+HETATM   36  H15 LIG    36I      7.403   1.998  37.023  0.00  0.00           H  
+CONECT    1    5   22   21
+CONECT    2    3    6   17
+CONECT    3    2    4   23
+CONECT    4    3    8   24
+CONECT    5    1   15   25
+CONECT    6    2    7   26
+CONECT    7    6    8   27
+CONECT    8    4    7   28
+CONECT    9   11   29   30   13
+CONECT   10   12   31   32   13
+CONECT   11    9   14   33   34
+CONECT   12   10   35   36   14
+CONECT   13    9   10   19
+CONECT   14   11   12
+CONECT   15    5   20
+CONECT   16   17   21
+CONECT   17   16    2   18
+CONECT   18   17   19
+CONECT   19   18   13   20
+CONECT   20   19   15   21
+CONECT   21   16   20    1
+CONECT   22    1
+CONECT   23    3
+CONECT   24    4
+CONECT   25    5
+CONECT   26    6
+CONECT   27    7
+CONECT   28    8
+CONECT   29    9
+CONECT   30    9
+CONECT   31   10
+CONECT   32   10
+CONECT   33   11
+CONECT   34   11
+CONECT   35   12
+CONECT   36   12
+END

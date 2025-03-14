@@ -1,0 +1,71 @@
+HETATM    1  CAA LIG L   6Y    -21.224   0.196 -25.503  0.00  0.00           C  
+HETATM    2  CAB LIG L   6Y    -22.363  -0.468 -25.964  0.00  0.00           C  
+HETATM    3  CAC LIG L   6Y    -22.577  -0.633 -27.341  0.00  0.00           C  
+HETATM    4  CAD LIG L   6Y    -21.670  -0.109 -28.254  0.00  0.00           C  
+HETATM    5  CAE LIG L   6Y    -20.550   0.570 -27.788  0.00  0.00           C  
+HETATM    6  CAF LIG L   6Y    -20.323   0.719 -26.422  0.00  0.00           C  
+HETATM    7  CAG LIG L   6Y    -19.195   1.404 -25.979  0.00  0.00           C  
+HETATM    8  CAH LIG L   6Y    -18.294   1.920 -26.900  0.00  0.00           C  
+HETATM    9  CAI LIG L   6Y    -18.515   1.770 -28.265  0.00  0.00           C  
+HETATM   10  CAJ LIG L   6Y    -19.641   1.080 -28.699  0.00  0.00           C  
+HETATM   11  CAK LIG L   6Y    -19.884   0.919 -30.060  0.00  0.00           C  
+HETATM   12  CAN LIG L   6Y    -21.878  -0.257 -29.629  0.00  0.00           C  
+HETATM   13  CAP LIG L   6Y    -20.969   0.396 -24.140  0.00  0.00           C  
+HETATM   14  CAR LIG L   6Y    -21.307  -0.593 -23.213  0.00  0.00           C  
+HETATM   15  CAS LIG L   6Y    -21.082  -1.938 -23.463  0.00  0.00           C  
+HETATM   16  CAT LIG L   6Y    -21.429  -2.870 -22.482  0.00  0.00           C  
+HETATM   17  CAU LIG L   6Y    -21.981  -2.457 -21.268  0.00  0.00           C  
+HETATM   18  CAV LIG L   6Y    -22.183  -1.103 -21.028  0.00  0.00           C  
+HETATM   19  CAW LIG L   6Y    -21.846  -0.179 -22.003  0.00  0.00           C  
+HETATM   20  NAM LIG L   6Y    -20.986   0.261 -30.498  0.00  0.00           N  
+HETATM   21  OAL LIG L   6Y    -19.089   1.378 -30.872  0.00  0.00           O  
+HETATM   22  OAO LIG L   6Y    -22.872  -0.858 -30.057  0.00  0.00           O  
+HETATM   23  OAQ LIG L   6Y    -20.492   1.457 -23.750  0.00  0.00           O  
+HETATM   24  OAX LIG L   6Y    -21.192   0.099 -31.892  0.00  0.00           O  
+HETATM   25  H1  LIG L   6Y    -20.483   0.516 -32.366  0.00  0.00           H  
+HETATM   26  H2  LIG L   6Y    -17.818   2.187 -28.982  0.00  0.00           H  
+HETATM   27  H3  LIG L   6Y    -17.411   2.445 -26.553  0.00  0.00           H  
+HETATM   28  H4  LIG L   6Y    -19.020   1.533 -24.917  0.00  0.00           H  
+HETATM   29  H5  LIG L   6Y    -23.451  -1.168 -27.692  0.00  0.00           H  
+HETATM   30  H6  LIG L   6Y    -23.085  -0.858 -25.255  0.00  0.00           H  
+HETATM   31  H7  LIG L   6Y    -20.647  -2.261 -24.401  0.00  0.00           H  
+HETATM   32  H8  LIG L   6Y    -21.266  -3.926 -22.665  0.00  0.00           H  
+HETATM   33  H9  LIG L   6Y    -22.252  -3.189 -20.516  0.00  0.00           H  
+HETATM   34  H10 LIG L   6Y    -22.602  -0.772 -20.084  0.00  0.00           H  
+HETATM   35  H11 LIG L   6Y    -22.006   0.877 -21.819  0.00  0.00           H  
+CONECT    1   13    2    6
+CONECT    2    1   30    3
+CONECT    3    2   29    4
+CONECT    4    3    5   12
+CONECT    5    4    6   10
+CONECT    6    1    5    7
+CONECT    7    6   28    8
+CONECT    8    7   27    9
+CONECT    9    8   26   10
+CONECT   10    5    9   11
+CONECT   11   10   21   20
+CONECT   12    4   20   22
+CONECT   13    1   14   23
+CONECT   14   13   15   19
+CONECT   15   14   16   31
+CONECT   16   15   17   32
+CONECT   17   16   18   33
+CONECT   18   17   19   34
+CONECT   19   14   18   35
+CONECT   20   12   11   24
+CONECT   21   11
+CONECT   22   12
+CONECT   23   13
+CONECT   24   20   25
+CONECT   25   24
+CONECT   26    9
+CONECT   27    8
+CONECT   28    7
+CONECT   29    3
+CONECT   30    2
+CONECT   31   15
+CONECT   32   16
+CONECT   33   17
+CONECT   34   18
+CONECT   35   19
+END

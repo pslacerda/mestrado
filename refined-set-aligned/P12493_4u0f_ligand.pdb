@@ -1,0 +1,71 @@
+HETATM    1  CAC LIG     3A    -17.325  84.482   0.732  0.00  0.00           C  
+HETATM    2  CAD LIG     3A    -16.871  84.874   1.990  0.00  0.00           C  
+HETATM    3  CAE LIG     3A    -17.552  83.137   0.476  0.00  0.00           C  
+HETATM    4  CAF LIG     3A    -16.645  83.933   2.994  0.00  0.00           C  
+HETATM    5  CAG LIG     3A    -17.323  82.198   1.481  0.00  0.00           C  
+HETATM    6  CAH LIG     3A    -12.082  84.541   4.309  0.00  0.00           C  
+HETATM    7  CAI LIG     3A    -11.688  82.248   3.680  0.00  0.00           C  
+HETATM    8  CAJ LIG     3A    -13.291  84.170   4.902  0.00  0.00           C  
+HETATM    9  CAK LIG     3A    -12.896  81.874   4.270  0.00  0.00           C  
+HETATM   10  CAO LIG     3A    -15.206  80.444   6.443  0.00  0.00           C  
+HETATM   11  CAP LIG     3A    -11.282  83.578   3.698  0.00  0.00           C  
+HETATM   12  CAQ LIG     3A    -16.870  82.573   2.753  0.00  0.00           C  
+HETATM   13  CAR LIG     3A    -13.718  82.834   4.874  0.00  0.00           C  
+HETATM   14  CAS LIG     3A    -16.652  81.630   3.698  0.00  0.00           C  
+HETATM   15  CAT LIG     3A    -15.972  80.500   5.358  0.00  0.00           C  
+HETATM   16  CAU LIG     3A    -15.827  81.687   4.754  0.00  0.00           C  
+HETATM   17  CAV LIG     3A    -14.926  82.470   5.507  0.00  0.00           C  
+HETATM   18  NAL LIG     3A    -17.231  80.426   3.699  0.00  0.00           N  
+HETATM   19  NAM LIG     3A    -14.555  81.580   6.631  0.00  0.00           N  
+HETATM   20  NAN LIG     3A    -16.842  79.791   4.646  0.00  0.00           N  
+HETATM   21  OAA LIG     3A    -15.117  79.459   7.177  0.00  0.00           O  
+HETATM   22  OAB LIG     3A    -10.102  83.929   3.122  0.00  0.00           O  
+HETATM   23  H   LIG     3A    -13.904  84.920   5.388  0.00  0.00           H  
+HETATM   24  H   LIG     3A    -11.766  85.578   4.324  0.00  0.00           H  
+HETATM   25  H   LIG     3A     -9.533  84.314   3.778  0.00  0.00           H  
+HETATM   26  H   LIG     3A    -11.064  81.499   3.206  0.00  0.00           H  
+HETATM   27  H   LIG     3A    -13.200  80.834   4.261  0.00  0.00           H  
+HETATM   28  H   LIG     3A    -15.434  83.380   5.859  0.00  0.00           H  
+HETATM   29  H   LIG     3A    -13.934  81.796   7.385  0.00  0.00           H  
+HETATM   30  H   LIG     3A    -17.907  80.092   2.997  0.00  0.00           H  
+HETATM   31  H   LIG     3A    -16.293  84.257   3.967  0.00  0.00           H  
+HETATM   32  H   LIG     3A    -16.691  85.924   2.191  0.00  0.00           H  
+HETATM   33  H   LIG     3A    -17.500  85.222  -0.041  0.00  0.00           H  
+HETATM   34  H   LIG     3A    -17.905  82.819  -0.498  0.00  0.00           H  
+HETATM   35  H   LIG     3A    -17.500  81.149   1.273  0.00  0.00           H  
+CONECT    1    3   33    2
+CONECT    2    1   32    4
+CONECT    3    1    5   34
+CONECT    4    2   31   12
+CONECT    5    3   35   12
+CONECT    6   11   24    8
+CONECT    7    9   26   11
+CONECT    8    6   13   23
+CONECT    9    7   13   27
+CONECT   10   15   21   19
+CONECT   11    6    7   22
+CONECT   12    4    5   14
+CONECT   13    8    9   17
+CONECT   14   12   16   18
+CONECT   15   10   20   16
+CONECT   16   14   15   17
+CONECT   17   13   16   19   28
+CONECT   18   14   30   20
+CONECT   19   17   10   29
+CONECT   20   15   18
+CONECT   21   10
+CONECT   22   11   25
+CONECT   23    8
+CONECT   24    6
+CONECT   25   22
+CONECT   26    7
+CONECT   27    9
+CONECT   28   17
+CONECT   29   19
+CONECT   30   18
+CONECT   31    4
+CONECT   32    2
+CONECT   33    1
+CONECT   34    3
+CONECT   35    5
+END

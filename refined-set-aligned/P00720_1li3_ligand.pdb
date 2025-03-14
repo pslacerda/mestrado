@@ -1,0 +1,27 @@
+HETATM    1  OH  LIG     3C     28.375   8.872   4.123  0.00  0.00           O  
+HETATM    2 CL   LIG     3C     25.673   5.118   5.464  0.00  0.00          Cl  
+HETATM    3  C1  LIG     3C     27.802   7.652   3.882  0.00  0.00           C  
+HETATM    4  C2  LIG     3C     27.002   6.999   4.824  0.00  0.00           C  
+HETATM    5  C3  LIG     3C     26.463   5.746   4.539  0.00  0.00           C  
+HETATM    6  C4  LIG     3C     26.718   5.099   3.340  0.00  0.00           C  
+HETATM    7  C5  LIG     3C     27.516   5.791   2.427  0.00  0.00           C  
+HETATM    8  C6  LIG     3C     28.069   7.049   2.663  0.00  0.00           C  
+HETATM    9  H1  LIG     3C     26.321   4.114   3.124  0.00  0.00           H  
+HETATM   10  H2  LIG     3C     27.718   5.319   1.472  0.00  0.00           H  
+HETATM   11  H3  LIG     3C     28.687   7.539   1.919  0.00  0.00           H  
+HETATM   12  H4  LIG     3C     26.799   7.469   5.779  0.00  0.00           H  
+HETATM   13  H5  LIG     3C     29.320   8.790   4.084  0.00  0.00           H  
+CONECT    1   13    3
+CONECT    2    5
+CONECT    3    1    4    8
+CONECT    4    3    5   12
+CONECT    5    4    2    6
+CONECT    6    5    7    9
+CONECT    7    6    8   10
+CONECT    8    7    3   11
+CONECT    9    6
+CONECT   10    7
+CONECT   11    8
+CONECT   12    4
+CONECT   13    1
+END

@@ -1,0 +1,109 @@
+HETATM    1  N   LIG     2Q    -33.078  20.751  32.542  0.00  0.00           N  
+HETATM    2  CA  LIG     2Q    -32.833  22.118  33.040  0.00  0.00           C  
+HETATM    3  CAH LIG     2Q    -35.570  15.531  29.015  0.00  0.00           C  
+HETATM    4  CAI LIG     2Q    -35.733  16.767  28.588  0.00  0.00           C  
+HETATM    5  CAJ LIG     2Q    -34.342  15.381  29.516  0.00  0.00           C  
+HETATM    6  CAL LIG     2Q    -39.047  24.707  36.798  0.00  0.00           C  
+HETATM    7  CAM LIG     2Q    -36.557  25.271  35.740  0.00  0.00           C  
+HETATM    8  CAN LIG     2Q    -38.792  24.623  35.394  0.00  0.00           C  
+HETATM    9  CAO LIG     2Q    -34.336  25.365  31.368  0.00  0.00           C  
+HETATM   10  CAP LIG     2Q    -33.356  24.522  32.247  0.00  0.00           C  
+HETATM   11  CAQ LIG     2Q    -35.395  26.024  32.311  0.00  0.00           C  
+HETATM   12  CAS LIG     2Q    -32.249  16.787  29.950  0.00  0.00           C  
+HETATM   13  CAY LIG     2Q    -32.104  19.169  28.944  0.00  0.00           C  
+HETATM   14  CAZ LIG     2Q    -32.319  20.121  31.663  0.00  0.00           C  
+HETATM   15  C   LIG     2Q    -33.430  22.190  34.451  0.00  0.00           C  
+HETATM   16  O   LIG     2Q    -34.489  21.525  34.666  0.00  0.00           O  
+HETATM   17  NAT LIG     2Q    -36.445  25.058  32.374  0.00  0.00           N  
+HETATM   18  NAV LIG     2Q    -32.597  18.857  31.331  0.00  0.00           N  
+HETATM   19  OAB LIG     2Q    -33.045  20.024  28.965  0.00  0.00           O  
+HETATM   20  OAC LIG     2Q    -31.326  20.645  31.188  0.00  0.00           O  
+HETATM   21  OAD LIG     2Q    -38.041  23.757  32.785  0.00  0.00           O  
+HETATM   22  OAF LIG     2Q    -31.284  19.049  27.992  0.00  0.00           O1-
+HETATM   23  OAW LIG     2Q    -34.528  17.443  28.899  0.00  0.00           O  
+HETATM   24  CB  LIG     2Q    -33.691  23.012  32.124  0.00  0.00           C  
+HETATM   25  CBA LIG     2Q    -37.396  24.700  33.235  0.00  0.00           C  
+HETATM   26  CBB LIG     2Q    -38.086  25.052  37.775  0.00  0.00           C  
+HETATM   27  CBC LIG     2Q    -37.539  24.935  34.801  0.00  0.00           C  
+HETATM   28  CBD LIG     2Q    -33.690  16.517  29.492  0.00  0.00           C  
+HETATM   29  CBF LIG     2Q    -31.863  18.244  30.215  0.00  0.00           C  
+HETATM   30  OXT LIG     2Q    -32.782  22.879  35.294  0.00  0.00           O1-
+HETATM   31 fura LIG     2Q    -36.842  25.332  37.152  0.00  0.00           C  
+HETATM   32  IAG LIG     2Q    -38.450  25.149  40.004  0.00  0.00           I  
+HETATM   33  H   LIG     2Q    -35.553  25.491  35.396  0.00  0.00           H  
+HETATM   34  H   LIG     2Q    -36.024  25.621  37.803  0.00  0.00           H  
+HETATM   35  H   LIG     2Q    -40.052  24.489  37.139  0.00  0.00           H  
+HETATM   36  H   LIG     2Q    -39.599  24.304  34.746  0.00  0.00           H  
+HETATM   37  H   LIG     2Q    -36.473  24.497  31.547  0.00  0.00           H  
+HETATM   38  H   LIG     2Q    -34.971  26.207  33.309  0.00  0.00           H  
+HETATM   39  H   LIG     2Q    -35.760  26.972  31.888  0.00  0.00           H  
+HETATM   40  H   LIG     2Q    -33.777  26.147  30.833  0.00  0.00           H  
+HETATM   41  H   LIG     2Q    -34.840  24.712  30.641  0.00  0.00           H  
+HETATM   42  H   LIG     2Q    -33.454  24.831  33.298  0.00  0.00           H  
+HETATM   43  H   LIG     2Q    -32.324  24.694  31.908  0.00  0.00           H  
+HETATM   44  H   LIG     2Q    -33.527  22.703  31.081  0.00  0.00           H  
+HETATM   45  H   LIG     2Q    -34.749  22.867  32.387  0.00  0.00           H  
+HETATM   46  H   LIG     2Q    -31.768  22.393  33.026  0.00  0.00           H  
+HETATM   47  H   LIG     2Q    -33.877  20.265  32.896  0.00  0.00           H  
+HETATM   48  H   LIG     2Q    -33.291  18.338  31.832  0.00  0.00           H  
+HETATM   49  H   LIG     2Q    -30.791  18.257  30.460  0.00  0.00           H  
+HETATM   50  H   LIG     2Q    -32.087  16.227  30.883  0.00  0.00           H  
+HETATM   51  H   LIG     2Q    -31.576  16.403  29.170  0.00  0.00           H  
+HETATM   52  H   LIG     2Q    -33.938  14.443  29.893  0.00  0.00           H  
+HETATM   53  H   LIG     2Q    -36.326  14.748  28.966  0.00  0.00           H  
+HETATM   54  H   LIG     2Q    -36.613  17.183  28.098  0.00  0.00           H  
+CONECT    1   14   47    2
+CONECT    2    1   15   46   24
+CONECT    3    4   53    5
+CONECT    4    3   23   54
+CONECT    5    3   52   28
+CONECT    6    8   35   26
+CONECT    7   27   31   33
+CONECT    8    6   27   36
+CONECT    9   10   40   41   11
+CONECT   10    9   24   42   43
+CONECT   11    9   38   39   17
+CONECT   12   28   50   51   29
+CONECT   13   19   22   29
+CONECT   14    1   18   20
+CONECT   15    2   16   30
+CONECT   16   15
+CONECT   17   11   37   25
+CONECT   18   14   29   48
+CONECT   19   13
+CONECT   20   14
+CONECT   21   25
+CONECT   22   13
+CONECT   23    4   28
+CONECT   24   10    2   44   45
+CONECT   25   17   21   27
+CONECT   26    6   32   31
+CONECT   27    7    8   25
+CONECT   28   12    5   23
+CONECT   29   18   12   13   49
+CONECT   30   15
+CONECT   31    7   26   34
+CONECT   32   26
+CONECT   33    7
+CONECT   34   31
+CONECT   35    6
+CONECT   36    8
+CONECT   37   17
+CONECT   38   11
+CONECT   39   11
+CONECT   40    9
+CONECT   41    9
+CONECT   42   10
+CONECT   43   10
+CONECT   44   24
+CONECT   45   24
+CONECT   46    2
+CONECT   47    1
+CONECT   48   18
+CONECT   49   29
+CONECT   50   12
+CONECT   51   12
+CONECT   52    5
+CONECT   53    3
+CONECT   54    4
+END

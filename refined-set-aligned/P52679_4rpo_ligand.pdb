@@ -1,0 +1,27 @@
+HETATM    1 CL2  LIG T   6C    -33.076 -10.911  20.017  0.00  0.00          Cl  
+HETATM    2 CL4  LIG T   6C    -31.902 -16.114  19.872  0.00  0.00          Cl  
+HETATM    3 CL6  LIG T   6C    -27.972 -12.514  20.549  0.00  0.00          Cl  
+HETATM    4  C1  LIG T   6C    -30.560 -11.880  20.248  0.00  0.00           C  
+HETATM    5  O1  LIG T   6C    -30.158 -10.540  20.372  0.00  0.00           O  
+HETATM    6  C2  LIG T   6C    -31.893 -12.183  20.064  0.00  0.00           C  
+HETATM    7  C3  LIG T   6C    -32.297 -13.492  19.925  0.00  0.00           C  
+HETATM    8  C4  LIG T   6C    -31.355 -14.489  20.002  0.00  0.00           C  
+HETATM    9  C5  LIG T   6C    -30.023 -14.221  20.209  0.00  0.00           C  
+HETATM   10  C6  LIG T   6C    -29.638 -12.902  20.328  0.00  0.00           C  
+HETATM   11  H   LIG T   6C    -29.752 -10.410  21.221  0.00  0.00           H  
+HETATM   12  H   LIG T   6C    -33.341 -13.732  19.758  0.00  0.00           H  
+HETATM   13  H   LIG T   6C    -29.296 -15.023  20.277  0.00  0.00           H  
+CONECT    1    6
+CONECT    2    8
+CONECT    3   10
+CONECT    4    5   10    6
+CONECT    5    4   11
+CONECT    6    1    4    7
+CONECT    7    6    8   12
+CONECT    8    7    2    9
+CONECT    9    8   13   10
+CONECT   10    4    3    9
+CONECT   11    5
+CONECT   12    7
+CONECT   13    9
+END

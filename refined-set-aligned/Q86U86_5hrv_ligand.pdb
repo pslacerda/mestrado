@@ -1,0 +1,53 @@
+HETATM    1  CAA LIG    64C     19.553  26.285  10.310  0.00  0.00           C  
+HETATM    2  CAB LIG    64C     20.686  26.433  11.130  0.00  0.00           C  
+HETATM    3  CAC LIG    64C     21.318  27.686  11.221  0.00  0.00           C  
+HETATM    4  CAD LIG    64C     20.843  28.838  10.485  0.00  0.00           C  
+HETATM    5  CAE LIG    64C     19.673  28.650   9.702  0.00  0.00           C  
+HETATM    6  CAF LIG    64C     19.059  27.370   9.592  0.00  0.00           C  
+HETATM    7  CAG LIG    64C     21.428  30.094  10.556  0.00  0.00           C  
+HETATM    8  CAH LIG    64C     20.866  31.135   9.814  0.00  0.00           C  
+HETATM    9  CAJ LIG    64C     19.182  29.779   8.963  0.00  0.00           C  
+HETATM   10  CAL LIG    64C     22.543  30.671  11.153  0.00  0.00           C  
+HETATM   11  CAO LIG    64C     23.563  30.054  12.141  0.00  0.00           C  
+HETATM   12  CAP LIG    64C     24.482  31.160  12.635  0.00  0.00           C  
+HETATM   13  NAM LIG    64C     22.626  31.966  10.829  0.00  0.00           N  
+HETATM   14  NAN LIG    64C     21.561  32.227   9.952  0.00  0.00           N  
+HETATM   15  OAI LIG    64C     19.785  30.989   9.030  0.00  0.00           O  
+HETATM   16  OAK LIG    64C     18.178  29.738   8.271  0.00  0.00           O  
+HETATM   17  H1  LIG    64C     22.186  27.792  11.861  0.00  0.00           H  
+HETATM   18  H2  LIG    64C     21.070  25.587  11.688  0.00  0.00           H  
+HETATM   19  H3  LIG    64C     19.062  25.321  10.237  0.00  0.00           H  
+HETATM   20  H4  LIG    64C     18.200  27.240   8.944  0.00  0.00           H  
+HETATM   21  H5  LIG    64C     23.332  32.639  11.158  0.00  0.00           H  
+HETATM   22  H6  LIG    64C     24.154  29.280  11.630  0.00  0.00           H  
+HETATM   23  H7  LIG    64C     23.031  29.605  12.993  0.00  0.00           H  
+HETATM   24  H8  LIG    64C     25.215  30.740  13.340  0.00  0.00           H  
+HETATM   25  H9  LIG    64C     23.886  31.932  13.143  0.00  0.00           H  
+HETATM   26  H10 LIG    64C     25.010  31.608  11.780  0.00  0.00           H  
+CONECT    1    6   19    2
+CONECT    2    1   18    3
+CONECT    3    2   17    4
+CONECT    4    3    5    7
+CONECT    5    4    9    6
+CONECT    6    1    5   20
+CONECT    7    4    8   10
+CONECT    8    7   14   15
+CONECT    9    5   15   16
+CONECT   10    7   11   13
+CONECT   11   10   12   22   23
+CONECT   12   11   24   25   26
+CONECT   13   10   21   14
+CONECT   14    8   13
+CONECT   15    9    8
+CONECT   16    9
+CONECT   17    3
+CONECT   18    2
+CONECT   19    1
+CONECT   20    6
+CONECT   21   13
+CONECT   22   11
+CONECT   23   11
+CONECT   24   12
+CONECT   25   12
+CONECT   26   12
+END

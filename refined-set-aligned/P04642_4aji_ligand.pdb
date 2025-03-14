@@ -1,0 +1,61 @@
+HETATM    1  C1  LIG    88R     16.331 -12.235   6.625  0.00  0.00           C  
+HETATM    2  O2  LIG    88R     15.378 -13.287   6.540  0.00  0.00           O  
+HETATM    3  C3  LIG    88R     14.890 -13.803   7.711  0.00  0.00           C  
+HETATM    4  C4  LIG    88R     15.669 -14.364   8.712  0.00  0.00           C  
+HETATM    5  C5  LIG    88R     15.068 -14.880   9.870  0.00  0.00           C  
+HETATM    6  C6  LIG    88R     13.688 -14.822  10.030  0.00  0.00           C  
+HETATM    7  C7  LIG    88R     12.917 -14.275   9.014  0.00  0.00           C  
+HETATM    8  C8  LIG    88R     13.494 -13.757   7.872  0.00  0.00           C  
+HETATM    9  O9  LIG    88R     12.793 -13.190   6.852  0.00  0.00           O  
+HETATM   10  C10 LIG    88R     11.466 -12.683   7.147  0.00  0.00           C  
+HETATM   11  C11 LIG    88R     13.008 -15.402  11.226  0.00  0.00           C  
+HETATM   12  C12 LIG    88R     12.320 -16.745  10.932  0.00  0.00           C  
+HETATM   13  C13 LIG    88R     13.341 -17.807  10.610  0.00  0.00           C  
+HETATM   14  O14 LIG    88R     14.399 -17.852  11.169  0.00  0.00           O  
+HETATM   15  O15 LIG    88R     12.961 -18.680   9.696  0.00  0.00           O1-
+HETATM   16  C16 LIG    88R     11.481 -17.202  12.095  0.00  0.00           C  
+HETATM   17  O17 LIG    88R     11.812 -18.168  12.768  0.00  0.00           O  
+HETATM   18  O18 LIG    88R     10.397 -16.444  12.327  0.00  0.00           O1-
+HETATM   19  H1  LIG    88R     16.628 -11.927   5.612  0.00  0.00           H  
+HETATM   20  H2  LIG    88R     17.216 -12.586   7.176  0.00  0.00           H  
+HETATM   21  H3  LIG    88R     15.886 -11.379   7.153  0.00  0.00           H  
+HETATM   22  H4  LIG    88R     16.746 -14.404   8.599  0.00  0.00           H  
+HETATM   23  H5  LIG    88R     15.682 -15.326  10.644  0.00  0.00           H  
+HETATM   24  H6  LIG    88R     11.838 -14.254   9.120  0.00  0.00           H  
+HETATM   25  H7  LIG    88R     11.025 -12.257   6.234  0.00  0.00           H  
+HETATM   26  H8  LIG    88R     11.535 -11.903   7.919  0.00  0.00           H  
+HETATM   27  H9  LIG    88R     10.832 -13.505   7.512  0.00  0.00           H  
+HETATM   28  H10 LIG    88R     12.248 -14.689  11.578  0.00  0.00           H  
+HETATM   29  H11 LIG    88R     13.758 -15.558  12.015  0.00  0.00           H  
+HETATM   30  H12 LIG    88R     11.664 -16.611  10.059  0.00  0.00           H  
+CONECT    1    2   19   20   21
+CONECT    2    1    3
+CONECT    3    2    4    8
+CONECT    4    3    5   22
+CONECT    5    4    6   23
+CONECT    6    5    7   11
+CONECT    7    6    8   24
+CONECT    8    3    7    9
+CONECT    9    8   10
+CONECT   10    9   25   26   27
+CONECT   11    6   12   28   29
+CONECT   12   11   13   16   30
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17   18
+CONECT   17   16
+CONECT   18   16
+CONECT   19    1
+CONECT   20    1
+CONECT   21    1
+CONECT   22    4
+CONECT   23    5
+CONECT   24    7
+CONECT   25   10
+CONECT   26   10
+CONECT   27   10
+CONECT   28   11
+CONECT   29   11
+CONECT   30   12
+END

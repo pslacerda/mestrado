@@ -1,0 +1,61 @@
+HETATM    1  CAA LIG    72E     -3.417   5.898  14.168  0.00  0.00           C  
+HETATM    2  CAB LIG    72E     -2.280   5.728  13.396  0.00  0.00           C  
+HETATM    3  CAC LIG    72E     -1.594   6.825  12.889  0.00  0.00           C  
+HETATM    4  CAD LIG    72E     -2.041   8.104  13.158  0.00  0.00           C  
+HETATM    5  CAE LIG    72E     -3.163   8.286  13.946  0.00  0.00           C  
+HETATM    6  CAF LIG    72E     -3.854   7.195  14.461  0.00  0.00           C  
+HETATM    7  CAG LIG    72E     -4.099   4.660  14.758  0.00  0.00           C  
+HETATM    8  CAH LIG    72E     -5.474   4.534  14.863  0.00  0.00           C  
+HETATM    9  CAI LIG    72E     -6.038   3.420  15.457  0.00  0.00           C  
+HETATM   10  CAJ LIG    72E     -5.201   2.416  15.940  0.00  0.00           C  
+HETATM   11  CAK LIG    72E     -3.819   2.533  15.819  0.00  0.00           C  
+HETATM   12  CAL LIG    72E     -3.273   3.662  15.238  0.00  0.00           C  
+HETATM   13  CAQ LIG    72E     -5.069   7.562  15.318  0.00  0.00           C  
+HETATM   14  NAP LIG    72E     -5.239  -0.356  16.010  0.00  0.00           N  
+HETATM   15  OAN LIG    72E     -5.328   1.073  18.179  0.00  0.00           O  
+HETATM   16  OAO LIG    72E     -7.420   1.059  16.561  0.00  0.00           O  
+HETATM   17  SAM LIG    72E     -5.868   0.970  16.752  0.00  0.00           S  
+HETATM   18  H1  LIG    72E     -5.163   8.657  15.370  0.00  0.00           H  
+HETATM   19  H2  LIG    72E     -4.940   7.156  16.332  0.00  0.00           H  
+HETATM   20  H3  LIG    72E     -5.978   7.138  14.866  0.00  0.00           H  
+HETATM   21  H4  LIG    72E     -3.507   9.290  14.165  0.00  0.00           H  
+HETATM   22  H5  LIG    72E     -1.514   8.961  12.754  0.00  0.00           H  
+HETATM   23  H6  LIG    72E     -0.709   6.676  12.281  0.00  0.00           H  
+HETATM   24  H7  LIG    72E     -1.920   4.728  13.185  0.00  0.00           H  
+HETATM   25  H8  LIG    72E     -6.115   5.317  14.475  0.00  0.00           H  
+HETATM   26  H9  LIG    72E     -7.115   3.329  15.546  0.00  0.00           H  
+HETATM   27  H10 LIG    72E     -5.493  -1.271  16.322  0.00  0.00           H  
+HETATM   28  H11 LIG    72E     -4.603  -0.246  15.246  0.00  0.00           H  
+HETATM   29  H12 LIG    72E     -3.173   1.741  16.179  0.00  0.00           H  
+HETATM   30  H13 LIG    72E     -2.197   3.764  15.158  0.00  0.00           H  
+CONECT    1    7    2    6
+CONECT    2    1   24    3
+CONECT    3    2   23    4
+CONECT    4    3   22    5
+CONECT    5    4   21    6
+CONECT    6    1    5   13
+CONECT    7    1    8   12
+CONECT    8    7    9   25
+CONECT    9    8   10   26
+CONECT   10    9   11   17
+CONECT   11   10   12   29
+CONECT   12    7   11   30
+CONECT   13    6   18   19   20
+CONECT   14   27   28   17
+CONECT   15   17
+CONECT   16   17
+CONECT   17   10   14   15   16
+CONECT   18   13
+CONECT   19   13
+CONECT   20   13
+CONECT   21    5
+CONECT   22    4
+CONECT   23    3
+CONECT   24    2
+CONECT   25    8
+CONECT   26    9
+CONECT   27   14
+CONECT   28   14
+CONECT   29   11
+CONECT   30   12
+END

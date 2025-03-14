@@ -1,0 +1,77 @@
+HETATM    1  C1  LIG    79A     14.637 -42.365   9.385  0.00  0.00           C  
+HETATM    2  N1  LIG    79A     18.749 -45.448  12.936  0.00  0.00           N  
+HETATM    3  O1  LIG    79A     15.017 -43.634   9.048  0.00  0.00           O  
+HETATM    4  S1  LIG    79A     12.940 -38.397  10.185  0.00  0.00           S  
+HETATM    5  C2  LIG    79A     15.494 -41.376   9.856  0.00  0.00           C  
+HETATM    6  O2  LIG    79A     12.149 -38.131   9.024  0.00  0.00           O  
+HETATM    7  C3  LIG    79A     14.944 -40.067  10.121  0.00  0.00           C  
+HETATM    8  O3  LIG    79A     14.089 -37.545  10.294  0.00  0.00           O  
+HETATM    9  C4  LIG    79A     13.595 -39.887   9.880  0.00  0.00           C  
+HETATM   10  O4  LIG    79A     10.621 -41.167  10.351  0.00  0.00           O  
+HETATM   11  C5  LIG    79A     18.942 -44.623   9.643  0.00  0.00           C  
+HETATM   12  C6  LIG    79A     18.034 -44.684  10.679  0.00  0.00           C  
+HETATM   13  C7  LIG    79A     16.705 -44.330  10.436  0.00  0.00           C  
+HETATM   14  C8  LIG    79A     16.343 -43.913   9.172  0.00  0.00           C  
+HETATM   15  C9  LIG    79A     17.257 -43.885   8.114  0.00  0.00           C  
+HETATM   16  C10 LIG    79A     18.588 -44.227   8.367  0.00  0.00           C  
+HETATM   17  C11 LIG    79A     11.153 -42.262   8.247  0.00  0.00           C  
+HETATM   18  C12 LIG    79A     11.320 -40.992   9.123  0.00  0.00           C  
+HETATM   19  C13 LIG    79A     12.773 -40.930   9.434  0.00  0.00           C  
+HETATM   20  C14 LIG    79A     13.302 -42.184   9.203  0.00  0.00           C  
+HETATM   21  C15 LIG    79A     12.284 -43.190   8.689  0.00  0.00           C  
+HETATM   22  C16 LIG    79A     12.117 -38.727  11.558  0.00  0.00           C  
+HETATM   23  C17 LIG    79A     18.431 -45.103  11.849  0.00  0.00           C  
+HETATM   24  F1  LIG    79A     19.539 -44.179   7.401  0.00  0.00           F  
+HETATM   25  F2  LIG    79A     11.333 -41.956   6.981  0.00  0.00           F  
+HETATM   26  F3  LIG    79A     10.001 -42.913   8.344  0.00  0.00           F  
+HETATM   27  H1  LIG    79A     15.968 -44.382  11.229  0.00  0.00           H  
+HETATM   28  H2  LIG    79A     16.940 -43.602   7.117  0.00  0.00           H  
+HETATM   29  H3  LIG    79A     19.973 -44.896   9.837  0.00  0.00           H  
+HETATM   30  H4  LIG    79A     11.956 -43.875   9.485  0.00  0.00           H  
+HETATM   31  H5  LIG    79A     12.682 -43.772   7.845  0.00  0.00           H  
+HETATM   32  H6  LIG    79A     10.973 -40.090   8.597  0.00  0.00           H  
+HETATM   33  H7  LIG    79A      9.688 -41.210  10.180  0.00  0.00           H  
+HETATM   34  H8  LIG    79A     11.607 -37.817  11.907  0.00  0.00           H  
+HETATM   35  H9  LIG    79A     12.818 -39.074  12.331  0.00  0.00           H  
+HETATM   36  H10 LIG    79A     11.371 -39.511  11.360  0.00  0.00           H  
+HETATM   37  H11 LIG    79A     15.564 -39.259  10.493  0.00  0.00           H  
+HETATM   38  H12 LIG    79A     16.546 -41.581  10.020  0.00  0.00           H  
+CONECT    1    5   20    3
+CONECT    2   23
+CONECT    3    1   14
+CONECT    4    6    8   22    9
+CONECT    5    1   38    7
+CONECT    6    4
+CONECT    7    5   37    9
+CONECT    8    4
+CONECT    9    4    7   19
+CONECT   10   33   18
+CONECT   11   29   12   16
+CONECT   12   11   13   23
+CONECT   13   12   14   27
+CONECT   14   13    3   15
+CONECT   15   14   16   28
+CONECT   16   15   11   24
+CONECT   17   18   25   26   21
+CONECT   18   17   10   32   19
+CONECT   19    9   18   20
+CONECT   20    1   19   21
+CONECT   21   20   17   30   31
+CONECT   22    4   34   35   36
+CONECT   23    2   12
+CONECT   24   16
+CONECT   25   17
+CONECT   26   17
+CONECT   27   13
+CONECT   28   15
+CONECT   29   11
+CONECT   30   21
+CONECT   31   21
+CONECT   32   18
+CONECT   33   10
+CONECT   34   22
+CONECT   35   22
+CONECT   36   22
+CONECT   37    7
+CONECT   38    5
+END

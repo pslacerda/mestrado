@@ -1,0 +1,107 @@
+HETATM    1  CAB LIG    90T    -93.531 -13.775  10.415  0.00  0.00           C  
+HETATM    2  CAC LIG    90T    -93.024 -14.504   9.339  0.00  0.00           C  
+HETATM    3  CAE LIG    90T    -91.061 -13.477   8.452  0.00  0.00           C  
+HETATM    4  CAF LIG    90T    -90.413 -12.843   7.422  0.00  0.00           C  
+HETATM    5  CAG LIG    90T    -90.896 -12.328   6.272  0.00  0.00           C  
+HETATM    6  CAI LIG    90T    -88.692 -11.824   5.926  0.00  0.00           C  
+HETATM    7  CAK LIG    90T    -86.383 -11.252   5.643  0.00  0.00           C  
+HETATM    8  CAL LIG    90T    -85.949 -11.385   6.956  0.00  0.00           C  
+HETATM    9  CAM LIG    90T    -84.594 -11.257   7.255  0.00  0.00           C  
+HETATM   10  CAN LIG    90T    -83.677 -10.967   6.253  0.00  0.00           C  
+HETATM   11  CAO LIG    90T    -84.090 -10.818   4.929  0.00  0.00           C  
+HETATM   12  CAP LIG    90T    -83.183 -10.475   3.901  0.00  0.00           C  
+HETATM   13  CAR LIG    90T    -81.409 -10.956   2.268  0.00  0.00           C  
+HETATM   14  CAS LIG    90T    -80.378 -12.068   2.301  0.00  0.00           C  
+HETATM   15  CAT LIG    90T    -81.269 -13.265   2.498  0.00  0.00           C  
+HETATM   16  CAU LIG    90T    -82.180 -13.462   1.299  0.00  0.00           C  
+HETATM   17  CAX LIG    90T    -82.117 -12.798   3.663  0.00  0.00           C  
+HETATM   18  CAZ LIG    90T    -85.452 -10.961   4.649  0.00  0.00           C  
+HETATM   19  NAD LIG    90T    -92.355 -13.861   8.310  0.00  0.00           N  
+HETATM   20  NAH LIG    90T    -89.955 -11.765   5.455  0.00  0.00           N  
+HETATM   21  NAJ LIG    90T    -87.667 -11.323   5.218  0.00  0.00           N  
+HETATM   22  NAQ LIG    90T    -82.350 -11.369   3.355  0.00  0.00           N  
+HETATM   23  OAV LIG    90T    -83.304 -13.945   1.553  0.00  0.00           O1-
+HETATM   24  OAW LIG    90T    -81.743 -13.139   0.167  0.00  0.00           O  
+HETATM   25  OAY LIG    90T    -83.158  -9.311   3.487  0.00  0.00           O  
+HETATM   26  CBC LIG    90T    -93.246 -15.881   9.273  0.00  0.00           C  
+HETATM   27  CBD LIG    90T    -92.760 -16.611   8.183  0.00  0.00           C  
+HETATM   28  CBE LIG    90T    -93.951 -16.551  10.280  0.00  0.00           C  
+HETATM   29  CBF LIG    90T    -94.443 -15.815  11.361  0.00  0.00           C  
+HETATM   30  CBG LIG    90T    -94.233 -14.434  11.429  0.00  0.00           C  
+HETATM   31  OBB LIG    90T    -90.419 -13.717   9.472  0.00  0.00           O  
+HETATM   32  SBA LIG    90T    -88.712 -12.604   7.450  0.00  0.00           S  
+HETATM   33 CL1  LIG    90T    -93.294 -12.060  10.519  0.00  0.00          Cl  
+HETATM   34  H1  LIG    90T    -80.701 -14.181   2.717  0.00  0.00           H  
+HETATM   35  H2  LIG    90T    -81.578 -12.914   4.615  0.00  0.00           H  
+HETATM   36  H3  LIG    90T    -83.066 -13.352   3.709  0.00  0.00           H  
+HETATM   37  H4  LIG    90T    -79.819 -12.130   1.356  0.00  0.00           H  
+HETATM   38  H5  LIG    90T    -79.674 -11.944   3.136  0.00  0.00           H  
+HETATM   39  H6  LIG    90T    -81.918 -10.912   1.294  0.00  0.00           H  
+HETATM   40  H7  LIG    90T    -80.950  -9.980   2.487  0.00  0.00           H  
+HETATM   41  H8  LIG    90T    -85.794 -10.842   3.627  0.00  0.00           H  
+HETATM   42  H9  LIG    90T    -82.628 -10.855   6.503  0.00  0.00           H  
+HETATM   43  H10 LIG    90T    -84.253 -11.386   8.276  0.00  0.00           H  
+HETATM   44  H11 LIG    90T    -86.663 -11.586   7.747  0.00  0.00           H  
+HETATM   45  H12 LIG    90T    -87.873 -10.963   4.276  0.00  0.00           H  
+HETATM   46  H13 LIG    90T    -91.954 -12.360   6.013  0.00  0.00           H  
+HETATM   47  H14 LIG    90T    -92.832 -13.676   7.451  0.00  0.00           H  
+HETATM   48  H15 LIG    90T    -94.617 -13.871  12.272  0.00  0.00           H  
+HETATM   49  H16 LIG    90T    -94.990 -16.317  12.151  0.00  0.00           H  
+HETATM   50  H17 LIG    90T    -94.113 -17.621  10.222  0.00  0.00           H  
+HETATM   51  H18 LIG    90T    -92.235 -15.933   7.493  0.00  0.00           H  
+HETATM   52  H19 LIG    90T    -93.600 -17.089   7.659  0.00  0.00           H  
+HETATM   53  H20 LIG    90T    -92.063 -17.383   8.540  0.00  0.00           H  
+CONECT    1   30   33    2
+CONECT    2    1   26   19
+CONECT    3   19   31    4
+CONECT    4    3    5   32
+CONECT    5    4   46   20
+CONECT    6   20   32   21
+CONECT    7   21    8   18
+CONECT    8    7   44    9
+CONECT    9    8   43   10
+CONECT   10    9   42   11
+CONECT   11   10   18   12
+CONECT   12   11   25   22
+CONECT   13   22   39   40   14
+CONECT   14   13   37   38   15
+CONECT   15   14   17   34   16
+CONECT   16   15   24   23
+CONECT   17   15   22   35   36
+CONECT   18   11    7   41
+CONECT   19    3    2   47
+CONECT   20    6    5
+CONECT   21    7    6   45
+CONECT   22   13   17   12
+CONECT   23   16
+CONECT   24   16
+CONECT   25   12
+CONECT   26    2   27   28
+CONECT   27   26   51   52   53
+CONECT   28   26   50   29
+CONECT   29   28   49   30
+CONECT   30    1   29   48
+CONECT   31    3
+CONECT   32    6    4
+CONECT   33    1
+CONECT   34   15
+CONECT   35   17
+CONECT   36   17
+CONECT   37   14
+CONECT   38   14
+CONECT   39   13
+CONECT   40   13
+CONECT   41   18
+CONECT   42   10
+CONECT   43    9
+CONECT   44    8
+CONECT   45   21
+CONECT   46    5
+CONECT   47   19
+CONECT   48   30
+CONECT   49   29
+CONECT   50   28
+CONECT   51   27
+CONECT   52   27
+CONECT   53   27
+END

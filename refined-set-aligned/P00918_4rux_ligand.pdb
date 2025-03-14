@@ -1,0 +1,55 @@
+HETATM    1  CAA LIG     3W     -5.240   2.323  15.921  0.00  0.00           C  
+HETATM    2  CAB LIG     3W     -6.029   3.389  15.694  0.00  0.00           C  
+HETATM    3  CAC LIG     3W     -5.462   4.571  14.975  0.00  0.00           C  
+HETATM    4  CAD LIG     3W     -4.180   4.548  14.591  0.00  0.00           C  
+HETATM    5  CAE LIG     3W     -3.303   3.358  14.841  0.00  0.00           C  
+HETATM    6  CAF LIG     3W     -3.812   2.298  15.485  0.00  0.00           C  
+HETATM    7  CAI LIG     3W     -2.327   5.712  13.576  0.00  0.00           C  
+HETATM    8  CAJ LIG     3W     -1.974   7.148  13.260  0.00  0.00           C  
+HETATM    9  CAK LIG     3W     -1.895   7.982  14.521  0.00  0.00           C  
+HETATM   10  NAN LIG     3W     -5.320  -0.414  16.126  0.00  0.00           N  
+HETATM   11  OAH LIG     3W     -3.691   5.674  13.941  0.00  0.00           O  
+HETATM   12  OAL LIG     3W     -5.343   1.069  18.144  0.00  0.00           O  
+HETATM   13  OAM LIG     3W     -7.291   1.051  16.685  0.00  0.00           O  
+HETATM   14  SAG LIG     3W     -5.873   0.942  16.796  0.00  0.00           S  
+HETATM   15  H1  LIG     3W     -6.081   5.436  14.767  0.00  0.00           H  
+HETATM   16  H2  LIG     3W     -7.060   3.391  16.028  0.00  0.00           H  
+HETATM   17  H3  LIG     3W     -5.583  -1.302  16.503  0.00  0.00           H  
+HETATM   18  H4  LIG     3W     -4.712  -0.368  15.333  0.00  0.00           H  
+HETATM   19  H5  LIG     3W     -3.193   1.431  15.686  0.00  0.00           H  
+HETATM   20  H6  LIG     3W     -2.272   3.354  14.506  0.00  0.00           H  
+HETATM   21  H7  LIG     3W     -2.158   5.082  12.690  0.00  0.00           H  
+HETATM   22  H8  LIG     3W     -1.707   5.349  14.408  0.00  0.00           H  
+HETATM   23  H9  LIG     3W     -2.744   7.570  12.598  0.00  0.00           H  
+HETATM   24  H10 LIG     3W     -0.999   7.175  12.751  0.00  0.00           H  
+HETATM   25  H11 LIG     3W     -1.637   9.019  14.259  0.00  0.00           H  
+HETATM   26  H12 LIG     3W     -1.123   7.569  15.186  0.00  0.00           H  
+HETATM   27  H13 LIG     3W     -2.868   7.965  15.033  0.00  0.00           H  
+CONECT    1    6   14    2
+CONECT    2    1   16    3
+CONECT    3    2    4   15
+CONECT    4    3   11    5
+CONECT    5    4   20    6
+CONECT    6    1    5   19
+CONECT    7    8   21   22   11
+CONECT    8    7    9   23   24
+CONECT    9    8   25   26   27
+CONECT   10   17   18   14
+CONECT   11    4    7
+CONECT   12   14
+CONECT   13   14
+CONECT   14    1   10   12   13
+CONECT   15    3
+CONECT   16    2
+CONECT   17   10
+CONECT   18   10
+CONECT   19    6
+CONECT   20    5
+CONECT   21    7
+CONECT   22    7
+CONECT   23    8
+CONECT   24    8
+CONECT   25    9
+CONECT   26    9
+CONECT   27    9
+END

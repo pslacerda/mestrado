@@ -1,0 +1,21 @@
+HETATM    1  S1  LIG     9U     24.541  18.693  -7.071  0.00  0.00           S  
+HETATM    2  C2  LIG     9U     24.764  17.452  -8.192  0.00  0.00           C  
+HETATM    3  O2  LIG     9U     25.797  17.283  -8.843  0.00  0.00           O  
+HETATM    4  N3  LIG     9U     23.717  16.643  -8.380  0.00  0.00           N  
+HETATM    5  C4  LIG     9U     22.673  16.892  -7.570  0.00  0.00           C  
+HETATM    6  O4  LIG     9U     21.701  16.142  -7.529  0.00  0.00           O  
+HETATM    7  C5  LIG     9U     22.871  18.131  -6.675  0.00  0.00           C  
+HETATM    8  H1  LIG     9U     23.711  15.914  -9.065  0.00  0.00           H  
+HETATM    9  H2  LIG     9U     22.130  18.909  -6.914  0.00  0.00           H  
+HETATM   10  H3  LIG     9U     22.791  17.862  -5.611  0.00  0.00           H  
+CONECT    1    7    2
+CONECT    2    1    4    3
+CONECT    3    2
+CONECT    4    2    5    8
+CONECT    5    4    6    7
+CONECT    6    5
+CONECT    7    1    5    9   10
+CONECT    8    4
+CONECT    9    7
+CONECT   10    7
+END

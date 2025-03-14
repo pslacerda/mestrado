@@ -1,0 +1,37 @@
+HETATM    1  N   LIG     1      18.519  44.039  18.228  0.00  0.00           N1+
+HETATM    2  CA  LIG     1      18.078  42.678  18.807  0.00  0.00           C  
+HETATM    3  C   LIG     1      19.126  41.647  18.589  0.00  0.00           C  
+HETATM    4  O   LIG     1      19.102  40.604  19.251  0.00  0.00           O  
+HETATM    5  CB  LIG     1      16.747  42.225  18.246  0.00  0.00           C  
+HETATM    6  CG  LIG     1      16.820  42.160  16.715  0.00  0.00           C  
+HETATM    7  CD  LIG     1      15.638  41.476  16.034  0.00  0.00           C  
+HETATM    8  OE1 LIG     1      14.914  40.736  16.717  0.00  0.00           O  
+HETATM    9  OE2 LIG     1      15.451  41.703  14.794  0.00  0.00           O1-
+HETATM   10  OXT LIG     1      19.951  41.859  17.629  0.00  0.00           O1-
+HETATM   11  H1  LIG     1      17.795  44.722  18.387  0.00  0.00           H  
+HETATM   12  H2  LIG     1      18.682  43.946  17.238  0.00  0.00           H  
+HETATM   13  H3  LIG     1      19.368  44.338  18.682  0.00  0.00           H  
+HETATM   14  H4  LIG     1      17.953  42.805  19.892  0.00  0.00           H  
+HETATM   15  H5  LIG     1      15.964  42.938  18.544  0.00  0.00           H  
+HETATM   16  H6  LIG     1      16.505  41.228  18.642  0.00  0.00           H  
+HETATM   17  H7  LIG     1      17.733  41.612  16.441  0.00  0.00           H  
+HETATM   18  H8  LIG     1      16.882  43.190  16.334  0.00  0.00           H  
+CONECT    1    2   11   12   13
+CONECT    2    1    3    5   14
+CONECT    3    2    4   10
+CONECT    4    3
+CONECT    5    2    6   15   16
+CONECT    6    5    7   17   18
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7
+CONECT   10    3
+CONECT   11    1
+CONECT   12    1
+CONECT   13    1
+CONECT   14    2
+CONECT   15    5
+CONECT   16    5
+CONECT   17    6
+CONECT   18    6
+END

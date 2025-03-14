@@ -1,0 +1,111 @@
+HETATM    1  P   LIG V   3L     55.123   6.931  32.335  0.00  0.00           P  
+HETATM    2  PB  LIG V   3L     62.485  12.439  32.696  0.00  0.00           P  
+HETATM    3  C5' LIG V   3L     54.942   8.298  30.084  0.00  0.00           C  
+HETATM    4  O5' LIG V   3L     55.314   8.273  31.466  0.00  0.00           O  
+HETATM    5  C4' LIG V   3L     54.826   9.730  29.566  0.00  0.00           C  
+HETATM    6  O4' LIG V   3L     53.744  10.385  30.240  0.00  0.00           O  
+HETATM    7  C3' LIG V   3L     56.084  10.543  29.814  0.00  0.00           C  
+HETATM    8  O3' LIG V   3L     56.374  11.414  28.714  0.00  0.00           O  
+HETATM    9  C2' LIG V   3L     55.747  11.350  31.042  0.00  0.00           C  
+HETATM   10  O2' LIG V   3L     56.424  12.605  31.126  0.00  0.00           O  
+HETATM   11  C1' LIG V   3L     54.231  11.525  30.930  0.00  0.00           C  
+HETATM   12  N1  LIG V   3L     52.529  14.871  34.463  0.00  0.00           N  
+HETATM   13  O1B LIG V   3L     61.950  11.068  33.057  0.00  0.00           O  
+HETATM   14  C2  LIG V   3L     52.904  15.080  33.184  0.00  0.00           C  
+HETATM   15  O2B LIG V   3L     63.601  12.452  31.696  0.00  0.00           O1-
+HETATM   16  N3  LIG V   3L     53.317  14.075  32.395  0.00  0.00           N  
+HETATM   17  O3B LIG V   3L     62.738  13.352  33.868  0.00  0.00           O1-
+HETATM   18  C4  LIG V   3L     53.385  12.801  32.871  0.00  0.00           C  
+HETATM   19  C5  LIG V   3L     53.031  12.513  34.173  0.00  0.00           C  
+HETATM   20  C6  LIG V   3L     52.587  13.629  35.007  0.00  0.00           C  
+HETATM   21  N6  LIG V   3L     52.221  13.393  36.272  0.00  0.00           N  
+HETATM   22  N7  LIG V   3L     53.175  11.186  34.381  0.00  0.00           N  
+HETATM   23  C8  LIG V   3L     53.624  10.658  33.224  0.00  0.00           C  
+HETATM   24  N9  LIG V   3L     53.721  11.647  32.307  0.00  0.00           N  
+HETATM   25  C10 LIG V   3L     57.484  12.720  32.067  0.00  0.00           C  
+HETATM   26  C12 LIG V   3L     57.984  14.164  32.149  0.00  0.00           C  
+HETATM   27  O12 LIG V   3L     56.925  15.125  32.288  0.00  0.00           O  
+HETATM   28  C13 LIG V   3L     58.822  14.289  30.878  0.00  0.00           C  
+HETATM   29  O13 LIG V   3L     58.074  14.778  29.746  0.00  0.00           O  
+HETATM   30  C14 LIG V   3L     59.272  12.850  30.591  0.00  0.00           C  
+HETATM   31  O14 LIG V   3L     58.628  12.023  31.566  0.00  0.00           O  
+HETATM   32  C15 LIG V   3L     60.797  12.692  30.652  0.00  0.00           C  
+HETATM   33  O15 LIG V   3L     61.295  13.185  31.903  0.00  0.00           O  
+HETATM   34  OP1 LIG V   3L     53.655   6.642  32.215  0.00  0.00           O  
+HETATM   35  OP2 LIG V   3L     56.024   5.927  31.670  0.00  0.00           O1-
+HETATM   36  OP3 LIG V   3L     55.539   7.287  33.728  0.00  0.00           O1-
+HETATM   37  H   LIG V   3L     52.871  16.086  32.783  0.00  0.00           H  
+HETATM   38  H   LIG V   3L     52.277  12.438  36.655  0.00  0.00           H  
+HETATM   39  H   LIG V   3L     51.883  14.166  36.863  0.00  0.00           H  
+HETATM   40  H   LIG V   3L     53.868   9.610  33.056  0.00  0.00           H  
+HETATM   41  H   LIG V   3L     57.167  12.342  33.050  0.00  0.00           H  
+HETATM   42  H   LIG V   3L     53.980  12.433  30.363  0.00  0.00           H  
+HETATM   43  H   LIG V   3L     58.639  14.278  33.025  0.00  0.00           H  
+HETATM   44  H   LIG V   3L     56.344  15.065  31.539  0.00  0.00           H  
+HETATM   45  H   LIG V   3L     55.996  10.771  31.944  0.00  0.00           H  
+HETATM   46  H   LIG V   3L     59.685  14.948  31.055  0.00  0.00           H  
+HETATM   47  H   LIG V   3L     58.646  14.834  28.990  0.00  0.00           H  
+HETATM   48  H   LIG V   3L     56.945   9.884  29.997  0.00  0.00           H  
+HETATM   49  H   LIG V   3L     57.114  11.967  28.936  0.00  0.00           H  
+HETATM   50  H   LIG V   3L     58.935  12.560  29.585  0.00  0.00           H  
+HETATM   51  H   LIG V   3L     54.626   9.700  28.485  0.00  0.00           H  
+HETATM   52  H   LIG V   3L     61.255  13.261  29.829  0.00  0.00           H  
+HETATM   53  H   LIG V   3L     61.057  11.628  30.551  0.00  0.00           H  
+HETATM   54  H   LIG V   3L     55.706   7.766  29.498  0.00  0.00           H  
+HETATM   55  H   LIG V   3L     53.971   7.794  29.965  0.00  0.00           H  
+CONECT    1   34   35   36    4
+CONECT    2   13   15   17   33
+CONECT    3    4    5   54   55
+CONECT    4    3    1
+CONECT    5    3    6    7   51
+CONECT    6    5   11
+CONECT    7    5    8    9   48
+CONECT    8    7   49
+CONECT    9    7   10   45   11
+CONECT   10    9   25
+CONECT   11    6    9   24   42
+CONECT   12   14   20
+CONECT   13    2
+CONECT   14   12   37   16
+CONECT   15    2
+CONECT   16   14   18
+CONECT   17    2
+CONECT   18   16   19   24
+CONECT   19   18   20   22
+CONECT   20   19   12   21
+CONECT   21   20   38   39
+CONECT   22   19   23
+CONECT   23   22   40   24
+CONECT   24   11   18   23
+CONECT   25   10   26   31   41
+CONECT   26   25   27   28   43
+CONECT   27   26   44
+CONECT   28   26   29   46   30
+CONECT   29   28   47
+CONECT   30   28   32   50   31
+CONECT   31   25   30
+CONECT   32   30   33   52   53
+CONECT   33   32    2
+CONECT   34    1
+CONECT   35    1
+CONECT   36    1
+CONECT   37   14
+CONECT   38   21
+CONECT   39   21
+CONECT   40   23
+CONECT   41   25
+CONECT   42   11
+CONECT   43   26
+CONECT   44   27
+CONECT   45    9
+CONECT   46   28
+CONECT   47   29
+CONECT   48    7
+CONECT   49    8
+CONECT   50   30
+CONECT   51    5
+CONECT   52   32
+CONECT   53   32
+CONECT   54    3
+CONECT   55    3
+END

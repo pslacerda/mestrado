@@ -1,0 +1,77 @@
+HETATM    1 CL1  LIG    15V     17.514 -13.233 -22.070  0.00  0.00          Cl  
+HETATM    2  C1  LIG    15V     15.117 -20.088 -19.455  0.00  0.00           C  
+HETATM    3  N1  LIG    15V     13.942 -18.014 -19.617  0.00  0.00           N  
+HETATM    4  O1  LIG    15V      9.888 -16.672 -19.284  0.00  0.00           O  
+HETATM    5  C2  LIG    15V     15.107 -18.692 -19.646  0.00  0.00           C  
+HETATM    6  N2  LIG    15V     12.782 -20.030 -19.225  0.00  0.00           N  
+HETATM    7  C3  LIG    15V     12.804 -18.721 -19.408  0.00  0.00           C  
+HETATM    8  N3  LIG    15V     11.494 -20.546 -19.033  0.00  0.00           N  
+HETATM    9  C4  LIG    15V     13.910 -20.752 -19.237  0.00  0.00           C  
+HETATM   10  N4  LIG    15V     12.482 -12.462 -19.810  0.00  0.00           N  
+HETATM   11  C5  LIG    15V     11.464 -18.337 -19.347  0.00  0.00           C  
+HETATM   12  N5  LIG    15V     12.899 -13.785 -19.777  0.00  0.00           N  
+HETATM   13  C6  LIG    15V     10.689 -19.457 -19.078  0.00  0.00           C  
+HETATM   14  N6  LIG    15V     12.036 -15.965 -19.641  0.00  0.00           N  
+HETATM   15  C7  LIG    15V     11.080 -16.901 -19.450  0.00  0.00           C  
+HETATM   16  C8  LIG    15V     11.146 -12.532 -19.753  0.00  0.00           C  
+HETATM   17  C9  LIG    15V     10.704 -13.860 -19.673  0.00  0.00           C  
+HETATM   18  C10 LIG    15V     11.880 -14.609 -19.713  0.00  0.00           C  
+HETATM   19  C11 LIG    15V     14.195 -14.077 -19.798  0.00  0.00           C  
+HETATM   20  C12 LIG    15V     10.128 -11.410 -19.749  0.00  0.00           C  
+HETATM   21  C13 LIG    15V     14.772 -14.855 -18.804  0.00  0.00           C  
+HETATM   22  C14 LIG    15V     16.122 -15.158 -18.784  0.00  0.00           C  
+HETATM   23  C15 LIG    15V     16.946 -14.676 -19.786  0.00  0.00           C  
+HETATM   24  C16 LIG    15V     16.419 -13.871 -20.788  0.00  0.00           C  
+HETATM   25  C17 LIG    15V     15.056 -13.580 -20.786  0.00  0.00           C  
+HETATM   26  H1  LIG    15V     13.885 -21.825 -19.082  0.00  0.00           H  
+HETATM   27  H2  LIG    15V     16.532 -15.770 -17.988  0.00  0.00           H  
+HETATM   28  H3  LIG    15V      9.611 -19.459 -18.927  0.00  0.00           H  
+HETATM   29  H4  LIG    15V      9.680 -14.223 -19.597  0.00  0.00           H  
+HETATM   30  H5  LIG    15V     10.648 -10.443 -19.817  0.00  0.00           H  
+HETATM   31  H6  LIG    15V      9.545 -11.448 -18.817  0.00  0.00           H  
+HETATM   32  H7  LIG    15V      9.452 -11.525 -20.609  0.00  0.00           H  
+HETATM   33  H8  LIG    15V     14.140 -15.241 -18.012  0.00  0.00           H  
+HETATM   34  H10 LIG    15V     18.001 -14.925 -19.789  0.00  0.00           H  
+HETATM   35  H11 LIG    15V     14.650 -12.950 -21.570  0.00  0.00           H  
+HETATM   36  H12 LIG    15V     12.971 -16.306 -19.743  0.00  0.00           H  
+HETATM   37  H13 LIG    15V     16.038 -18.162 -19.815  0.00  0.00           H  
+HETATM   38  H14 LIG    15V     16.050 -20.638 -19.478  0.00  0.00           H  
+CONECT    1   24
+CONECT    2   38    5    9
+CONECT    3    5    7
+CONECT    4   15
+CONECT    5    3    2   37
+CONECT    6    8    9    7
+CONECT    7    3    6   11
+CONECT    8    6   13
+CONECT    9    6    2   26
+CONECT   10   12   16
+CONECT   11    7   13   15
+CONECT   12   10   18   19
+CONECT   13   11    8   28
+CONECT   14   15   36   18
+CONECT   15   14    4   11
+CONECT   16   10   20   17
+CONECT   17   16   29   18
+CONECT   18   12   14   17
+CONECT   19   12   25   21
+CONECT   20   16   30   31   32
+CONECT   21   19   33   22
+CONECT   22   21   27   23
+CONECT   23   22   34   24
+CONECT   24    1   23   25
+CONECT   25   19   24   35
+CONECT   26    9
+CONECT   27   22
+CONECT   28   13
+CONECT   29   17
+CONECT   30   20
+CONECT   31   20
+CONECT   32   20
+CONECT   33   21
+CONECT   34   23
+CONECT   35   25
+CONECT   36   14
+CONECT   37    5
+CONECT   38    2
+END

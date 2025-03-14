@@ -1,0 +1,25 @@
+HETATM    1 CL1  LIG F   4Z    -17.929   6.558  39.607  0.00  0.00          Cl  
+HETATM    2 CL8  LIG F   4Z    -14.852   2.400  38.055  0.00  0.00          Cl  
+HETATM    3 CL9  LIG F   4Z    -17.499   0.834  37.440  0.00  0.00          Cl  
+HETATM    4  C01 LIG F   4Z    -16.539   4.413  38.805  0.00  0.00           C  
+HETATM    5  C02 LIG F   4Z    -17.764   4.948  38.998  0.00  0.00           C  
+HETATM    6  C03 LIG F   4Z    -18.988   4.222  38.713  0.00  0.00           C  
+HETATM    7  O04 LIG F   4Z    -20.135   4.664  38.871  0.00  0.00           O  
+HETATM    8  N05 LIG F   4Z    -18.797   2.956  38.235  0.00  0.00           N  
+HETATM    9  C06 LIG F   4Z    -17.559   2.450  38.053  0.00  0.00           C  
+HETATM   10  C07 LIG F   4Z    -16.415   3.099  38.308  0.00  0.00           C  
+HETATM   11  H1  LIG F   4Z    -15.648   4.996  39.033  0.00  0.00           H  
+HETATM   12  H2  LIG F   4Z    -16.413   2.698  39.332  0.00  0.00           H  
+CONECT    1    5
+CONECT    2   10
+CONECT    3    9
+CONECT    4    5   10   11
+CONECT    5    4    1    6
+CONECT    6    5    7    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    9    8    3   10
+CONECT   10    4    9    2   12
+CONECT   11    4
+CONECT   12   10
+END

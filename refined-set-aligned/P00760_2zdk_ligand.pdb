@@ -1,0 +1,123 @@
+HETATM    1  C1  LIG    50U      2.057 -10.207 -13.954  0.00  0.00           C  
+HETATM    2  N1  LIG    50U      2.079  -8.976 -14.711  0.00  0.00           N  
+HETATM    3  C2  LIG    50U      2.592  -9.653 -12.616  0.00  0.00           C  
+HETATM    4  C3  LIG    50U      3.312  -8.329 -12.899  0.00  0.00           C  
+HETATM    5  C4  LIG    50U      2.727  -7.768 -14.220  0.00  0.00           C  
+HETATM    6  C5  LIG    50U      1.495  -7.689 -16.758  0.00  0.00           C  
+HETATM    7  C7  LIG    50U      0.656 -10.735 -13.780  0.00  0.00           C  
+HETATM    8  C14 LIG    50U      1.607  -8.960 -15.916  0.00  0.00           C  
+HETATM    9  C21 LIG    50U     -2.183 -15.569 -18.457  0.00  0.00           C  
+HETATM   10  O22 LIG    50U     -0.295  -9.978 -13.613  0.00  0.00           O  
+HETATM   11  N23 LIG    50U      0.619 -12.005 -13.825  0.00  0.00           N  
+HETATM   12  C24 LIG    50U     -0.613 -12.717 -13.589  0.00  0.00           C  
+HETATM   13  C25 LIG    50U     -1.027 -13.454 -14.883  0.00  0.00           C  
+HETATM   14  C26 LIG    50U     -1.205 -12.728 -16.065  0.00  0.00           C  
+HETATM   15  C27 LIG    50U     -1.582 -13.397 -17.243  0.00  0.00           C  
+HETATM   16  C28 LIG    50U     -1.779 -14.782 -17.237  0.00  0.00           C  
+HETATM   17  C29 LIG    50U     -1.598 -15.513 -16.040  0.00  0.00           C  
+HETATM   18  C30 LIG    50U     -1.222 -14.830 -14.873  0.00  0.00           C  
+HETATM   19  O32 LIG    50U      1.189  -9.973 -16.450  0.00  0.00           O  
+HETATM   20  C43 LIG    50U      2.326  -7.839 -18.054  0.00  0.00           C  
+HETATM   21  C44 LIG    50U      3.839  -8.112 -17.836  0.00  0.00           C  
+HETATM   22  C45 LIG    50U      4.600  -6.938 -17.189  0.00  0.00           C  
+HETATM   23  C46 LIG    50U      6.070  -7.301 -16.952  0.00  0.00           C  
+HETATM   24  N46 LIG    50U     -2.961 -15.056 -19.339  0.00  0.00           N1+
+HETATM   25  C47 LIG    50U      6.829  -8.015 -18.072  0.00  0.00           C  
+HETATM   26  N47 LIG    50U     -1.724 -16.761 -18.580  0.00  0.00           N  
+HETATM   27  C48 LIG    50U      6.029  -9.035 -18.883  0.00  0.00           C  
+HETATM   28  C49 LIG    50U      4.561  -8.566 -19.111  0.00  0.00           C  
+HETATM   29  H1  LIG    50U      2.706 -10.983 -14.387  0.00  0.00           H  
+HETATM   30  H2  LIG    50U      1.454 -12.516 -14.026  0.00  0.00           H  
+HETATM   31  H3  LIG    50U     -1.401 -12.005 -13.302  0.00  0.00           H  
+HETATM   32  H4  LIG    50U     -0.467 -13.447 -12.779  0.00  0.00           H  
+HETATM   33  H5  LIG    50U     -1.055 -11.655 -16.072  0.00  0.00           H  
+HETATM   34  H6  LIG    50U     -1.719 -12.836 -18.161  0.00  0.00           H  
+HETATM   35  H7  LIG    50U     -3.230 -15.604 -20.169  0.00  0.00           H  
+HETATM   36  H8  LIG    50U     -3.316 -14.097 -19.218  0.00  0.00           H  
+HETATM   37  H9  LIG    50U     -1.101 -17.150 -17.858  0.00  0.00           H  
+HETATM   38  H10 LIG    50U     -1.978 -17.328 -19.401  0.00  0.00           H  
+HETATM   39  H11 LIG    50U     -1.747 -16.586 -16.024  0.00  0.00           H  
+HETATM   40  H12 LIG    50U     -1.081 -15.383 -13.951  0.00  0.00           H  
+HETATM   41  H13 LIG    50U      3.296 -10.371 -12.170  0.00  0.00           H  
+HETATM   42  H14 LIG    50U      1.756  -9.481 -11.923  0.00  0.00           H  
+HETATM   43  H15 LIG    50U      4.392  -8.502 -13.009  0.00  0.00           H  
+HETATM   44  H16 LIG    50U      3.135  -7.620 -12.077  0.00  0.00           H  
+HETATM   45  H17 LIG    50U      2.005  -6.957 -14.040  0.00  0.00           H  
+HETATM   46  H18 LIG    50U      3.513  -7.414 -14.903  0.00  0.00           H  
+HETATM   47  H19 LIG    50U      1.873  -6.834 -16.179  0.00  0.00           H  
+HETATM   48  H20 LIG    50U      0.440  -7.517 -17.020  0.00  0.00           H  
+HETATM   49  H21 LIG    50U      2.227  -6.908 -18.632  0.00  0.00           H  
+HETATM   50  H22 LIG    50U      1.908  -8.676 -18.632  0.00  0.00           H  
+HETATM   51  H23 LIG    50U      3.895  -8.950 -17.126  0.00  0.00           H  
+HETATM   52  H24 LIG    50U      4.574  -7.724 -19.819  0.00  0.00           H  
+HETATM   53  H25 LIG    50U      3.996  -9.403 -19.548  0.00  0.00           H  
+HETATM   54  H26 LIG    50U      6.515  -9.173 -19.860  0.00  0.00           H  
+HETATM   55  H27 LIG    50U      6.017  -9.991 -18.340  0.00  0.00           H  
+HETATM   56  H28 LIG    50U      7.201  -7.249 -18.768  0.00  0.00           H  
+HETATM   57  H29 LIG    50U      7.682  -8.542 -17.617  0.00  0.00           H  
+HETATM   58  H30 LIG    50U      6.607  -6.364 -16.740  0.00  0.00           H  
+HETATM   59  H31 LIG    50U      6.106  -7.953 -16.066  0.00  0.00           H  
+HETATM   60  H32 LIG    50U      4.130  -6.692 -16.225  0.00  0.00           H  
+HETATM   61  H33 LIG    50U      4.548  -6.064 -17.856  0.00  0.00           H  
+CONECT    1    3    7   29    2
+CONECT    2    1    5    8
+CONECT    3    1    4   41   42
+CONECT    4    3    5   43   44
+CONECT    5    2    4   45   46
+CONECT    6   20   47   48    8
+CONECT    7    1   10   11
+CONECT    8    2    6   19
+CONECT    9   24   26   16
+CONECT   10    7
+CONECT   11    7   12   30
+CONECT   12   11   13   31   32
+CONECT   13   12   14   18
+CONECT   14   13   15   33
+CONECT   15   14   16   34
+CONECT   16   15    9   17
+CONECT   17   16   18   39
+CONECT   18   13   17   40
+CONECT   19    8
+CONECT   20    6   21   49   50
+CONECT   21   20   22   28   51
+CONECT   22   21   60   61   23
+CONECT   23   22   58   59   25
+CONECT   24    9   35   36
+CONECT   25   23   56   57   27
+CONECT   26    9   37   38
+CONECT   27   25   54   55   28
+CONECT   28   21   27   52   53
+CONECT   29    1
+CONECT   30   11
+CONECT   31   12
+CONECT   32   12
+CONECT   33   14
+CONECT   34   15
+CONECT   35   24
+CONECT   36   24
+CONECT   37   26
+CONECT   38   26
+CONECT   39   17
+CONECT   40   18
+CONECT   41    3
+CONECT   42    3
+CONECT   43    4
+CONECT   44    4
+CONECT   45    5
+CONECT   46    5
+CONECT   47    6
+CONECT   48    6
+CONECT   49   20
+CONECT   50   20
+CONECT   51   21
+CONECT   52   28
+CONECT   53   28
+CONECT   54   27
+CONECT   55   27
+CONECT   56   25
+CONECT   57   25
+CONECT   58   23
+CONECT   59   23
+CONECT   60   22
+CONECT   61   22
+END

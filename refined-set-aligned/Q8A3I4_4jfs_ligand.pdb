@@ -1,0 +1,75 @@
+HETATM    1  CAA LIG    16Z     30.731   4.547  43.641  0.00  0.00           C  
+HETATM    2  CAB LIG    16Z     29.279   2.721  42.804  0.00  0.00           C  
+HETATM    3  CAE LIG    16Z     32.901   3.660  43.296  0.00  0.00           C  
+HETATM    4  CAF LIG    16Z     30.602   3.441  42.644  0.00  0.00           C  
+HETATM    5  CAG LIG    16Z     32.192   5.013  43.354  0.00  0.00           C  
+HETATM    6  CAI LIG    16Z     32.062   1.586  42.094  0.00  0.00           C  
+HETATM    7  CAJ LIG    16Z     33.997   3.561  42.373  0.00  0.00           C  
+HETATM    8  CAK LIG    16Z     33.968   4.129  41.083  0.00  0.00           C  
+HETATM    9  CAL LIG    16Z     35.037   3.989  40.199  0.00  0.00           C  
+HETATM   10  CAM LIG    16Z     36.161   3.254  40.606  0.00  0.00           C  
+HETATM   11  CAN LIG    16Z     36.200   2.690  41.887  0.00  0.00           C  
+HETATM   12  CAO LIG    16Z     35.129   2.831  42.757  0.00  0.00           C  
+HETATM   13  CAQ LIG    16Z     37.173   3.364  38.360  0.00  0.00           C  
+HETATM   14  NAH LIG    16Z     31.791   2.697  43.013  0.00  0.00           N1+
+HETATM   15  OAC LIG    16Z     30.542   4.106  45.053  0.00  0.00           O  
+HETATM   16  OAD LIG    16Z     32.803   5.816  44.379  0.00  0.00           O  
+HETATM   17  OAP LIG    16Z     37.255   3.056  39.806  0.00  0.00           O  
+HETATM   18  H1  LIG    16Z     38.139   3.144  37.883  0.00  0.00           H  
+HETATM   19  H2  LIG    16Z     36.931   4.428  38.224  0.00  0.00           H  
+HETATM   20  H3  LIG    16Z     36.388   2.747  37.898  0.00  0.00           H  
+HETATM   21  H4  LIG    16Z     37.077   2.137  42.202  0.00  0.00           H  
+HETATM   22  H5  LIG    16Z     35.168   2.372  43.739  0.00  0.00           H  
+HETATM   23  H6  LIG    16Z     35.001   4.440  39.214  0.00  0.00           H  
+HETATM   24  H7  LIG    16Z     33.093   4.688  40.771  0.00  0.00           H  
+HETATM   25  H8  LIG    16Z     33.313   3.443  44.292  0.00  0.00           H  
+HETATM   26  H9  LIG    16Z     32.247   5.551  42.397  0.00  0.00           H  
+HETATM   27  H10 LIG    16Z     32.367   6.659  44.421  0.00  0.00           H  
+HETATM   28  H11 LIG    16Z     30.010   5.350  43.428  0.00  0.00           H  
+HETATM   29  H12 LIG    16Z     30.740   4.828  45.638  0.00  0.00           H  
+HETATM   30  H13 LIG    16Z     30.675   3.808  41.609  0.00  0.00           H  
+HETATM   31  H14 LIG    16Z     29.209   1.914  42.060  0.00  0.00           H  
+HETATM   32  H15 LIG    16Z     28.454   3.432  42.653  0.00  0.00           H  
+HETATM   33  H16 LIG    16Z     29.214   2.294  43.816  0.00  0.00           H  
+HETATM   34  H17 LIG    16Z     31.589   2.255  43.896  0.00  0.00           H  
+HETATM   35  H18 LIG    16Z     32.970   1.056  42.417  0.00  0.00           H  
+HETATM   36  H19 LIG    16Z     32.209   1.980  41.077  0.00  0.00           H  
+HETATM   37  H20 LIG    16Z     31.210   0.890  42.098  0.00  0.00           H  
+CONECT    1    4   15   28    5
+CONECT    2   31   32   33    4
+CONECT    3    5   14   25    7
+CONECT    4    1    2   14   30
+CONECT    5    3    1   16   26
+CONECT    6   35   36   37   14
+CONECT    7    3    8   12
+CONECT    8    7   24    9
+CONECT    9    8   23   10
+CONECT   10    9   11   17
+CONECT   11   10   12   21
+CONECT   12   11    7   22
+CONECT   13   17   18   19   20
+CONECT   14    3    4    6   34
+CONECT   15    1   29
+CONECT   16    5   27
+CONECT   17   13   10
+CONECT   18   13
+CONECT   19   13
+CONECT   20   13
+CONECT   21   11
+CONECT   22   12
+CONECT   23    9
+CONECT   24    8
+CONECT   25    3
+CONECT   26    5
+CONECT   27   16
+CONECT   28    1
+CONECT   29   15
+CONECT   30    4
+CONECT   31    2
+CONECT   32    2
+CONECT   33    2
+CONECT   34   14
+CONECT   35    6
+CONECT   36    6
+CONECT   37    6
+END

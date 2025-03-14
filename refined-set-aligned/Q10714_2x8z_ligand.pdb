@@ -1,0 +1,57 @@
+HETATM    1  N   LIG X   8Z     29.796   4.706 -43.749  0.00  0.00           N  
+HETATM    2  C1  LIG X   8Z     27.006   2.288 -43.391  0.00  0.00           C  
+HETATM    3  O1  LIG X   8Z     29.550   2.809 -42.540  0.00  0.00           O  
+HETATM    4  C2  LIG X   8Z     27.492   3.742 -43.396  0.00  0.00           C  
+HETATM    5  O2  LIG X   8Z     32.817   4.576 -41.683  0.00  0.00           O  
+HETATM    6  C3  LIG X   8Z     26.897   4.580 -42.253  0.00  0.00           C  
+HETATM    7  O3  LIG X   8Z     30.855   5.431 -41.269  0.00  0.00           O1-
+HETATM    8  C4  LIG X   8Z     29.013   3.741 -43.218  0.00  0.00           C  
+HETATM    9  C5  LIG X   8Z     29.377   5.896 -44.579  0.00  0.00           C  
+HETATM   10  C6  LIG X   8Z     30.613   6.671 -44.854  0.00  0.00           C  
+HETATM   11  C7  LIG X   8Z     31.796   5.876 -44.382  0.00  0.00           C  
+HETATM   12  C8  LIG X   8Z     31.292   4.731 -43.547  0.00  0.00           C  
+HETATM   13  C9  LIG X   8Z     31.642   4.944 -42.056  0.00  0.00           C  
+HETATM   14  S   LIG X   8Z     27.107   1.462 -44.980  0.00  0.00           S  
+HETATM   15  H1  LIG X   8Z     27.225   4.204 -44.358  0.00  0.00           H  
+HETATM   16  H2  LIG X   8Z     25.955   2.278 -43.065  0.00  0.00           H  
+HETATM   17  H3  LIG X   8Z     27.618   1.724 -42.672  0.00  0.00           H  
+HETATM   18  H4  LIG X   8Z     28.066   1.449 -45.290  0.00  0.00           H  
+HETATM   19  H5  LIG X   8Z     27.284   5.608 -42.313  0.00  0.00           H  
+HETATM   20  H6  LIG X   8Z     27.181   4.137 -41.287  0.00  0.00           H  
+HETATM   21  H7  LIG X   8Z     25.801   4.595 -42.341  0.00  0.00           H  
+HETATM   22  H8  LIG X   8Z     31.737   3.786 -43.891  0.00  0.00           H  
+HETATM   23  H9  LIG X   8Z     28.657   6.514 -44.022  0.00  0.00           H  
+HETATM   24  H10 LIG X   8Z     28.921   5.561 -45.522  0.00  0.00           H  
+HETATM   25  H11 LIG X   8Z     30.575   7.631 -44.318  0.00  0.00           H  
+HETATM   26  H12 LIG X   8Z     30.700   6.858 -45.935  0.00  0.00           H  
+HETATM   27  H13 LIG X   8Z     32.353   5.488 -45.248  0.00  0.00           H  
+HETATM   28  H14 LIG X   8Z     32.456   6.515 -43.777  0.00  0.00           H  
+CONECT    1    9   12    8
+CONECT    2   14   16   17    4
+CONECT    3    8
+CONECT    4    2    6   15    8
+CONECT    5   13
+CONECT    6    4   19   20   21
+CONECT    7   13
+CONECT    8    3    1    4
+CONECT    9    1   10   23   24
+CONECT   10    9   11   25   26
+CONECT   11   10   27   28   12
+CONECT   12    1   11   13   22
+CONECT   13   12    5    7
+CONECT   14    2   18
+CONECT   15    4
+CONECT   16    2
+CONECT   17    2
+CONECT   18   14
+CONECT   19    6
+CONECT   20    6
+CONECT   21    6
+CONECT   22   12
+CONECT   23    9
+CONECT   24    9
+CONECT   25   10
+CONECT   26   10
+CONECT   27   11
+CONECT   28   11
+END

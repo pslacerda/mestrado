@@ -1,0 +1,79 @@
+HETATM    1  C1  LIG K   1      -9.638   0.407  -0.082  0.00  0.00           C  
+HETATM    2  O1A LIG K   1     -10.858   0.661   0.052  0.00  0.00           O  
+HETATM    3  O1B LIG K   1      -8.721   0.767   0.695  0.00  0.00           O1-
+HETATM    4  C2  LIG K   1      -9.274  -0.500  -1.258  0.00  0.00           C  
+HETATM    5  O2  LIG K   1      -8.277   0.016  -2.124  0.00  0.00           O  
+HETATM    6  C3  LIG K   1      -8.929  -1.874  -0.685  0.00  0.00           C  
+HETATM    7  O3  LIG K   1      -9.898  -2.303   0.265  0.00  0.00           O  
+HETATM    8  C4  LIG K   1      -8.749  -2.882  -1.835  0.00  0.00           C  
+HETATM    9  O4  LIG K   1      -8.488  -4.160  -1.250  0.00  0.00           O  
+HETATM   10  C5  LIG K   1     -10.022  -2.964  -2.657  0.00  0.00           C  
+HETATM   11  O5  LIG K   1     -11.146  -3.399  -1.879  0.00  0.00           O  
+HETATM   12  C6  LIG K   1     -10.277  -1.550  -3.207  0.00  0.00           C  
+HETATM   13  O6  LIG K   1     -10.445  -0.643  -2.096  0.00  0.00           O  
+HETATM   14  C7  LIG K   1     -11.559  -1.608  -4.040  0.00  0.00           C  
+HETATM   15  O7  LIG K   1     -11.419  -2.555  -5.100  0.00  0.00           O  
+HETATM   16  C8  LIG K   1     -11.836  -0.211  -4.614  0.00  0.00           C  
+HETATM   17  O8  LIG K   1     -13.023  -0.228  -5.406  0.00  0.00           O  
+HETATM   18  C9  LIG K   1      -6.954   0.249  -1.681  0.00  0.00           C  
+HETATM   19  C10 LIG K   1      -6.390   0.842  -2.979  0.00  0.00           C  
+HETATM   20  C11 LIG K   1      -4.922   1.215  -2.832  0.00  0.00           C  
+HETATM   21  H1  LIG K   1      -9.433  -1.223  -3.832  0.00  0.00           H  
+HETATM   22  H2  LIG K   1     -12.398  -1.911  -3.396  0.00  0.00           H  
+HETATM   23  H3  LIG K   1     -10.986   0.099  -5.240  0.00  0.00           H  
+HETATM   24  H4  LIG K   1     -11.962   0.503  -3.787  0.00  0.00           H  
+HETATM   25  H5  LIG K   1     -12.916  -0.843  -6.122  0.00  0.00           H  
+HETATM   26  H6  LIG K   1     -12.221  -2.580  -5.609  0.00  0.00           H  
+HETATM   27  H7  LIG K   1      -9.875  -3.668  -3.489  0.00  0.00           H  
+HETATM   28  H8  LIG K   1     -11.278  -2.800  -1.153  0.00  0.00           H  
+HETATM   29  H9  LIG K   1      -7.910  -2.577  -2.477  0.00  0.00           H  
+HETATM   30  H10 LIG K   1      -8.384  -4.807  -1.938  0.00  0.00           H  
+HETATM   31  H11 LIG K   1      -7.967  -1.790  -0.158  0.00  0.00           H  
+HETATM   32  H12 LIG K   1     -10.738  -2.410  -0.167  0.00  0.00           H  
+HETATM   33  H13 LIG K   1      -4.554   1.635  -3.780  0.00  0.00           H  
+HETATM   34  H14 LIG K   1      -4.339   0.317  -2.578  0.00  0.00           H  
+HETATM   35  H15 LIG K   1      -4.812   1.962  -2.032  0.00  0.00           H  
+HETATM   36  H16 LIG K   1      -6.491   0.099  -3.784  0.00  0.00           H  
+HETATM   37  H17 LIG K   1      -6.964   1.744  -3.238  0.00  0.00           H  
+HETATM   38  H18 LIG K   1      -6.442  -0.681  -1.392  0.00  0.00           H  
+HETATM   39  H19 LIG K   1      -6.915   0.964  -0.846  0.00  0.00           H  
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    6   13    5
+CONECT    5    4   18
+CONECT    6    4    7    8   31
+CONECT    7    6   32
+CONECT    8    6    9   10   29
+CONECT    9    8   30
+CONECT   10    8   11   27   12
+CONECT   11   10   28
+CONECT   12   10   14   21   13
+CONECT   13    4   12
+CONECT   14   12   15   16   22
+CONECT   15   14   26
+CONECT   16   14   17   23   24
+CONECT   17   16   25
+CONECT   18    5   38   39   19
+CONECT   19   18   20   36   37
+CONECT   20   19   33   34   35
+CONECT   21   12
+CONECT   22   14
+CONECT   23   16
+CONECT   24   16
+CONECT   25   17
+CONECT   26   15
+CONECT   27   10
+CONECT   28   11
+CONECT   29    8
+CONECT   30    9
+CONECT   31    6
+CONECT   32    7
+CONECT   33   20
+CONECT   34   20
+CONECT   35   20
+CONECT   36   19
+CONECT   37   19
+CONECT   38   18
+CONECT   39   18
+END

@@ -1,0 +1,65 @@
+HETATM    1  CAG LIG A   4D     14.647  11.108   2.898  0.00  0.00           C  
+HETATM    2  CAO LIG A   4D     13.751   8.856   2.027  0.00  0.00           C  
+HETATM    3  CAP LIG A   4D     14.478   8.711   0.690  0.00  0.00           C  
+HETATM    4  CAQ LIG A   4D     13.530  10.382   2.101  0.00  0.00           C  
+HETATM    5  CAR LIG A   4D     13.661   9.699  -0.161  0.00  0.00           C  
+HETATM    6  OAB LIG A   4D     12.477   8.219   1.946  0.00  0.00           O  
+HETATM    7  OAC LIG A   4D     14.389   7.375   0.141  0.00  0.00           O  
+HETATM    8  OAK LIG A   4D     13.528  10.866   0.701  0.00  0.00           O  
+HETATM    9  SAD LIG A   4D     14.721  10.559   4.641  0.00  0.00           S  
+HETATM   10  N1  LIG A   4D     13.648   9.810  -5.325  0.00  0.00           N  
+HETATM   11  C2  LIG A   4D     12.662   9.419  -4.508  0.00  0.00           C  
+HETATM   12  N3  LIG A   4D     12.814   9.447  -3.180  0.00  0.00           N  
+HETATM   13  C4  LIG A   4D     13.980   9.871  -2.631  0.00  0.00           C  
+HETATM   14  C5  LIG A   4D     15.018  10.288  -3.458  0.00  0.00           C  
+HETATM   15  C6  LIG A   4D     14.830  10.242  -4.832  0.00  0.00           C  
+HETATM   16  N6  LIG A   4D     15.818  10.617  -5.632  0.00  0.00           N  
+HETATM   17  N7  LIG A   4D     16.039  10.656  -2.684  0.00  0.00           N  
+HETATM   18  C8  LIG A   4D     15.662  10.490  -1.412  0.00  0.00           C  
+HETATM   19  N9  LIG A   4D     14.416  10.013  -1.373  0.00  0.00           N  
+HETATM   20  H1  LIG A   4D     11.726   9.073  -4.930  0.00  0.00           H  
+HETATM   21  H2  LIG A   4D     16.710  10.942  -5.231  0.00  0.00           H  
+HETATM   22  H3  LIG A   4D     15.695  10.584  -6.653  0.00  0.00           H  
+HETATM   23  H4  LIG A   4D     16.277  10.710  -0.541  0.00  0.00           H  
+HETATM   24  H5  LIG A   4D     12.026   8.310   2.777  0.00  0.00           H  
+HETATM   25  H6  LIG A   4D     13.476   7.152  -0.000  0.00  0.00           H  
+HETATM   26  H7  LIG A   4D     15.458  11.055   5.117  0.00  0.00           H  
+HETATM   27  H8  LIG A   4D     15.616  10.901   2.420  0.00  0.00           H  
+HETATM   28  H9  LIG A   4D     14.452  12.191   2.876  0.00  0.00           H  
+HETATM   29  H10 LIG A   4D     14.339   8.468   2.872  0.00  0.00           H  
+HETATM   30  H11 LIG A   4D     15.535   9.007   0.769  0.00  0.00           H  
+HETATM   31  H12 LIG A   4D     12.560  10.590   2.576  0.00  0.00           H  
+HETATM   32  H13 LIG A   4D     12.676   9.288  -0.425  0.00  0.00           H  
+CONECT    1    9   27   28    4
+CONECT    2    3    4    6   29
+CONECT    3    2    5    7   30
+CONECT    4    2    1    8   31
+CONECT    5    3   19   32    8
+CONECT    6    2   24
+CONECT    7    3   25
+CONECT    8    4    5
+CONECT    9    1   26
+CONECT   10   11   15
+CONECT   11   10   20   12
+CONECT   12   11   13
+CONECT   13   12   14   19
+CONECT   14   13   15   17
+CONECT   15   14   10   16
+CONECT   16   15   21   22
+CONECT   17   14   18
+CONECT   18   17   23   19
+CONECT   19    5   13   18
+CONECT   20   11
+CONECT   21   16
+CONECT   22   16
+CONECT   23   18
+CONECT   24    6
+CONECT   25    7
+CONECT   26    9
+CONECT   27    1
+CONECT   28    1
+CONECT   29    2
+CONECT   30    3
+CONECT   31    4
+CONECT   32    5
+END

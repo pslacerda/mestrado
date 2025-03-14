@@ -1,0 +1,97 @@
+HETATM    1  C6' LIG     5G     78.468 -16.472 -48.674  0.00  0.00           C  
+HETATM    2  O6' LIG     5G     77.350 -15.952 -47.958  0.00  0.00           O  
+HETATM    3  C5' LIG     5G     78.053 -17.471 -49.744  0.00  0.00           C  
+HETATM    4  O5' LIG     5G     77.440 -18.597 -49.107  0.00  0.00           O  
+HETATM    5  C4' LIG     5G     77.094 -16.879 -50.770  0.00  0.00           C  
+HETATM    6  C3' LIG     5G     76.690 -17.952 -51.781  0.00  0.00           C  
+HETATM    7  O3' LIG     5G     75.655 -17.486 -52.643  0.00  0.00           O  
+HETATM    8  C2' LIG     5G     76.223 -19.219 -51.087  0.00  0.00           C  
+HETATM    9  O2' LIG     5G     76.055 -20.247 -52.075  0.00  0.00           O  
+HETATM   10  C1' LIG     5G     77.239 -19.664 -50.037  0.00  0.00           C  
+HETATM   11  O1' LIG     5G     76.660 -20.775 -49.355  0.00  0.00           O  
+HETATM   12  C1  LIG     5G     77.228 -14.546 -51.176  0.00  0.00           C  
+HETATM   13  O1  LIG     5G     77.720 -15.838 -51.522  0.00  0.00           O  
+HETATM   14  C2  LIG     5G     78.033 -13.583 -52.026  0.00  0.00           C  
+HETATM   15  O2  LIG     5G     79.393 -13.603 -51.561  0.00  0.00           O  
+HETATM   16  C3  LIG     5G     77.503 -12.160 -51.942  0.00  0.00           C  
+HETATM   17  O3  LIG     5G     78.152 -11.411 -52.964  0.00  0.00           O  
+HETATM   18  C4  LIG     5G     75.978 -12.134 -52.107  0.00  0.00           C  
+HETATM   19  O4  LIG     5G     75.689 -12.447 -53.476  0.00  0.00           O  
+HETATM   20  C5  LIG     5G     75.309 -13.166 -51.191  0.00  0.00           C  
+HETATM   21  O5  LIG     5G     75.837 -14.471 -51.477  0.00  0.00           O  
+HETATM   22  C6  LIG     5G     73.796 -13.269 -51.364  0.00  0.00           C  
+HETATM   23  O6  LIG     5G     73.273 -14.298 -50.503  0.00  0.00           O  
+HETATM   24  OS1 LIG     5G     77.311  -9.132 -52.146  0.00  0.00           O  
+HETATM   25  OS2 LIG     5G     78.882  -9.324 -54.009  0.00  0.00           O1-
+HETATM   26  OS3 LIG     5G     79.602  -9.932 -51.809  0.00  0.00           O1-
+HETATM   27  S   LIG     5G     78.455  -9.880 -52.692  0.00  0.00           S  
+HETATM   28  H1  LIG     5G     77.385 -14.340 -50.107  0.00  0.00           H  
+HETATM   29  H2  LIG     5G     77.996 -13.914 -53.074  0.00  0.00           H  
+HETATM   30  H3  LIG     5G     77.756 -11.732 -50.961  0.00  0.00           H  
+HETATM   31  H4  LIG     5G     75.596 -11.132 -51.863  0.00  0.00           H  
+HETATM   32  H5  LIG     5G     75.530 -12.895 -50.148  0.00  0.00           H  
+HETATM   33  H6  LIG     5G     73.565 -13.517 -52.410  0.00  0.00           H  
+HETATM   34  H7  LIG     5G     73.333 -12.306 -51.104  0.00  0.00           H  
+HETATM   35  H8  LIG     5G     79.423 -13.302 -50.660  0.00  0.00           H  
+HETATM   36  H9  LIG     5G     76.105 -11.806 -54.041  0.00  0.00           H  
+HETATM   37  H10 LIG     5G     73.672 -15.130 -50.728  0.00  0.00           H  
+HETATM   38  H11 LIG     5G     78.192 -19.947 -50.508  0.00  0.00           H  
+HETATM   39  H12 LIG     5G     75.259 -19.027 -50.593  0.00  0.00           H  
+HETATM   40  H13 LIG     5G     77.572 -18.194 -52.393  0.00  0.00           H  
+HETATM   41  H14 LIG     5G     76.205 -16.488 -50.253  0.00  0.00           H  
+HETATM   42  H15 LIG     5G     78.957 -17.807 -50.273  0.00  0.00           H  
+HETATM   43  H16 LIG     5G     78.999 -15.638 -49.155  0.00  0.00           H  
+HETATM   44  H17 LIG     5G     79.141 -16.974 -47.963  0.00  0.00           H  
+HETATM   45  H18 LIG     5G     76.525 -21.487 -49.969  0.00  0.00           H  
+HETATM   46  H19 LIG     5G     75.408 -19.969 -52.712  0.00  0.00           H  
+HETATM   47  H20 LIG     5G     74.893 -17.255 -52.125  0.00  0.00           H  
+HETATM   48  H21 LIG     5G     77.654 -15.335 -47.303  0.00  0.00           H  
+CONECT    1    2   43   44    3
+CONECT    2    1   48
+CONECT    3    1    4   42    5
+CONECT    4    3   10
+CONECT    5    3   13   41    6
+CONECT    6    5    7    8   40
+CONECT    7    6   47
+CONECT    8    6    9   10   39
+CONECT    9    8   46
+CONECT   10    8    4   11   38
+CONECT   11   10   45
+CONECT   12   14   21   28   13
+CONECT   13    5   12
+CONECT   14   12   15   16   29
+CONECT   15   14   35
+CONECT   16   14   17   18   30
+CONECT   17   16   27
+CONECT   18   16   19   31   20
+CONECT   19   18   36
+CONECT   20   18   22   32   21
+CONECT   21   12   20
+CONECT   22   20   23   33   34
+CONECT   23   22   37
+CONECT   24   27
+CONECT   25   27
+CONECT   26   27
+CONECT   27   17   24   25   26
+CONECT   28   12
+CONECT   29   14
+CONECT   30   16
+CONECT   31   18
+CONECT   32   20
+CONECT   33   22
+CONECT   34   22
+CONECT   35   15
+CONECT   36   19
+CONECT   37   23
+CONECT   38   10
+CONECT   39    8
+CONECT   40    6
+CONECT   41    5
+CONECT   42    3
+CONECT   43    1
+CONECT   44    1
+CONECT   45   11
+CONECT   46    9
+CONECT   47    7
+CONECT   48    2
+END

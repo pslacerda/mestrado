@@ -1,0 +1,37 @@
+HETATM    1 CL   LIG     0T     45.156  20.758  12.416  0.00  0.00          Cl  
+HETATM    2  NAC LIG     0T     50.773  19.246  11.485  0.00  0.00           N  
+HETATM    3  CAA LIG     0T     49.432  19.589  11.699  0.00  0.00           C  
+HETATM    4  CAD LIG     0T     48.452  18.617  11.657  0.00  0.00           C  
+HETATM    5  CAI LIG     0T     47.141  18.994  11.880  0.00  0.00           C  
+HETATM    6  CAK LIG     0T     46.813  20.314  12.125  0.00  0.00           C  
+HETATM    7  CAF LIG     0T     47.796  21.282  12.142  0.00  0.00           C  
+HETATM    8  CAB LIG     0T     49.109  20.909  11.929  0.00  0.00           C  
+HETATM    9  CAE LIG     0T     50.157  21.911  11.948  0.00  0.00           C  
+HETATM   10  CAJ LIG     0T     51.442  21.599  11.743  0.00  0.00           C  
+HETATM   11  CAG LIG     0T     51.803  20.177  11.498  0.00  0.00           C  
+HETATM   12  OAL LIG     0T     52.984  19.901  11.319  0.00  0.00           O  
+HETATM   13  H1  LIG     0T     50.999  18.286  11.315  0.00  0.00           H  
+HETATM   14  H2  LIG     0T     48.705  17.582  11.455  0.00  0.00           H  
+HETATM   15  H3  LIG     0T     46.360  18.243  11.863  0.00  0.00           H  
+HETATM   16  H4  LIG     0T     47.541  22.320  12.320  0.00  0.00           H  
+HETATM   17  H5  LIG     0T     49.890  22.950  12.135  0.00  0.00           H  
+HETATM   18  H6  LIG     0T     52.209  22.371  11.756  0.00  0.00           H  
+CONECT    1    6
+CONECT    2   11   13    3
+CONECT    3    2    8    4
+CONECT    4    3   14    5
+CONECT    5    4    6   15
+CONECT    6    5    1    7
+CONECT    7    6    8   16
+CONECT    8    3    7    9
+CONECT    9    8   10   17
+CONECT   10    9   11   18
+CONECT   11    2   10   12
+CONECT   12   11
+CONECT   13    2
+CONECT   14    4
+CONECT   15    5
+CONECT   16    7
+CONECT   17    9
+CONECT   18   10
+END

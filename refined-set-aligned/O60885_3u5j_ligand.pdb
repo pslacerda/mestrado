@@ -1,0 +1,71 @@
+HETATM    1  CAA LIG     8H     11.990   3.160  -1.590  0.00  0.00           C  
+HETATM    2  CAC LIG     8H      8.471   4.642   5.766  0.00  0.00           C  
+HETATM    3  CAD LIG     8H      8.096   4.438   4.441  0.00  0.00           C  
+HETATM    4  CAE LIG     8H      9.617   5.379   5.994  0.00  0.00           C  
+HETATM    5  CAF LIG     8H      8.837   4.982   3.390  0.00  0.00           C  
+HETATM    6  CAG LIG     8H     10.360   5.908   4.943  0.00  0.00           C  
+HETATM    7  CAH LIG     8H      9.092   6.399  -1.371  0.00  0.00           C  
+HETATM    8  CAI LIG     8H     10.369   5.829  -1.220  0.00  0.00           C  
+HETATM    9  CAJ LIG     8H      9.002   6.816   1.048  0.00  0.00           C  
+HETATM   10  CAK LIG     8H     13.110   6.765   1.755  0.00  0.00           C  
+HETATM   11  CAO LIG     8H     10.801   6.199   2.516  0.00  0.00           C  
+HETATM   12  CAP LIG     8H      8.454   6.892  -0.226  0.00  0.00           C  
+HETATM   13  CAQ LIG     8H     10.001   5.710   3.615  0.00  0.00           C  
+HETATM   14  CAR LIG     8H     12.708   4.110  -0.614  0.00  0.00           C  
+HETATM   15  CAS LIG     8H     10.280   6.250   1.186  0.00  0.00           C  
+HETATM   16  CAT LIG     8H     13.221   5.632   0.782  0.00  0.00           C  
+HETATM   17  CAU LIG     8H     10.931   5.749   0.048  0.00  0.00           C  
+HETATM   18  NAL LIG     8H     12.127   6.287   2.763  0.00  0.00           N  
+HETATM   19  NAM LIG     8H     13.988   3.946  -0.271  0.00  0.00           N  
+HETATM   20  NAN LIG     8H     14.317   4.871   0.558  0.00  0.00           N  
+HETATM   21  NAV LIG     8H     12.192   5.171   0.062  0.00  0.00           N  
+HETATM   22 CLAB LIG     8H      6.870   7.584  -0.452  0.00  0.00          Cl  
+HETATM   23  H1  LIG     8H      8.459   7.183   1.911  0.00  0.00           H  
+HETATM   24  H2  LIG     8H      8.617   6.455  -2.343  0.00  0.00           H  
+HETATM   25  H3  LIG     8H     10.909   5.456  -2.083  0.00  0.00           H  
+HETATM   26  H4  LIG     8H     12.702   2.408  -1.961  0.00  0.00           H  
+HETATM   27  H5  LIG     8H     11.592   3.737  -2.437  0.00  0.00           H  
+HETATM   28  H6  LIG     8H     11.163   2.655  -1.069  0.00  0.00           H  
+HETATM   29  H7  LIG     8H     12.745   7.674   1.254  0.00  0.00           H  
+HETATM   30  H8  LIG     8H     14.083   6.972   2.226  0.00  0.00           H  
+HETATM   31  H9  LIG     8H      8.496   4.833   2.372  0.00  0.00           H  
+HETATM   32  H10 LIG     8H      7.214   3.847   4.222  0.00  0.00           H  
+HETATM   33  H11 LIG     8H      7.888   4.239   6.586  0.00  0.00           H  
+HETATM   34  H12 LIG     8H      9.944   5.549   7.014  0.00  0.00           H  
+HETATM   35  H13 LIG     8H     11.245   6.492   5.167  0.00  0.00           H  
+CONECT    1   26   27   28   14
+CONECT    2    4   33    3
+CONECT    3    2   32    5
+CONECT    4    2    6   34
+CONECT    5    3   31   13
+CONECT    6    4   35   13
+CONECT    7    8   24   12
+CONECT    8    7   17   25
+CONECT    9   12   23   15
+CONECT   10   18   29   30   16
+CONECT   11   13   15   18
+CONECT   12    9    7   22
+CONECT   13   11    5    6
+CONECT   14    1   19   21
+CONECT   15    9   11   17
+CONECT   16   10   20   21
+CONECT   17    8   15   21
+CONECT   18   10   11
+CONECT   19   14   20
+CONECT   20   19   16
+CONECT   21   17   14   16
+CONECT   22   12
+CONECT   23    9
+CONECT   24    7
+CONECT   25    8
+CONECT   26    1
+CONECT   27    1
+CONECT   28    1
+CONECT   29   10
+CONECT   30   10
+CONECT   31    5
+CONECT   32    3
+CONECT   33    2
+CONECT   34    4
+CONECT   35    6
+END

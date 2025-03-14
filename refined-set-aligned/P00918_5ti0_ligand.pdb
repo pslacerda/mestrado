@@ -1,0 +1,35 @@
+HETATM    1  CAA LIG     7C     -4.554   2.182  14.006  0.00  0.00           C  
+HETATM    2  CAB LIG     7C     -4.673   3.545  13.897  0.00  0.00           C  
+HETATM    3  CAC LIG     7C     -5.279   4.483  14.744  0.00  0.00           C  
+HETATM    4  CAD LIG     7C     -5.930   4.208  15.952  0.00  0.00           C  
+HETATM    5  CAE LIG     7C     -5.018   1.371  15.009  0.00  0.00           C  
+HETATM    6  CAF LIG     7C     -5.740   1.649  16.213  0.00  0.00           C  
+HETATM    7  CAG LIG     7C     -6.147   2.955  16.623  0.00  0.00           C  
+HETATM    8  OAI LIG     7C     -4.696   0.087  14.742  0.00  0.00           O  
+HETATM    9  SAH LIG     7C     -6.110   0.297  17.176  0.00  0.00           S  
+HETATM   10  H1  LIG     7C     -5.749  -0.535  16.737  0.00  0.00           H  
+HETATM   11  H2  LIG     7C     -6.691   3.009  17.565  0.00  0.00           H  
+HETATM   12  H3  LIG     7C     -6.336   5.080  16.463  0.00  0.00           H  
+HETATM   13  H4  LIG     7C     -5.239   5.526  14.432  0.00  0.00           H  
+HETATM   14  H5  LIG     7C     -4.219   3.970  13.003  0.00  0.00           H  
+HETATM   15  H6  LIG     7C     -4.026   1.683  13.194  0.00  0.00           H  
+HETATM   16  H7  LIG     7C     -5.985   1.292  14.491  0.00  0.00           H  
+HETATM   17  H8  LIG     7C     -5.091  -0.172  13.918  0.00  0.00           H  
+CONECT    1    5   15    2
+CONECT    2    1   14    3
+CONECT    3    2   13    4
+CONECT    4    3   12    7
+CONECT    5    1    8   16    6
+CONECT    6    5    7    9
+CONECT    7    6    4   11
+CONECT    8    5   17
+CONECT    9    6   10
+CONECT   10    9
+CONECT   11    7
+CONECT   12    4
+CONECT   13    3
+CONECT   14    2
+CONECT   15    1
+CONECT   16    5
+CONECT   17    8
+END

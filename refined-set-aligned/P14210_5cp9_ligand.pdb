@@ -1,0 +1,35 @@
+HETATM    1  CAC LIG     6O     -2.259  27.228 -10.857  0.00  0.00           C  
+HETATM    2  CAD LIG     6O     -3.306  26.420 -10.707  0.00  0.00           C  
+HETATM    3  CAF LIG     6O     -5.697  29.594 -12.411  0.00  0.00           C  
+HETATM    4  CAG LIG     6O     -4.975  29.633 -11.072  0.00  0.00           C  
+HETATM    5  CAI LIG     6O     -5.658  30.971 -13.069  0.00  0.00           C  
+HETATM    6  CAJ LIG     6O     -4.020  28.458 -10.950  0.00  0.00           C  
+HETATM    7  OAA LIG     6O     -4.673  31.222 -13.801  0.00  0.00           O  
+HETATM    8  OAB LIG     6O     -6.612  31.737 -12.817  0.00  0.00           O1-
+HETATM    9  OAH LIG     6O     -4.444  27.179 -10.759  0.00  0.00           O  
+HETATM   10 fura LIG     6O     -2.695  28.476 -11.007  0.00  0.00           C  
+HETATM   11  H1  LIG     6O     -2.073  29.358 -11.151  0.00  0.00           H  
+HETATM   12  H2  LIG     6O     -1.215  26.918 -10.857  0.00  0.00           H  
+HETATM   13  H3  LIG     6O     -3.264  25.341 -10.567  0.00  0.00           H  
+HETATM   14  H4  LIG     6O     -4.407  30.572 -10.994  0.00  0.00           H  
+HETATM   15  H5  LIG     6O     -5.715  29.584 -10.260  0.00  0.00           H  
+HETATM   16  H6  LIG     6O     -6.744  29.297 -12.251  0.00  0.00           H  
+HETATM   17  H7  LIG     6O     -5.205  28.863 -13.069  0.00  0.00           H  
+CONECT    1    2   12   10
+CONECT    2    1    9   13
+CONECT    3    5   16   17    4
+CONECT    4    3   14   15    6
+CONECT    5    3    7    8
+CONECT    6    4    9   10
+CONECT    7    5
+CONECT    8    5
+CONECT    9    2    6
+CONECT   10    1    6   11
+CONECT   11   10
+CONECT   12    1
+CONECT   13    2
+CONECT   14    4
+CONECT   15    4
+CONECT   16    3
+CONECT   17    3
+END

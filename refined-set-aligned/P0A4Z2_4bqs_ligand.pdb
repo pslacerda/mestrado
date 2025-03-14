@@ -1,0 +1,53 @@
+HETATM    1  CAE LIG K   2Q      3.335   2.412  48.790  0.00  0.00           C  
+HETATM    2  CAF LIG K   2Q      4.111   1.837  47.786  0.00  0.00           C  
+HETATM    3  CAG LIG K   2Q      3.267   0.656  45.946  0.00  0.00           C  
+HETATM    4  CAH LIG K   2Q      2.089   3.057  48.586  0.00  0.00           C  
+HETATM    5  CAI LIG K   2Q      1.154   1.686  45.119  0.00  0.00           C  
+HETATM    6  CAK LIG K   2Q      1.576  -0.622  44.637  0.00  0.00           C  
+HETATM    7  CAL LIG K   2Q      2.038   0.583  45.222  0.00  0.00           C  
+HETATM    8  CAM LIG K   2Q      2.983   3.155  45.993  0.00  0.00           C  
+HETATM    9  CAN LIG K   2Q      1.545   2.801  46.173  0.00  0.00           C  
+HETATM   10  CAO LIG K   2Q      3.841   1.883  46.420  0.00  0.00           C  
+HETATM   11  OAA LIG K   2Q      0.533  -0.615  43.874  0.00  0.00           O1-
+HETATM   12  OAB LIG K   2Q      2.237  -1.677  44.792  0.00  0.00           O  
+HETATM   13  OAC LIG K   2Q      3.211   3.503  44.571  0.00  0.00           O  
+HETATM   14  OAD LIG K   2Q      5.064   2.088  45.676  0.00  0.00           O  
+HETATM   15  OAJ LIG K   2Q      1.294   2.385  47.550  0.00  0.00           O  
+HETATM   16  H1  LIG K   2Q      0.325   1.757  44.416  0.00  0.00           H  
+HETATM   17  H2  LIG K   2Q      4.027   0.203  45.292  0.00  0.00           H  
+HETATM   18  H3  LIG K   2Q      3.127   0.027  46.837  0.00  0.00           H  
+HETATM   19  H4  LIG K   2Q      5.476   2.895  45.962  0.00  0.00           H  
+HETATM   20  H5  LIG K   2Q      5.009   1.304  48.097  0.00  0.00           H  
+HETATM   21  H6  LIG K   2Q      3.714   2.362  49.810  0.00  0.00           H  
+HETATM   22  H7  LIG K   2Q      2.272   4.097  48.277  0.00  0.00           H  
+HETATM   23  H8  LIG K   2Q      1.524   3.049  49.530  0.00  0.00           H  
+HETATM   24  H9  LIG K   2Q      0.935   3.694  45.972  0.00  0.00           H  
+HETATM   25  H10 LIG K   2Q      3.247   4.013  46.628  0.00  0.00           H  
+HETATM   26  H11 LIG K   2Q      4.125   3.730  44.444  0.00  0.00           H  
+CONECT    1    4   21    2
+CONECT    2    1   20   10
+CONECT    3   10   17   18    7
+CONECT    4    1   15   22   23
+CONECT    5    9   16    7
+CONECT    6    7   12   11
+CONECT    7    6    3    5
+CONECT    8   13   25    9   10
+CONECT    9    5    8   24   15
+CONECT   10    3    2    8   14
+CONECT   11    6
+CONECT   12    6
+CONECT   13    8   26
+CONECT   14   10   19
+CONECT   15    4    9
+CONECT   16    5
+CONECT   17    3
+CONECT   18    3
+CONECT   19   14
+CONECT   20    2
+CONECT   21    1
+CONECT   22    4
+CONECT   23    4
+CONECT   24    9
+CONECT   25    8
+CONECT   26   13
+END

@@ -1,0 +1,61 @@
+HETATM    1  CAB LIG    39R     30.079  45.007 -11.126  0.00  0.00           C  
+HETATM    2  CAC LIG    39R     29.448  44.454 -12.233  0.00  0.00           C  
+HETATM    3  CAD LIG    39R     29.350  45.273  -9.973  0.00  0.00           C  
+HETATM    4  CAE LIG    39R     20.865  45.439  -8.273  0.00  0.00           C  
+HETATM    5  CAF LIG    39R     19.835  44.584  -8.625  0.00  0.00           C  
+HETATM    6  CAG LIG    39R     28.087  44.162 -12.201  0.00  0.00           C  
+HETATM    7  CAH LIG    39R     27.991  44.984  -9.929  0.00  0.00           C  
+HETATM    8  CAI LIG    39R     22.137  45.239  -8.837  0.00  0.00           C  
+HETATM    9  CAJ LIG    39R     21.397  43.366 -10.133  0.00  0.00           C  
+HETATM   10  CAN LIG    39R     20.137  43.560  -9.581  0.00  0.00           C  
+HETATM   11  CAO LIG    39R     27.359  44.449 -11.051  0.00  0.00           C  
+HETATM   12  CAP LIG    39R     22.428  44.221  -9.771  0.00  0.00           C  
+HETATM   13  CAQ LIG    39R     23.777  43.979 -10.412  0.00  0.00           C  
+HETATM   14  CAR LIG    39R     25.880  44.102 -10.981  0.00  0.00           C  
+HETATM   15  NAA LIG    39R     19.204  42.637 -10.034  0.00  0.00           N  
+HETATM   16  NAK LIG    39R     24.001  43.011 -11.388  0.00  0.00           N  
+HETATM   17  NAL LIG    39R     24.920  44.637 -10.158  0.00  0.00           N  
+HETATM   18  NAM LIG    39R     25.297  43.105 -11.700  0.00  0.00           N  
+HETATM   19  H   LIG    39R     21.572  42.559 -10.835  0.00  0.00           H  
+HETATM   20  H   LIG    39R     18.232  42.679  -9.696  0.00  0.00           H  
+HETATM   21  H   LIG    39R     19.484  41.911 -10.709  0.00  0.00           H  
+HETATM   22  H   LIG    39R     18.844  44.684  -8.197  0.00  0.00           H  
+HETATM   23  H   LIG    39R     20.693  46.249  -7.573  0.00  0.00           H  
+HETATM   24  H   LIG    39R     22.939  45.904  -8.537  0.00  0.00           H  
+HETATM   25  H   LIG    39R     23.311  42.358 -11.786  0.00  0.00           H  
+HETATM   26  H   LIG    39R     27.601  43.717 -13.062  0.00  0.00           H  
+HETATM   27  H   LIG    39R     30.020  44.248 -13.131  0.00  0.00           H  
+HETATM   28  H   LIG    39R     31.139  45.230 -11.162  0.00  0.00           H  
+HETATM   29  H   LIG    39R     29.841  45.706  -9.108  0.00  0.00           H  
+HETATM   30  H   LIG    39R     27.424  45.174  -9.025  0.00  0.00           H  
+CONECT    1    3   28    2
+CONECT    2    1   27    6
+CONECT    3    1    7   29
+CONECT    4    8   23    5
+CONECT    5    4   22   10
+CONECT    6    2   26   11
+CONECT    7    3   30   11
+CONECT    8    4   12   24
+CONECT    9   10   12   19
+CONECT   10    9    5   15
+CONECT   11    6    7   14
+CONECT   12    8    9   13
+CONECT   13   12   16   17
+CONECT   14   11   17   18
+CONECT   15   10   20   21
+CONECT   16   13   18   25
+CONECT   17   13   14
+CONECT   18   16   14
+CONECT   19    9
+CONECT   20   15
+CONECT   21   15
+CONECT   22    5
+CONECT   23    4
+CONECT   24    8
+CONECT   25   16
+CONECT   26    6
+CONECT   27    2
+CONECT   28    1
+CONECT   29    3
+CONECT   30    7
+END

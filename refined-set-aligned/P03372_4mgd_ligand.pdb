@@ -1,0 +1,61 @@
+HETATM    1  CAF LIG    27N      1.829  53.064 165.340  0.00  0.00           C  
+HETATM    2  CAG LIG    27N      2.295  50.698 165.423  0.00  0.00           C  
+HETATM    3  CAH LIG    27N     -2.937  53.039 162.619  0.00  0.00           C  
+HETATM    4  CAI LIG    27N     -3.766  53.971 164.685  0.00  0.00           C  
+HETATM    5  CAJ LIG    27N      0.453  52.799 165.371  0.00  0.00           C  
+HETATM    6  CAK LIG    27N      0.929  50.439 165.440  0.00  0.00           C  
+HETATM    7  CAL LIG    27N     -2.168  52.112 163.326  0.00  0.00           C  
+HETATM    8  CAM LIG    27N     -2.995  53.048 165.392  0.00  0.00           C  
+HETATM    9  CAN LIG    27N      2.740  52.009 165.361  0.00  0.00           C  
+HETATM   10  CAO LIG    27N     -3.732  53.969 163.292  0.00  0.00           C  
+HETATM   11  CAP LIG    27N     -0.008  51.476 165.434  0.00  0.00           C  
+HETATM   12  CAQ LIG    27N     -2.191  52.110 164.723  0.00  0.00           C  
+HETATM   13  CAR LIG    27N     -1.398  51.141 165.418  0.00  0.00           C  
+HETATM   14  CAS LIG    27N     -2.042  50.654 166.752  0.00  0.00           C  
+HETATM   15  OAA LIG    27N      4.070  52.250 165.340  0.00  0.00           O  
+HETATM   16  OAB LIG    27N     -4.481  54.872 162.589  0.00  0.00           O  
+HETATM   17 CLC  LIG    27N     -1.251  49.198 167.364  0.00  0.00          Cl  
+HETATM   18 CLD  LIG    27N     -1.977  51.864 168.019  0.00  0.00          Cl  
+HETATM   19 CLE  LIG    27N     -3.757  50.237 166.389  0.00  0.00          Cl  
+HETATM   20  H   LIG    27N     -0.256  53.618 165.347  0.00  0.00           H  
+HETATM   21  H   LIG    27N      2.184  54.087 165.299  0.00  0.00           H  
+HETATM   22  H   LIG    27N      4.292  52.724 164.548  0.00  0.00           H  
+HETATM   23  H   LIG    27N      3.006  49.880 165.458  0.00  0.00           H  
+HETATM   24  H   LIG    27N      0.584  49.412 165.458  0.00  0.00           H  
+HETATM   25  H   LIG    27N     -1.438  50.248 164.777  0.00  0.00           H  
+HETATM   26  H   LIG    27N     -1.555  51.395 162.792  0.00  0.00           H  
+HETATM   27  H   LIG    27N     -2.915  53.037 161.535  0.00  0.00           H  
+HETATM   28  H   LIG    27N     -4.959  55.426 163.195  0.00  0.00           H  
+HETATM   29  H   LIG    27N     -4.388  54.683 165.215  0.00  0.00           H  
+HETATM   30  H   LIG    27N     -3.015  53.055 166.476  0.00  0.00           H  
+CONECT    1    9   21    5
+CONECT    2    6   23    9
+CONECT    3   10   27    7
+CONECT    4    8   29   10
+CONECT    5    1   11   20
+CONECT    6    2   11   24
+CONECT    7    3   26   12
+CONECT    8    4   30   12
+CONECT    9    1    2   15
+CONECT   10    3    4   16
+CONECT   11    5    6   13
+CONECT   12    7    8   13
+CONECT   13   11   12   14   25
+CONECT   14   13   17   18   19
+CONECT   15    9   22
+CONECT   16   10   28
+CONECT   17   14
+CONECT   18   14
+CONECT   19   14
+CONECT   20    5
+CONECT   21    1
+CONECT   22   15
+CONECT   23    2
+CONECT   24    6
+CONECT   25   13
+CONECT   26    7
+CONECT   27    3
+CONECT   28   16
+CONECT   29    4
+CONECT   30    8
+END

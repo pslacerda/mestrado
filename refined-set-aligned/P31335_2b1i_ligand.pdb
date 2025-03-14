@@ -1,0 +1,73 @@
+HETATM    1  P   LIG    93A      7.363  29.833  25.498  0.00  0.00           P  
+HETATM    2  O1P LIG    93A      8.660  29.723  26.508  0.00  0.00           O  
+HETATM    3  O2P LIG    93A      7.769  30.747  24.137  0.00  0.00           O1-
+HETATM    4  O3P LIG    93A      5.971  30.195  26.098  0.00  0.00           O1-
+HETATM    5  C5' LIG    93A      6.384  27.433  24.370  0.00  0.00           C  
+HETATM    6  O5' LIG    93A      6.974  28.398  25.056  0.00  0.00           O  
+HETATM    7  O1  LIG    93A      7.220  25.345  24.944  0.00  0.00           O  
+HETATM    8  C2  LIG    93A      6.727  26.107  23.886  0.00  0.00           C  
+HETATM    9  C3  LIG    93A      5.402  25.557  23.395  0.00  0.00           C  
+HETATM   10  C4  LIG    93A      5.070  24.502  24.418  0.00  0.00           C  
+HETATM   11  C5  LIG    93A      6.419  24.154  24.953  0.00  0.00           C  
+HETATM   12  O6  LIG    93A      5.718  24.949  22.132  0.00  0.00           O  
+HETATM   13  O7  LIG    93A      4.473  23.309  23.850  0.00  0.00           O  
+HETATM   14  N10 LIG    93A      6.366  23.701  26.341  0.00  0.00           N  
+HETATM   15  C11 LIG    93A      5.451  23.865  27.319  0.00  0.00           C  
+HETATM   16  N12 LIG    93A      5.653  23.334  28.607  0.00  0.00           N  
+HETATM   17  C13 LIG    93A      6.889  22.793  28.273  0.00  0.00           C  
+HETATM   18  C14 LIG    93A      7.303  23.006  26.977  0.00  0.00           C  
+HETATM   19  N15 LIG    93A      8.487  22.591  26.414  0.00  0.00           N  
+HETATM   20  S16 LIG    93A      9.483  21.674  27.309  0.00  0.00           S  
+HETATM   21  N17 LIG    93A      8.893  21.563  28.921  0.00  0.00           N  
+HETATM   22  C18 LIG    93A      7.703  22.031  29.303  0.00  0.00           C  
+HETATM   23  O19 LIG    93A      7.220  21.901  30.419  0.00  0.00           O  
+HETATM   24  O20 LIG    93A     11.003  21.943  27.118  0.00  0.00           O  
+HETATM   25  O21 LIG    93A      9.444  20.163  26.725  0.00  0.00           O  
+HETATM   26  H1  LIG    93A      9.472  21.125  29.608  0.00  0.00           H  
+HETATM   27  H2  LIG    93A      4.537  24.418  27.107  0.00  0.00           H  
+HETATM   28  H3  LIG    93A      8.728  22.848  25.478  0.00  0.00           H  
+HETATM   29  H4  LIG    93A      6.873  23.374  24.323  0.00  0.00           H  
+HETATM   30  H5  LIG    93A      4.411  24.907  25.200  0.00  0.00           H  
+HETATM   31  H6  LIG    93A      5.025  22.984  23.148  0.00  0.00           H  
+HETATM   32  H7  LIG    93A      4.612  26.318  23.305  0.00  0.00           H  
+HETATM   33  H8  LIG    93A      4.971  24.446  21.828  0.00  0.00           H  
+HETATM   34  H9  LIG    93A      7.467  26.151  23.074  0.00  0.00           H  
+HETATM   35  H10 LIG    93A      5.487  27.234  24.975  0.00  0.00           H  
+HETATM   36  H11 LIG    93A      6.095  27.950  23.444  0.00  0.00           H  
+CONECT    1    2    3    4    6
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    8   35   36
+CONECT    6    5    1
+CONECT    7   11    8
+CONECT    8    5    7    9   34
+CONECT    9    8   10   12   32
+CONECT   10    9   11   13   30
+CONECT   11    7   10   14   29
+CONECT   12    9   33
+CONECT   13   10   31
+CONECT   14   11   15   18
+CONECT   15   14   16   27
+CONECT   16   15   17
+CONECT   17   16   22   18
+CONECT   18   14   17   19
+CONECT   19   18   20   28
+CONECT   20   19   21   24   25
+CONECT   21   20   26   22
+CONECT   22   17   21   23
+CONECT   23   22
+CONECT   24   20
+CONECT   25   20
+CONECT   26   21
+CONECT   27   15
+CONECT   28   19
+CONECT   29   11
+CONECT   30   10
+CONECT   31   13
+CONECT   32    9
+CONECT   33   12
+CONECT   34    8
+CONECT   35    5
+CONECT   36    5
+END

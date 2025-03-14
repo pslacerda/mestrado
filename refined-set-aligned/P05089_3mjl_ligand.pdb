@@ -1,0 +1,23 @@
+HETATM    1  CG  LIG     2A     -3.414 -24.290  -4.863  0.00  0.00           C  
+HETATM    2  CD2 LIG     2A     -2.177 -24.737  -4.551  0.00  0.00           C  
+HETATM    3  ND1 LIG     2A     -3.274 -23.328  -5.834  0.00  0.00           N  
+HETATM    4  CE1 LIG     2A     -1.983 -23.169  -6.088  0.00  0.00           C  
+HETATM    5  NE2 LIG     2A     -1.318 -24.018  -5.334  0.00  0.00           N  
+HETATM    6  NT  LIG     2A     -1.362 -22.289  -6.990  0.00  0.00           N  
+HETATM    7  H1  LIG     2A     -4.351 -24.630  -4.425  0.00  0.00           H  
+HETATM    8  H2  LIG     2A     -1.919 -25.509  -3.827  0.00  0.00           H  
+HETATM    9  H3  LIG     2A     -4.044 -22.816  -6.288  0.00  0.00           H  
+HETATM   10  H4  LIG     2A     -0.336 -22.281  -7.077  0.00  0.00           H  
+HETATM   11  H5  LIG     2A     -1.933 -21.652  -7.564  0.00  0.00           H  
+CONECT    1    2    3    7
+CONECT    2    1    5    8
+CONECT    3    1    9    4
+CONECT    4    3    6    5
+CONECT    5    2    4
+CONECT    6    4   10   11
+CONECT    7    1
+CONECT    8    2
+CONECT    9    3
+CONECT   10    6
+CONECT   11    6
+END

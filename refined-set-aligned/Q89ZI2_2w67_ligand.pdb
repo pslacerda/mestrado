@@ -1,0 +1,63 @@
+HETATM    1  N1  LIG F  34     -16.208   5.307  -2.139  0.00  0.00           N1+
+HETATM    2  C2  LIG F  34     -14.830   5.341  -1.668  0.00  0.00           C  
+HETATM    3  N2  LIG F  34     -14.038   3.318  -3.133  0.00  0.00           N  
+HETATM    4  C3  LIG F  34     -14.160   3.960  -1.816  0.00  0.00           C  
+HETATM    5  C4  LIG F  34     -14.683   2.922  -0.858  0.00  0.00           C  
+HETATM    6  O4  LIG F  34     -13.530   2.141  -0.403  0.00  0.00           O  
+HETATM    7  C5  LIG F  34     -15.327   3.480   0.384  0.00  0.00           C  
+HETATM    8  O5  LIG F  34     -15.590   2.327   1.174  0.00  0.00           O  
+HETATM    9  C6  LIG F  34     -16.587   4.338   0.203  0.00  0.00           C  
+HETATM   10  O6  LIG F  34     -17.618   3.616   0.859  0.00  0.00           O  
+HETATM   11  C7  LIG F  34     -17.102   4.603  -1.218  0.00  0.00           C  
+HETATM   12  C8  LIG F  34     -15.035   2.794  -3.851  0.00  0.00           C  
+HETATM   13  O8  LIG F  34     -16.205   2.862  -3.501  0.00  0.00           O  
+HETATM   14  C9  LIG F  34     -14.637   2.165  -5.169  0.00  0.00           C  
+HETATM   15  H1  LIG F  34     -13.544   2.210  -5.281  0.00  0.00           H  
+HETATM   16  H2  LIG F  34     -15.113   2.713  -5.995  0.00  0.00           H  
+HETATM   17  H3  LIG F  34     -14.965   1.115  -5.188  0.00  0.00           H  
+HETATM   18  H4  LIG F  34     -13.121   3.269  -3.529  0.00  0.00           H  
+HETATM   19  H5  LIG F  34     -13.121   4.153  -1.510  0.00  0.00           H  
+HETATM   20  H6  LIG F  34     -15.406   2.281  -1.383  0.00  0.00           H  
+HETATM   21  H7  LIG F  34     -13.822   1.473   0.206  0.00  0.00           H  
+HETATM   22  H8  LIG F  34     -14.587   4.112   0.898  0.00  0.00           H  
+HETATM   23  H9  LIG F  34     -16.002   2.590   1.988  0.00  0.00           H  
+HETATM   24  H10 LIG F  34     -16.416   5.309   0.691  0.00  0.00           H  
+HETATM   25  H11 LIG F  34     -17.394   3.509   1.776  0.00  0.00           H  
+HETATM   26  H12 LIG F  34     -18.021   5.201  -1.130  0.00  0.00           H  
+HETATM   27  H13 LIG F  34     -17.340   3.629  -1.670  0.00  0.00           H  
+HETATM   28  H14 LIG F  34     -16.536   6.254  -2.246  0.00  0.00           H  
+HETATM   29  H15 LIG F  34     -16.232   4.840  -3.032  0.00  0.00           H  
+HETATM   30  H16 LIG F  34     -14.267   6.079  -2.258  0.00  0.00           H  
+HETATM   31  H17 LIG F  34     -14.820   5.634  -0.608  0.00  0.00           H  
+CONECT    1    2   28   29   11
+CONECT    2    1   30   31    4
+CONECT    3    4   18   12
+CONECT    4    3    2    5   19
+CONECT    5    4    6    7   20
+CONECT    6    5   21
+CONECT    7    5    8    9   22
+CONECT    8    7   23
+CONECT    9    7   10   11   24
+CONECT   10    9   25
+CONECT   11    9    1   26   27
+CONECT   12    3   14   13
+CONECT   13   12
+CONECT   14   12   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14
+CONECT   18    3
+CONECT   19    4
+CONECT   20    5
+CONECT   21    6
+CONECT   22    7
+CONECT   23    8
+CONECT   24    9
+CONECT   25   10
+CONECT   26   11
+CONECT   27   11
+CONECT   28    1
+CONECT   29    1
+CONECT   30    2
+CONECT   31    2
+END

@@ -1,0 +1,203 @@
+HETATM    1  C16 LIG H   1      43.386 -39.191  -8.789  0.00  0.00           C  
+HETATM    2  C17 LIG H   1      43.540 -39.198  -7.369  0.00  0.00           C  
+HETATM    3  C18 LIG H   1      44.699 -39.705  -6.777  0.00  0.00           C  
+HETATM    4  C19 LIG H   1      44.860 -39.706  -5.375  0.00  0.00           C  
+HETATM    5  C21 LIG H   1      42.719 -38.683  -5.128  0.00  0.00           C  
+HETATM    6  C22 LIG H   1      42.551 -38.684  -6.528  0.00  0.00           C  
+HETATM    7  N23 LIG H   1      44.010 -37.955  -9.303  0.00  0.00           N  
+HETATM    8  C24 LIG H   1      43.876 -39.187  -4.534  0.00  0.00           C  
+HETATM    9  C27 LIG H   1      44.032 -39.186  -3.119  0.00  0.00           C  
+HETATM   10  N34 LIG H   1      42.976 -38.896  -2.354  0.00  0.00           N1+
+HETATM   11  N35 LIG H   1      45.224 -39.462  -2.571  0.00  0.00           N  
+HETATM   12  H41 LIG H   1      43.492 -37.100  -9.266  0.00  0.00           H  
+HETATM   13  H42 LIG H   1      43.883 -40.070  -9.224  0.00  0.00           H  
+HETATM   14  H43 LIG H   1      42.318 -39.208  -9.050  0.00  0.00           H  
+HETATM   15  H44 LIG H   1      41.641 -38.280  -6.957  0.00  0.00           H  
+HETATM   16  H45 LIG H   1      41.932 -38.282  -4.500  0.00  0.00           H  
+HETATM   17  H46 LIG H   1      45.333 -39.460  -1.547  0.00  0.00           H  
+HETATM   18  H47 LIG H   1      46.031 -39.676  -3.174  0.00  0.00           H  
+HETATM   19  H48 LIG H   1      42.067 -38.686  -2.790  0.00  0.00           H  
+HETATM   20  H49 LIG H   1      43.071 -38.882  -1.329  0.00  0.00           H  
+HETATM   21  H50 LIG H   1      45.765 -40.118  -4.944  0.00  0.00           H  
+HETATM   22  H51 LIG H   1      45.488 -40.104  -7.405  0.00  0.00           H  
+HETATM   23  N   LIG H   1      47.213 -36.573  -9.736  0.00  0.00           N  
+HETATM   24  CA  LIG H   1      45.837 -36.580 -10.240  0.00  0.00           C  
+HETATM   25  C   LIG H   1      45.256 -37.942  -9.821  0.00  0.00           C  
+HETATM   26  O   LIG H   1      45.943 -38.950  -9.923  0.00  0.00           O  
+HETATM   27  CB  LIG H   1      45.872 -36.493 -11.760  0.00  0.00           C  
+HETATM   28  CG  LIG H   1      46.393 -35.120 -12.218  0.00  0.00           C  
+HETATM   29  CD  LIG H   1      46.514 -35.171 -13.753  0.00  0.00           C  
+HETATM   30  NE  LIG H   1      46.993 -33.894 -14.306  0.00  0.00           N1+
+HETATM   31  CZ  LIG H   1      48.269 -33.483 -14.248  0.00  0.00           C  
+HETATM   32  NH1 LIG H   1      48.607 -32.312 -14.803  0.00  0.00           N  
+HETATM   33  NH2 LIG H   1      49.204 -34.232 -13.635  0.00  0.00           N  
+HETATM   34  H28 LIG H   1      47.968 -36.557 -10.392  0.00  0.00           H  
+HETATM   35  H29 LIG H   1      45.251 -35.750  -9.818  0.00  0.00           H  
+HETATM   36  H30 LIG H   1      44.855 -36.642 -12.153  0.00  0.00           H  
+HETATM   37  H31 LIG H   1      46.535 -37.279 -12.151  0.00  0.00           H  
+HETATM   38  H32 LIG H   1      47.377 -34.921 -11.768  0.00  0.00           H  
+HETATM   39  H33 LIG H   1      45.687 -34.330 -11.921  0.00  0.00           H  
+HETATM   40  H34 LIG H   1      45.526 -35.396 -14.181  0.00  0.00           H  
+HETATM   41  H35 LIG H   1      47.222 -35.966 -14.028  0.00  0.00           H  
+HETATM   42  H36 LIG H   1      46.307 -33.278 -14.766  0.00  0.00           H  
+HETATM   43  H37 LIG H   1      49.583 -31.987 -14.764  0.00  0.00           H  
+HETATM   44  H38 LIG H   1      47.890 -31.737 -15.268  0.00  0.00           H  
+HETATM   45  H39 LIG H   1      48.944 -35.133 -13.208  0.00  0.00           H  
+HETATM   46  H40 LIG H   1      50.180 -33.905 -13.593  0.00  0.00           H  
+TER   
+HETATM   47  C1  LIG H   1      50.218 -35.232  -6.598  0.00  0.00           C  
+HETATM   48  O1  LIG H   1      50.868 -34.783  -7.538  0.00  0.00           O  
+HETATM   49  C2  LIG H   1      50.525 -34.744  -5.191  0.00  0.00           C  
+HETATM   50  N2  LIG H   1      51.997 -34.709  -5.094  0.00  0.00           N  
+HETATM   51  C3  LIG H   1      49.899 -33.358  -4.932  0.00  0.00           C  
+HETATM   52  C4  LIG H   1      50.151 -32.915  -3.471  0.00  0.00           C  
+HETATM   53  C5  LIG H   1      49.291 -33.737  -2.496  0.00  0.00           C  
+HETATM   54  N6  LIG H   1      49.520 -33.295  -1.102  0.00  0.00           N  
+HETATM   55  C7  LIG H   1      50.376 -33.940  -0.287  0.00  0.00           C  
+HETATM   56  O7  LIG H   1      51.009 -34.921  -0.677  0.00  0.00           O  
+HETATM   57  N8  LIG H   1      50.508 -33.497   0.972  0.00  0.00           N  
+HETATM   58  H8  LIG H   1      50.122 -35.454  -4.454  0.00  0.00           H  
+HETATM   59  H9  LIG H   1      52.496 -34.025  -5.625  0.00  0.00           H  
+HETATM   60  H10 LIG H   1      48.815 -33.411  -5.113  0.00  0.00           H  
+HETATM   61  H11 LIG H   1      50.349 -32.624  -5.616  0.00  0.00           H  
+HETATM   62  H12 LIG H   1      49.896 -31.850  -3.368  0.00  0.00           H  
+HETATM   63  H13 LIG H   1      51.214 -33.062  -3.227  0.00  0.00           H  
+HETATM   64  H14 LIG H   1      49.557 -34.800  -2.587  0.00  0.00           H  
+HETATM   65  H15 LIG H   1      48.229 -33.602  -2.748  0.00  0.00           H  
+HETATM   66  H16 LIG H   1      49.026 -32.497  -0.757  0.00  0.00           H  
+HETATM   67  H17 LIG H   1      51.136 -33.956   1.600  0.00  0.00           H  
+HETATM   68  H18 LIG H   1      49.978 -32.708   1.283  0.00  0.00           H  
+HETATM   69  CA  LIG H   1      54.222 -35.398  -4.357  0.00  0.00           C  
+HETATM   70  C   LIG H   1      52.695 -35.560  -4.320  0.00  0.00           C  
+HETATM   71  O   LIG H   1      52.177 -36.414  -3.601  0.00  0.00           O  
+HETATM   72  C6' LIG H   1      55.626 -35.728  -2.427  0.00  0.00           C  
+HETATM   73  C5' LIG H   1      56.052 -35.317  -1.170  0.00  0.00           C  
+HETATM   74  C4' LIG H   1      55.507 -34.177  -0.589  0.00  0.00           C  
+HETATM   75  C3' LIG H   1      54.535 -33.447  -1.264  0.00  0.00           C  
+HETATM   76  C2' LIG H   1      54.110 -33.857  -2.520  0.00  0.00           C  
+HETATM   77  C1' LIG H   1      54.656 -34.996  -3.102  0.00  0.00           C  
+HETATM   78  H1  LIG H   1      53.352 -33.289  -3.048  0.00  0.00           H  
+HETATM   79  H2  LIG H   1      54.110 -32.559  -0.810  0.00  0.00           H  
+HETATM   80  H3  LIG H   1      55.840 -33.857   0.392  0.00  0.00           H  
+HETATM   81  H4  LIG H   1      56.809 -35.885  -0.642  0.00  0.00           H  
+HETATM   82  H5  LIG H   1      56.049 -36.617  -2.880  0.00  0.00           H  
+HETATM   83  H6  LIG H   1      54.690 -36.358  -4.621  0.00  0.00           H  
+HETATM   84  H7  LIG H   1      54.496 -34.639  -5.104  0.00  0.00           H  
+HETATM   85  N   LIG H   1      49.271 -36.168  -6.738  0.00  0.00           N  
+HETATM   86  CA  LIG H   1      48.978 -36.701  -8.084  0.00  0.00           C  
+HETATM   87  C   LIG H   1      47.495 -36.587  -8.419  0.00  0.00           C  
+HETATM   88  O   LIG H   1      46.650 -36.543  -7.531  0.00  0.00           O  
+HETATM   89  CB  LIG H   1      49.356 -38.198  -8.138  0.00  0.00           C  
+HETATM   90  CG1 LIG H   1      50.846 -38.401  -7.830  0.00  0.00           C  
+HETATM   91  CG2 LIG H   1      48.521 -39.003  -7.127  0.00  0.00           C  
+HETATM   92  H19 LIG H   1      48.768 -36.502  -5.941  0.00  0.00           H  
+HETATM   93  H20 LIG H   1      49.565 -36.141  -8.827  0.00  0.00           H  
+HETATM   94  H21 LIG H   1      49.149 -38.574  -9.151  0.00  0.00           H  
+HETATM   95  H22 LIG H   1      51.087 -39.473  -7.875  0.00  0.00           H  
+HETATM   96  H23 LIG H   1      51.068 -38.018  -6.823  0.00  0.00           H  
+HETATM   97  H24 LIG H   1      51.451 -37.858  -8.571  0.00  0.00           H  
+HETATM   98  H25 LIG H   1      47.451 -38.863  -7.341  0.00  0.00           H  
+HETATM   99  H26 LIG H   1      48.740 -38.652  -6.108  0.00  0.00           H  
+HETATM  100  H27 LIG H   1      48.775 -40.070  -7.209  0.00  0.00           H  
+TER   
+CONECT    1    2   13   14    7
+CONECT    2    1    3    6
+CONECT    3    2   22    4
+CONECT    4    3   21    8
+CONECT    5    8   16    6
+CONECT    6    2    5   15
+CONECT    7    1   12   25
+CONECT    8    5    4    9
+CONECT    9    8   10   11
+CONECT   10    9   19   20
+CONECT   11    9   17   18
+CONECT   12    7
+CONECT   13    1
+CONECT   14    1
+CONECT   15    6
+CONECT   16    5
+CONECT   17   11
+CONECT   18   11
+CONECT   19   10
+CONECT   20   10
+CONECT   21    4
+CONECT   22    3
+CONECT   23   24   34   87
+CONECT   24   23   25   27   35
+CONECT   25   24    7   26
+CONECT   26   25
+CONECT   27   24   28   36   37
+CONECT   28   27   29   38   39
+CONECT   29   28   30   40   41
+CONECT   30   29   31   42
+CONECT   31   30   32   33
+CONECT   32   31   43   44
+CONECT   33   31   45   46
+CONECT   34   23
+CONECT   35   24
+CONECT   36   27
+CONECT   37   27
+CONECT   38   28
+CONECT   39   28
+CONECT   40   29
+CONECT   41   29
+CONECT   42   30
+CONECT   43   32
+CONECT   44   32
+CONECT   45   33
+CONECT   46   33
+CONECT   47   48   85   49
+CONECT   48   47
+CONECT   49   47   50   51   58
+CONECT   50   49   59   70
+CONECT   51   49   52   60   61
+CONECT   52   51   53   62   63
+CONECT   53   52   54   64   65
+CONECT   54   53   55   66
+CONECT   55   54   56   57
+CONECT   56   55
+CONECT   57   55   67   68
+CONECT   58   49
+CONECT   59   50
+CONECT   60   51
+CONECT   61   51
+CONECT   62   52
+CONECT   63   52
+CONECT   64   53
+CONECT   65   53
+CONECT   66   54
+CONECT   67   57
+CONECT   68   57
+CONECT   69   77   83   84   70
+CONECT   70   50   69   71
+CONECT   71   70
+CONECT   72   73   82   77
+CONECT   73   72   74   81
+CONECT   74   73   80   75
+CONECT   75   74   79   76
+CONECT   76   75   78   77
+CONECT   77   69   72   76
+CONECT   78   76
+CONECT   79   75
+CONECT   80   74
+CONECT   81   73
+CONECT   82   72
+CONECT   83   69
+CONECT   84   69
+CONECT   85   47   86   92
+CONECT   86   85   87   89   93
+CONECT   87   86   23   88
+CONECT   88   87
+CONECT   89   86   90   91   94
+CONECT   90   89   95   96   97
+CONECT   91   89   98   99  100
+CONECT   92   85
+CONECT   93   86
+CONECT   94   89
+CONECT   95   90
+CONECT   96   90
+CONECT   97   90
+CONECT   98   91
+CONECT   99   91
+CONECT  100   91
+END

@@ -1,0 +1,73 @@
+HETATM    1  CAA LIG     2O     30.372   3.578  42.674  0.00  0.00           C  
+HETATM    2  CAB LIG     2O     30.575   4.646  43.759  0.00  0.00           C  
+HETATM    3  CAC LIG     2O     31.971   5.053  43.327  0.00  0.00           C  
+HETATM    4  CAD LIG     2O     32.664   3.675  43.261  0.00  0.00           C  
+HETATM    5  CAF LIG     2O     34.028   3.690  42.439  0.00  0.00           C  
+HETATM    6  CAG LIG     2O     29.116   2.742  42.875  0.00  0.00           C  
+HETATM    7  CAJ LIG     2O     34.772   2.660  42.024  0.00  0.00           C  
+HETATM    8  CAN LIG     2O     36.925   2.593  40.836  0.00  0.00           C  
+HETATM    9  CAO LIG     2O     38.169   3.269  40.828  0.00  0.00           C  
+HETATM   10  CAP LIG     2O     39.318   2.676  40.302  0.00  0.00           C  
+HETATM   11  CAQ LIG     2O     39.252   1.380  39.778  0.00  0.00           C  
+HETATM   12  CAR LIG     2O     38.038   0.683  39.782  0.00  0.00           C  
+HETATM   13  CAS LIG     2O     36.885   1.284  40.314  0.00  0.00           C  
+HETATM   14  NAE LIG     2O     31.598   2.754  42.813  0.00  0.00           N1+
+HETATM   15  NAK LIG     2O     35.841   3.195  41.405  0.00  0.00           N  
+HETATM   16  NAL LIG     2O     35.717   4.456  41.520  0.00  0.00           N  
+HETATM   17  NAM LIG     2O     34.675   4.793  42.117  0.00  0.00           N  
+HETATM   18  OAH LIG     2O     30.451   3.955  45.091  0.00  0.00           O  
+HETATM   19  OAI LIG     2O     32.581   6.053  44.244  0.00  0.00           O  
+HETATM   20  H   LIG     2O     38.231   4.269  41.241  0.00  0.00           H  
+HETATM   21  H   LIG     2O     40.257   3.217  40.299  0.00  0.00           H  
+HETATM   22  H   LIG     2O     40.142   0.915  39.368  0.00  0.00           H  
+HETATM   23  H   LIG     2O     37.988  -0.320  39.375  0.00  0.00           H  
+HETATM   24  H   LIG     2O     35.951   0.734  40.322  0.00  0.00           H  
+HETATM   25  H   LIG     2O     34.556   1.601  42.158  0.00  0.00           H  
+HETATM   26  H   LIG     2O     32.941   3.380  44.284  0.00  0.00           H  
+HETATM   27  H   LIG     2O     31.454   2.027  43.495  0.00  0.00           H  
+HETATM   28  H   LIG     2O     31.842   2.340  41.927  0.00  0.00           H  
+HETATM   29  H   LIG     2O     30.326   4.045  41.679  0.00  0.00           H  
+HETATM   30  H   LIG     2O     28.228   3.383  42.766  0.00  0.00           H  
+HETATM   31  H   LIG     2O     29.127   2.300  43.883  0.00  0.00           H  
+HETATM   32  H   LIG     2O     29.085   1.940  42.123  0.00  0.00           H  
+HETATM   33  H   LIG     2O     29.866   5.485  43.703  0.00  0.00           H  
+HETATM   34  H   LIG     2O     30.572   4.589  45.788  0.00  0.00           H  
+HETATM   35  H   LIG     2O     31.946   5.501  42.323  0.00  0.00           H  
+HETATM   36  H   LIG     2O     32.040   6.834  44.264  0.00  0.00           H  
+CONECT    1    2    6   29   14
+CONECT    2    1    3   18   33
+CONECT    3    2   19   35    4
+CONECT    4    3   14   26    5
+CONECT    5    4    7   17
+CONECT    6    1   30   31   32
+CONECT    7    5   25   15
+CONECT    8   15    9   13
+CONECT    9    8   10   20
+CONECT   10    9   11   21
+CONECT   11   10   12   22
+CONECT   12   11   13   23
+CONECT   13   12    8   24
+CONECT   14    4    1   27   28
+CONECT   15    8    7   16
+CONECT   16   15   17
+CONECT   17   16    5
+CONECT   18    2   34
+CONECT   19    3   36
+CONECT   20    9
+CONECT   21   10
+CONECT   22   11
+CONECT   23   12
+CONECT   24   13
+CONECT   25    7
+CONECT   26    4
+CONECT   27   14
+CONECT   28   14
+CONECT   29    1
+CONECT   30    6
+CONECT   31    6
+CONECT   32    6
+CONECT   33    2
+CONECT   34   18
+CONECT   35    3
+CONECT   36   19
+END

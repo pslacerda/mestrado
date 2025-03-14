@@ -1,0 +1,65 @@
+HETATM    1 CL1  LIG R   2S    -16.739  16.121 -14.118  0.00  0.00          Cl  
+HETATM    2  C02 LIG R   2S    -15.378  16.745 -13.263  0.00  0.00           C  
+HETATM    3  C03 LIG R   2S    -15.284  16.504 -11.903  0.00  0.00           C  
+HETATM    4  C04 LIG R   2S    -14.201  16.991 -11.200  0.00  0.00           C  
+HETATM    5  C05 LIG R   2S    -13.231  17.709 -11.867  0.00  0.00           C  
+HETATM    6  C06 LIG R   2S    -13.330  17.956 -13.240  0.00  0.00           C  
+HETATM    7  C07 LIG R   2S    -14.409  17.473 -13.935  0.00  0.00           C  
+HETATM    8  N08 LIG R   2S    -12.111  18.174 -11.090  0.00  0.00           N  
+HETATM    9  C09 LIG R   2S    -12.305  17.787  -9.789  0.00  0.00           C  
+HETATM   10  N10 LIG R   2S    -11.400  18.135  -8.785  0.00  0.00           N  
+HETATM   11  S11 LIG R   2S    -11.305  17.286  -7.419  0.00  0.00           S  
+HETATM   12  O12 LIG R   2S    -12.478  17.367  -6.662  0.00  0.00           O  
+HETATM   13  O13 LIG R   2S    -10.309  17.806  -6.582  0.00  0.00           O  
+HETATM   14  C14 LIG R   2S    -10.995  15.646  -7.984  0.00  0.00           C  
+HETATM   15  C15 LIG R   2S    -10.028  15.211  -8.941  0.00  0.00           C  
+HETATM   16  C16 LIG R   2S    -10.206  13.713  -9.106  0.00  0.00           C  
+HETATM   17  C17 LIG R   2S     -9.457  12.885  -9.945  0.00  0.00           C  
+HETATM   18  C18 LIG R   2S     -9.746  11.531  -9.973  0.00  0.00           C  
+HETATM   19  C19 LIG R   2S    -10.756  10.966  -9.178  0.00  0.00           C  
+HETATM   20  C20 LIG R   2S    -11.501  11.795  -8.348  0.00  0.00           C  
+HETATM   21  C21 LIG R   2S    -11.216  13.162  -8.321  0.00  0.00           C  
+HETATM   22  S22 LIG R   2S    -11.880  14.395  -7.461  0.00  0.00           S  
+HETATM   23  S23 LIG R   2S    -13.726  16.926  -9.616  0.00  0.00           S  
+HETATM   24  H   LIG R   2S    -16.056  15.937 -11.394  0.00  0.00           H  
+HETATM   25  H   LIG R   2S    -12.561  18.525 -13.750  0.00  0.00           H  
+HETATM   26  H   LIG R   2S    -14.503  17.658 -14.999  0.00  0.00           H  
+HETATM   27  H   LIG R   2S    -10.800  18.925  -8.916  0.00  0.00           H  
+HETATM   28  H   LIG R   2S     -9.299  15.836  -9.455  0.00  0.00           H  
+HETATM   29  H   LIG R   2S     -8.666  13.295 -10.563  0.00  0.00           H  
+HETATM   30  H   LIG R   2S     -9.173  10.886 -10.630  0.00  0.00           H  
+HETATM   31  H   LIG R   2S    -10.952   9.900  -9.211  0.00  0.00           H  
+HETATM   32  H   LIG R   2S    -12.292  11.386  -7.731  0.00  0.00           H  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    3    2    4   24
+CONECT    4    3    5   23
+CONECT    5    4    6    8
+CONECT    6    5    7   25
+CONECT    7    2    6   26
+CONECT    8    5    9
+CONECT    9    8   10   23
+CONECT   10    9   11   27
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11   15   22
+CONECT   15   14   16   28
+CONECT   16   15   17   21
+CONECT   17   16   18   29
+CONECT   18   17   19   30
+CONECT   19   18   20   31
+CONECT   20   19   21   32
+CONECT   21   16   20   22
+CONECT   22   14   21
+CONECT   23    4    9
+CONECT   24    3
+CONECT   25    6
+CONECT   26    7
+CONECT   27   10
+CONECT   28   15
+CONECT   29   17
+CONECT   30   18
+CONECT   31   19
+CONECT   32   20
+END

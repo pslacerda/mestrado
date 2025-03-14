@@ -1,0 +1,63 @@
+HETATM    1  C1  LIG A   1Y     -5.096  -3.853  21.274  0.00  0.00           C  
+HETATM    2  N1  LIG A   1Y     -4.767   0.040  19.365  0.00  0.00           N  
+HETATM    3  O1  LIG A   1Y     -2.545   0.112  15.234  0.00  0.00           O  
+HETATM    4  C2  LIG A   1Y     -4.937  -2.487  20.645  0.00  0.00           C  
+HETATM    5  N2  LIG A   1Y     -2.194  -4.177  19.484  0.00  0.00           N  
+HETATM    6  C3  LIG A   1Y     -5.829  -1.445  20.977  0.00  0.00           C  
+HETATM    7  N3  LIG A   1Y     -3.061  -0.675  17.917  0.00  0.00           N  
+HETATM    8  C4  LIG A   1Y     -5.694  -0.200  20.318  0.00  0.00           C  
+HETATM    9  C5  LIG A   1Y     -3.838  -0.948  18.955  0.00  0.00           C  
+HETATM   10  C6  LIG A   1Y     -3.902  -2.256  19.661  0.00  0.00           C  
+HETATM   11  C7  LIG A   1Y     -2.933  -3.301  19.529  0.00  0.00           C  
+HETATM   12  C8  LIG A   1Y     -3.223  -1.596  16.768  0.00  0.00           C  
+HETATM   13  C9  LIG A   1Y     -2.295  -1.212  15.656  0.00  0.00           C  
+HETATM   14  C10 LIG A   1Y     -2.246   1.008  16.301  0.00  0.00           C  
+HETATM   15  C11 LIG A   1Y     -3.104   0.762  17.520  0.00  0.00           C  
+HETATM   16  C12 LIG A   1Y     -6.609   0.937  20.634  0.00  0.00           C  
+HETATM   17  H1  LIG A   1Y     -2.445  -1.896  14.808  0.00  0.00           H  
+HETATM   18  H2  LIG A   1Y     -1.256  -1.288  16.010  0.00  0.00           H  
+HETATM   19  H3  LIG A   1Y     -4.261  -1.546  16.407  0.00  0.00           H  
+HETATM   20  H4  LIG A   1Y     -2.996  -2.622  17.091  0.00  0.00           H  
+HETATM   21  H5  LIG A   1Y     -5.929  -3.831  21.992  0.00  0.00           H  
+HETATM   22  H6  LIG A   1Y     -4.168  -4.126  21.798  0.00  0.00           H  
+HETATM   23  H7  LIG A   1Y     -5.306  -4.595  20.490  0.00  0.00           H  
+HETATM   24  H8  LIG A   1Y     -6.602  -1.595  21.722  0.00  0.00           H  
+HETATM   25  H9  LIG A   1Y     -2.413   2.038  15.954  0.00  0.00           H  
+HETATM   26  H10 LIG A   1Y     -1.190   0.882  16.582  0.00  0.00           H  
+HETATM   27  H11 LIG A   1Y     -2.732   1.377  18.353  0.00  0.00           H  
+HETATM   28  H12 LIG A   1Y     -4.143   1.042  17.292  0.00  0.00           H  
+HETATM   29  H13 LIG A   1Y     -6.339   1.807  20.018  0.00  0.00           H  
+HETATM   30  H14 LIG A   1Y     -6.515   1.198  21.698  0.00  0.00           H  
+HETATM   31  H15 LIG A   1Y     -7.647   0.643  20.418  0.00  0.00           H  
+CONECT    1   21   22   23    4
+CONECT    2    9    8
+CONECT    3   14   13
+CONECT    4    1    6   10
+CONECT    5   11
+CONECT    6    4    8   24
+CONECT    7   12   15    9
+CONECT    8    6    2   16
+CONECT    9    2    7   10
+CONECT   10    4    9   11
+CONECT   11   10    5
+CONECT   12    7   13   19   20
+CONECT   13   12    3   17   18
+CONECT   14    3   15   25   26
+CONECT   15    7   14   27   28
+CONECT   16    8   29   30   31
+CONECT   17   13
+CONECT   18   13
+CONECT   19   12
+CONECT   20   12
+CONECT   21    1
+CONECT   22    1
+CONECT   23    1
+CONECT   24    6
+CONECT   25   14
+CONECT   26   14
+CONECT   27   15
+CONECT   28   15
+CONECT   29   16
+CONECT   30   16
+CONECT   31   16
+END

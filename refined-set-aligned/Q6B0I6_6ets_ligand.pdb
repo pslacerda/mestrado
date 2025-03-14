@@ -1,0 +1,35 @@
+HETATM    1  N   LIG I   1L     -3.037  -6.794 -17.851  0.00  0.00           N  
+HETATM    2  CAE LIG I   1L     -2.492 -10.172 -18.068  0.00  0.00           C  
+HETATM    3  CAF LIG I   1L     -2.275  -8.834 -18.678  0.00  0.00           C  
+HETATM    4  CAG LIG I   1L     -3.445  -7.861 -18.472  0.00  0.00           C  
+HETATM    5  NAA LIG I   1L     -2.117 -12.141 -17.518  0.00  0.00           N  
+HETATM    6  NAB LIG I   1L     -3.320 -11.881 -17.219  0.00  0.00           N  
+HETATM    7  NAC LIG I   1L     -1.575 -11.113 -18.081  0.00  0.00           N  
+HETATM    8  NAD LIG I   1L     -3.573 -10.633 -17.586  0.00  0.00           N  
+HETATM    9  NAJ LIG I   1L     -3.932  -5.848 -17.631  0.00  0.00           N1+
+HETATM   10  OAI LIG I   1L     -4.558  -8.065 -18.836  0.00  0.00           O  
+HETATM   11  H1  LIG I   1L     -3.985 -12.526 -16.769  0.00  0.00           H  
+HETATM   12  H2  LIG I   1L     -2.121  -8.967 -19.759  0.00  0.00           H  
+HETATM   13  H3  LIG I   1L     -1.373  -8.391 -18.230  0.00  0.00           H  
+HETATM   14  H4  LIG I   1L     -2.088  -6.694 -17.553  0.00  0.00           H  
+HETATM   15  H5  LIG I   1L     -3.496  -5.079 -17.146  0.00  0.00           H  
+HETATM   16  H6  LIG I   1L     -4.681  -6.219 -17.068  0.00  0.00           H  
+HETATM   17  H7  LIG I   1L     -4.302  -5.524 -18.511  0.00  0.00           H  
+CONECT    1    9   14    4
+CONECT    2    3    7    8
+CONECT    3    2    4   12   13
+CONECT    4    3    1   10
+CONECT    5    7    6
+CONECT    6    5   11    8
+CONECT    7    5    2
+CONECT    8    2    6
+CONECT    9    1   15   16   17
+CONECT   10    4
+CONECT   11    6
+CONECT   12    3
+CONECT   13    3
+CONECT   14    1
+CONECT   15    9
+CONECT   16    9
+CONECT   17    9
+END

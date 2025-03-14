@@ -1,0 +1,29 @@
+HETATM    1  N   LIG     4A     21.190  31.036   7.559  0.00  0.00           N1+
+HETATM    2  CA  LIG     4A     21.201  32.406   8.121  0.00  0.00           C  
+HETATM    3  O   LIG     4A     21.781  34.601   7.839  0.00  0.00           O  
+HETATM    4  CB  LIG     4A     21.092  33.531   7.148  0.00  0.00           C  
+HETATM    5  OG  LIG     4A     23.274  31.858   9.321  0.00  0.00           O  
+HETATM    6  NXT LIG     4A     22.877  33.970   8.572  0.00  0.00           N  
+HETATM    7  C3  LIG     4A     22.559  32.722   8.731  0.00  0.00           C  
+HETATM    8  H1  LIG     4A     20.284  30.844   7.160  0.00  0.00           H  
+HETATM    9  H2  LIG     4A     21.382  30.371   8.292  0.00  0.00           H  
+HETATM   10  H3  LIG     4A     21.895  30.961   6.843  0.00  0.00           H  
+HETATM   11  H4  LIG     4A     23.714  34.415   8.891  0.00  0.00           H  
+HETATM   12  H5  LIG     4A     20.398  32.474   8.870  0.00  0.00           H  
+HETATM   13  H6  LIG     4A     21.588  33.286   6.198  0.00  0.00           H  
+HETATM   14  H7  LIG     4A     20.041  33.792   6.957  0.00  0.00           H  
+CONECT    1    8    9   10    2
+CONECT    2    1   12    4    7
+CONECT    3    4    6
+CONECT    4    3    2   13   14
+CONECT    5    7
+CONECT    6    3   11    7
+CONECT    7    2    5    6
+CONECT    8    1
+CONECT    9    1
+CONECT   10    1
+CONECT   11    6
+CONECT   12    2
+CONECT   13    4
+CONECT   14    4
+END

@@ -1,0 +1,25 @@
+HETATM    1  CAH LIG     1      26.607  19.700   6.906  0.00  0.00           C  
+HETATM    2  CAI LIG     1      27.398  17.584   6.119  0.00  0.00           C  
+HETATM    3  CAJ LIG     1      28.208  17.225   4.870  0.00  0.00           C  
+HETATM    4  OAG LIG     1      26.699  18.792   5.791  0.00  0.00           O  
+HETATM    5 CLAF LIG     1      26.202  16.280   6.624  0.00  0.00          Cl  
+HETATM    6  FAA LIG     1      27.746  20.404   7.071  0.00  0.00           F  
+HETATM    7  FAB LIG     1      26.315  19.023   8.030  0.00  0.00           F  
+HETATM    8  FAC LIG     1      27.400  17.182   3.811  0.00  0.00           F  
+HETATM    9  FAD LIG     1      29.139  18.149   4.667  0.00  0.00           F  
+HETATM   10  FAE LIG     1      28.809  16.065   5.039  0.00  0.00           F  
+HETATM   11  H1  LIG     1      28.087  17.765   6.957  0.00  0.00           H  
+HETATM   12  H2  LIG     1      25.791  20.410   6.704  0.00  0.00           H  
+CONECT    1    6    7   12    4
+CONECT    2    4    5   11    3
+CONECT    3    2    9   10    8
+CONECT    4    2    1
+CONECT    5    2
+CONECT    6    1
+CONECT    7    1
+CONECT    8    3
+CONECT    9    3
+CONECT   10    3
+CONECT   11    2
+CONECT   12    1
+END

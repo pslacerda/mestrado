@@ -1,0 +1,113 @@
+HETATM    1  C1  LIG    32I     28.369  13.005  27.689  0.00  0.00           C  
+HETATM    2  N1  LIG    32I     28.380  10.490  27.609  0.00  0.00           N  
+HETATM    3  O1  LIG    32I     30.479   4.527  28.579  0.00  0.00           O  
+HETATM    4  C2  LIG    32I     28.728  13.053  29.173  0.00  0.00           C  
+HETATM    5  N2  LIG    32I     28.397   6.005  29.080  0.00  0.00           N  
+HETATM    6  O2  LIG    32I     34.030  12.584  24.776  0.00  0.00           O  
+HETATM    7  C3  LIG    32I     28.281  11.845  29.998  0.00  0.00           C  
+HETATM    8  N3  LIG    32I     32.389   5.518  27.844  0.00  0.00           N1+
+HETATM    9  O3  LIG    32I     30.423   9.639  24.349  0.00  0.00           O  
+HETATM   10  C4  LIG    32I     26.967  11.221  29.515  0.00  0.00           C  
+HETATM   11  N4  LIG    32I     34.472   4.673  27.481  0.00  0.00           N  
+HETATM   12  C5  LIG    32I     27.008  10.517  28.153  0.00  0.00           C  
+HETATM   13  N5  LIG    32I     32.762   3.305  28.000  0.00  0.00           N  
+HETATM   14  C6  LIG    32I     28.882  11.738  26.996  0.00  0.00           C  
+HETATM   15  N6  LIG    32I     33.227  11.480  26.739  0.00  0.00           N1-
+HETATM   16  C7  LIG    32I     29.132   9.276  27.696  0.00  0.00           C  
+HETATM   17  N7  LIG    32I     32.240  11.099  24.640  0.00  0.00           N  
+HETATM   18  C8  LIG    32I     30.448   9.039  27.226  0.00  0.00           C  
+HETATM   19  N8  LIG    32I     31.016   7.822  27.401  0.00  0.00           N  
+HETATM   20  C9  LIG    32I     29.073   7.002  28.465  0.00  0.00           C  
+HETATM   21  N9  LIG    32I     28.500   8.217  28.303  0.00  0.00           N  
+HETATM   22  C10 LIG    32I     31.380   9.985  26.544  0.00  0.00           C  
+HETATM   23  C11 LIG    32I     31.083   5.501  28.149  0.00  0.00           C  
+HETATM   24  C12 LIG    32I     33.195   4.464  27.773  0.00  0.00           C  
+HETATM   25  C13 LIG    32I     32.353  10.627  27.317  0.00  0.00           C  
+HETATM   26  C14 LIG    32I     33.170  11.718  25.400  0.00  0.00           C  
+HETATM   27  C15 LIG    32I     31.343  10.234  25.173  0.00  0.00           C  
+HETATM   28  C16 LIG    32I     35.450  12.491  24.853  0.00  0.00           C  
+HETATM   29  C17 LIG    32I     30.275  10.046  22.983  0.00  0.00           C  
+HETATM   30  C18 LIG    32I     30.363   6.800  27.998  0.00  0.00           C  
+HETATM   31  H1  LIG    32I     32.795   6.411  27.652  0.00  0.00           H  
+HETATM   32  H2  LIG    32I     33.397   2.496  27.941  0.00  0.00           H  
+HETATM   33  H3  LIG    32I     31.771   3.164  28.244  0.00  0.00           H  
+HETATM   34  H4  LIG    32I     34.809   5.630  27.299  0.00  0.00           H  
+HETATM   35  H5  LIG    32I     35.127   3.880  27.437  0.00  0.00           H  
+HETATM   36  H6  LIG    32I     32.407  10.440  28.383  0.00  0.00           H  
+HETATM   37  H7  LIG    32I     29.488   9.445  22.505  0.00  0.00           H  
+HETATM   38  H8  LIG    32I     31.226   9.895  22.451  0.00  0.00           H  
+HETATM   39  H9  LIG    32I     29.999  11.110  22.945  0.00  0.00           H  
+HETATM   40  H10 LIG    32I     35.903  13.303  24.265  0.00  0.00           H  
+HETATM   41  H11 LIG    32I     35.777  11.520  24.451  0.00  0.00           H  
+HETATM   42  H12 LIG    32I     35.767  12.577  25.903  0.00  0.00           H  
+HETATM   43  H13 LIG    32I     27.440   6.167  29.423  0.00  0.00           H  
+HETATM   44  H14 LIG    32I     28.840   5.084  29.204  0.00  0.00           H  
+HETATM   45  H15 LIG    32I     28.563  11.762  25.943  0.00  0.00           H  
+HETATM   46  H16 LIG    32I     29.981  11.733  27.046  0.00  0.00           H  
+HETATM   47  H17 LIG    32I     27.275  13.042  27.590  0.00  0.00           H  
+HETATM   48  H18 LIG    32I     28.812  13.881  27.192  0.00  0.00           H  
+HETATM   49  H19 LIG    32I     26.648   9.484  28.272  0.00  0.00           H  
+HETATM   50  H20 LIG    32I     26.354  11.055  27.452  0.00  0.00           H  
+HETATM   51  H21 LIG    32I     26.653  10.480  30.266  0.00  0.00           H  
+HETATM   52  H22 LIG    32I     26.217  12.023  29.456  0.00  0.00           H  
+HETATM   53  H23 LIG    32I     29.069  11.080  29.946  0.00  0.00           H  
+HETATM   54  H24 LIG    32I     28.150  12.167  31.041  0.00  0.00           H  
+HETATM   55  H25 LIG    32I     28.260  13.950  29.606  0.00  0.00           H  
+HETATM   56  H26 LIG    32I     29.822  13.134  29.255  0.00  0.00           H  
+CONECT    1    4   47   48   14
+CONECT    2   12   14   16
+CONECT    3   23
+CONECT    4    1   55   56    7
+CONECT    5   43   44   20
+CONECT    6   28   26
+CONECT    7    4   53   54   10
+CONECT    8   24   31   23
+CONECT    9   29   27
+CONECT   10    7   51   52   12
+CONECT   11   34   35   24
+CONECT   12    2   10   49   50
+CONECT   13   32   33   24
+CONECT   14    2    1   45   46
+CONECT   15   25   26
+CONECT   16    2   18   21
+CONECT   17   26   27
+CONECT   18   16   19   22
+CONECT   19   18   30
+CONECT   20    5   21   30
+CONECT   21   20   16
+CONECT   22   18   25   27
+CONECT   23    3    8   30
+CONECT   24    8   11   13
+CONECT   25   22   15   36
+CONECT   26   17    6   15
+CONECT   27   22    9   17
+CONECT   28    6   40   41   42
+CONECT   29    9   37   38   39
+CONECT   30   19   20   23
+CONECT   31    8
+CONECT   32   13
+CONECT   33   13
+CONECT   34   11
+CONECT   35   11
+CONECT   36   25
+CONECT   37   29
+CONECT   38   29
+CONECT   39   29
+CONECT   40   28
+CONECT   41   28
+CONECT   42   28
+CONECT   43    5
+CONECT   44    5
+CONECT   45   14
+CONECT   46   14
+CONECT   47    1
+CONECT   48    1
+CONECT   49   12
+CONECT   50   12
+CONECT   51   10
+CONECT   52   10
+CONECT   53    7
+CONECT   54    7
+CONECT   55    4
+CONECT   56    4
+END

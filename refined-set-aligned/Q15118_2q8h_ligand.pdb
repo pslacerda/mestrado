@@ -1,0 +1,15 @@
+HETATM    1  C   LIG T   1       1.986  38.480  -9.293  0.00  0.00           C  
+HETATM    2  O   LIG T   1       2.826  39.389  -9.266  0.00  0.00           O  
+HETATM    3 CL1  LIG T   1       0.051  37.506 -10.871  0.00  0.00          Cl  
+HETATM    4 CL2  LIG T   1       0.483  40.539 -10.165  0.00  0.00          Cl  
+HETATM    5  C1  LIG T   1       0.564  38.787  -9.689  0.00  0.00           C  
+HETATM    6  O2  LIG T   1       2.295  37.319  -8.994  0.00  0.00           O1-
+HETATM    7  H1  LIG T   1      -0.084  38.676  -8.807  0.00  0.00           H  
+CONECT    1    2    6    5
+CONECT    2    1
+CONECT    3    5
+CONECT    4    5
+CONECT    5    1    3    4    7
+CONECT    6    1
+CONECT    7    5
+END

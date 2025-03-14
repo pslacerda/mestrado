@@ -1,0 +1,31 @@
+HETATM    1  C1  LIG K  17      22.323   8.297  18.886  0.00  0.00           C  
+HETATM    2  C2  LIG K  17      22.485   8.803  17.589  0.00  0.00           C  
+HETATM    3  C3  LIG K  17      23.404   8.218  16.713  0.00  0.00           C  
+HETATM    4  C4  LIG K  17      23.094   7.202  19.284  0.00  0.00           C  
+HETATM    5  N5  LIG K  17      24.864   5.591  18.445  0.00  0.00           N  
+HETATM    6  C6  LIG K  17      24.019   6.626  18.370  0.00  0.00           C  
+HETATM    7  C7  LIG K  17      24.179   7.132  17.081  0.00  0.00           C  
+HETATM    8  N8  LIG K  17      25.126   6.410  16.389  0.00  0.00           N  
+HETATM    9  C9  LIG K  17      25.522   5.463  17.256  0.00  0.00           C  
+HETATM   10 BR1  LIG K  17      21.089   9.148  20.078  0.00  0.00          Br  
+HETATM   11 BR2  LIG K  17      21.474  10.292  16.943  0.00  0.00          Br  
+HETATM   12 BR3  LIG K  17      23.601   8.993  15.014  0.00  0.00          Br  
+HETATM   13 BR4  LIG K  17      22.878   6.525  21.065  0.00  0.00          Br  
+HETATM   14  H1  LIG K  17      25.456   6.563  15.425  0.00  0.00           H  
+HETATM   15  H2  LIG K  17      26.266   4.697  17.040  0.00  0.00           H  
+CONECT    1   10    2    4
+CONECT    2    1   11    3
+CONECT    3    2    7   12
+CONECT    4    1   13    6
+CONECT    5    6    9
+CONECT    6    5    4    7
+CONECT    7    3    6    8
+CONECT    8    7    9   14
+CONECT    9    8    5   15
+CONECT   10    1
+CONECT   11    2
+CONECT   12    3
+CONECT   13    4
+CONECT   14    8
+CONECT   15    9
+END

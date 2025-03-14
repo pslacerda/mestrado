@@ -1,0 +1,93 @@
+HETATM    1  C1  LIG     1       5.533  23.853   3.548  0.00  0.00           C  
+HETATM    2  C2  LIG     1       4.973  23.615   4.942  0.00  0.00           C  
+HETATM    3  O2  LIG     1       5.151  24.849   5.659  0.00  0.00           O  
+HETATM    4  C3  LIG     1       3.470  23.291   4.870  0.00  0.00           C  
+HETATM    5  O3  LIG     1       2.921  23.098   6.184  0.00  0.00           O  
+HETATM    6  C4  LIG     1       2.689  24.414   4.170  0.00  0.00           C  
+HETATM    7  O4  LIG     1       1.295  24.048   4.053  0.00  0.00           O  
+HETATM    8  C5  LIG     1       3.319  24.708   2.805  0.00  0.00           C  
+HETATM    9  N5  LIG     1       4.759  24.938   2.981  0.00  0.00           N1+
+HETATM   10  C6  LIG     1       2.695  25.873   2.053  0.00  0.00           C  
+HETATM   11  O6  LIG     1       2.857  27.092   2.798  0.00  0.00           O  
+HETATM   12  C1  LIG     1       3.143  21.738   6.611  0.00  0.00           C  
+HETATM   13  C2  LIG     1       2.183  21.483   7.784  0.00  0.00           C  
+HETATM   14  O2  LIG     1       0.886  21.893   7.431  0.00  0.00           O  
+HETATM   15  C3  LIG     1       2.620  22.306   8.989  0.00  0.00           C  
+HETATM   16  O3  LIG     1       1.797  22.019  10.090  0.00  0.00           O  
+HETATM   17  C4  LIG     1       4.070  22.009   9.356  0.00  0.00           C  
+HETATM   18  O4  LIG     1       4.429  22.882  10.403  0.00  0.00           O  
+HETATM   19  C5  LIG     1       4.951  22.252   8.135  0.00  0.00           C  
+HETATM   20  O5  LIG     1       4.469  21.458   7.048  0.00  0.00           O  
+HETATM   21  C6  LIG     1       6.415  21.941   8.445  0.00  0.00           C  
+HETATM   22  O6  LIG     1       7.249  22.219   7.339  0.00  0.00           O  
+HETATM   23  H1  LIG     1       2.905  21.063   5.775  0.00  0.00           H  
+HETATM   24  H2  LIG     1       2.183  20.412   8.038  0.00  0.00           H  
+HETATM   25  H3  LIG     1       2.528  23.373   8.740  0.00  0.00           H  
+HETATM   26  H4  LIG     1       4.173  20.965   9.685  0.00  0.00           H  
+HETATM   27  H5  LIG     1       4.878  23.313   7.853  0.00  0.00           H  
+HETATM   28  H6  LIG     1       6.507  20.875   8.703  0.00  0.00           H  
+HETATM   29  H7  LIG     1       6.738  22.554   9.299  0.00  0.00           H  
+HETATM   30  H8  LIG     1       0.590  21.393   6.680  0.00  0.00           H  
+HETATM   31  H9  LIG     1       1.887  21.102  10.321  0.00  0.00           H  
+HETATM   32  H10 LIG     1       5.336  22.732  10.641  0.00  0.00           H  
+HETATM   33  H11 LIG     1       7.178  23.139   7.114  0.00  0.00           H  
+HETATM   34  H12 LIG     1       2.755  25.324   4.784  0.00  0.00           H  
+HETATM   35  H13 LIG     1       0.820  24.748   3.619  0.00  0.00           H  
+HETATM   36  H14 LIG     1       3.345  22.362   4.294  0.00  0.00           H  
+HETATM   37  H15 LIG     1       5.511  22.793   5.439  0.00  0.00           H  
+HETATM   38  H16 LIG     1       6.077  25.056   5.708  0.00  0.00           H  
+HETATM   39  H17 LIG     1       5.425  22.946   2.934  0.00  0.00           H  
+HETATM   40  H18 LIG     1       6.595  24.132   3.606  0.00  0.00           H  
+HETATM   41  H19 LIG     1       5.147  25.147   2.074  0.00  0.00           H  
+HETATM   42  H20 LIG     1       4.867  25.737   3.585  0.00  0.00           H  
+HETATM   43  H21 LIG     1       3.186  23.811   2.182  0.00  0.00           H  
+HETATM   44  H22 LIG     1       1.623  25.678   1.906  0.00  0.00           H  
+HETATM   45  H23 LIG     1       3.187  25.978   1.075  0.00  0.00           H  
+HETATM   46  H24 LIG     1       3.783  27.265   2.924  0.00  0.00           H  
+CONECT    1    9   39   40    2
+CONECT    2    1    3   37    4
+CONECT    3    2   38
+CONECT    4    2    5    6   36
+CONECT    5    4   12
+CONECT    6    4    7    8   34
+CONECT    7    6   35
+CONECT    8    6   10   43    9
+CONECT    9    1    8   41   42
+CONECT   10    8   11   44   45
+CONECT   11   10   46
+CONECT   12    5   13   20   23
+CONECT   13   12   14   15   24
+CONECT   14   13   30
+CONECT   15   13   16   17   25
+CONECT   16   15   31
+CONECT   17   15   18   26   19
+CONECT   18   17   32
+CONECT   19   17   21   27   20
+CONECT   20   12   19
+CONECT   21   19   22   28   29
+CONECT   22   21   33
+CONECT   23   12
+CONECT   24   13
+CONECT   25   15
+CONECT   26   17
+CONECT   27   19
+CONECT   28   21
+CONECT   29   21
+CONECT   30   14
+CONECT   31   16
+CONECT   32   18
+CONECT   33   22
+CONECT   34    6
+CONECT   35    7
+CONECT   36    4
+CONECT   37    2
+CONECT   38    3
+CONECT   39    1
+CONECT   40    1
+CONECT   41    9
+CONECT   42    9
+CONECT   43    8
+CONECT   44   10
+CONECT   45   10
+CONECT   46   11
+END

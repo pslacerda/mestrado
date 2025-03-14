@@ -1,0 +1,103 @@
+HETATM    1  CAA LIG    31O     -6.715  45.857  38.981  0.00  0.00           C  
+HETATM    2  CAB LIG    31O     -7.983  46.423  39.155  0.00  0.00           C  
+HETATM    3  CAC LIG    31O     -8.880  45.803  40.019  0.00  0.00           C  
+HETATM    4  CAD LIG    31O     -8.520  44.639  40.698  0.00  0.00           C  
+HETATM    5  CAE LIG    31O     -7.248  44.061  40.527  0.00  0.00           C  
+HETATM    6  CAF LIG    31O     -6.342  44.696  39.669  0.00  0.00           C  
+HETATM    7  CAG LIG    31O     -9.511  44.129  41.542  0.00  0.00           C  
+HETATM    8  CAI LIG    31O     -7.757  43.749  43.270  0.00  0.00           C  
+HETATM    9  CAJ LIG    31O     -7.019  42.823  42.497  0.00  0.00           C  
+HETATM   10  CAM LIG    31O     -7.491  48.371  37.773  0.00  0.00           C  
+HETATM   11  CAP LIG    31O     -6.096  41.871  40.884  0.00  0.00           C  
+HETATM   12  CAQ LIG    31O    -10.838  43.997  41.100  0.00  0.00           C  
+HETATM   13  CAR LIG    31O     -5.549  41.514  39.505  0.00  0.00           C  
+HETATM   14  CAS LIG    31O     -7.606  43.607  44.776  0.00  0.00           C  
+HETATM   15  CAT LIG    31O     -8.538  44.624  45.495  0.00  0.00           C  
+HETATM   16  CAW LIG    31O     -8.948  45.723  47.520  0.00  0.00           C  
+HETATM   17  CAX LIG    31O    -11.903  44.105  42.005  0.00  0.00           C  
+HETATM   18  CAY LIG    31O    -13.220  43.963  41.565  0.00  0.00           C  
+HETATM   19  CAZ LIG    31O    -13.488  43.708  40.220  0.00  0.00           C  
+HETATM   20  NAH LIG    31O     -9.169  43.665  42.763  0.00  0.00           N  
+HETATM   21  NAK LIG    31O     -6.793  42.964  41.188  0.00  0.00           N  
+HETATM   22  NAN LIG    31O     -6.480  41.669  42.927  0.00  0.00           N  
+HETATM   23  NAO LIG    31O     -5.942  41.109  41.983  0.00  0.00           N  
+HETATM   24  OAL LIG    31O     -8.420  47.561  38.515  0.00  0.00           O  
+HETATM   25  OAU LIG    31O     -8.560  44.522  46.850  0.00  0.00           O  
+HETATM   26  OAV LIG    31O     -9.219  45.448  44.875  0.00  0.00           O  
+HETATM   27  CBA LIG    31O    -12.441  43.599  39.317  0.00  0.00           C  
+HETATM   28  CBB LIG    31O    -11.125  43.742  39.754  0.00  0.00           C  
+HETATM   29  CBD LIG    31O     -6.132  43.891  45.121  0.00  0.00           C  
+HETATM   30 CL1  LIG    31O    -15.128  43.528  39.676  0.00  0.00          Cl  
+HETATM   31  H1  LIG    31O     -8.939  45.556  48.607  0.00  0.00           H  
+HETATM   32  H2  LIG    31O     -9.961  46.009  47.201  0.00  0.00           H  
+HETATM   33  H3  LIG    31O     -8.243  46.529  47.267  0.00  0.00           H  
+HETATM   34  H4  LIG    31O     -7.872  42.585  45.085  0.00  0.00           H  
+HETATM   35  H5  LIG    31O     -5.985  43.797  46.207  0.00  0.00           H  
+HETATM   36  H6  LIG    31O     -5.871  44.911  44.803  0.00  0.00           H  
+HETATM   37  H7  LIG    31O     -5.487  43.168  44.600  0.00  0.00           H  
+HETATM   38  H8  LIG    31O     -7.379  44.753  43.029  0.00  0.00           H  
+HETATM   39  H9  LIG    31O     -5.016  40.553  39.559  0.00  0.00           H  
+HETATM   40  H10 LIG    31O     -4.855  42.300  39.171  0.00  0.00           H  
+HETATM   41  H11 LIG    31O     -6.381  41.433  38.791  0.00  0.00           H  
+HETATM   42  H12 LIG    31O     -5.347  44.287  39.537  0.00  0.00           H  
+HETATM   43  H13 LIG    31O     -6.010  46.325  38.302  0.00  0.00           H  
+HETATM   44  H14 LIG    31O     -8.021  49.230  37.336  0.00  0.00           H  
+HETATM   45  H15 LIG    31O     -7.041  47.770  36.969  0.00  0.00           H  
+HETATM   46  H16 LIG    31O     -6.700  48.732  38.447  0.00  0.00           H  
+HETATM   47  H17 LIG    31O     -9.866  46.229  40.166  0.00  0.00           H  
+HETATM   48  H18 LIG    31O    -11.703  44.300  43.053  0.00  0.00           H  
+HETATM   49  H19 LIG    31O    -14.037  44.052  42.271  0.00  0.00           H  
+HETATM   50  H20 LIG    31O    -12.645  43.403  38.271  0.00  0.00           H  
+HETATM   51  H21 LIG    31O    -10.313  43.655  39.042  0.00  0.00           H  
+CONECT    1    2   43    6
+CONECT    2    1    3   24
+CONECT    3    2    4   47
+CONECT    4    3    7    5
+CONECT    5    4    6   21
+CONECT    6    5    1   42
+CONECT    7    4   12   20
+CONECT    8    9   20   38   14
+CONECT    9    8   21   22
+CONECT   10   44   45   46   24
+CONECT   11   13   21   23
+CONECT   12    7   17   28
+CONECT   13   11   39   40   41
+CONECT   14    8   29   34   15
+CONECT   15   14   26   25
+CONECT   16   25   31   32   33
+CONECT   17   12   18   48
+CONECT   18   17   19   49
+CONECT   19   18   27   30
+CONECT   20    8    7
+CONECT   21    9   11    5
+CONECT   22    9   23
+CONECT   23   22   11
+CONECT   24    2   10
+CONECT   25   16   15
+CONECT   26   15
+CONECT   27   19   28   50
+CONECT   28   12   27   51
+CONECT   29   14   35   36   37
+CONECT   30   19
+CONECT   31   16
+CONECT   32   16
+CONECT   33   16
+CONECT   34   14
+CONECT   35   29
+CONECT   36   29
+CONECT   37   29
+CONECT   38    8
+CONECT   39   13
+CONECT   40   13
+CONECT   41   13
+CONECT   42    6
+CONECT   43    1
+CONECT   44   10
+CONECT   45   10
+CONECT   46   10
+CONECT   47    3
+CONECT   48   17
+CONECT   49   18
+CONECT   50   27
+CONECT   51   28
+END

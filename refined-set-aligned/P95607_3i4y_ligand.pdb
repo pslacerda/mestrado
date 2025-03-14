@@ -1,0 +1,29 @@
+HETATM    1 CL10 LIG    35C     -0.177  -2.977  21.374  0.00  0.00          Cl  
+HETATM    2 CL9  LIG    35C      3.800   0.687  20.687  0.00  0.00          Cl  
+HETATM    3  C1  LIG    35C      2.963  -2.859  18.880  0.00  0.00           C  
+HETATM    4  C2  LIG    35C      3.564  -1.665  19.232  0.00  0.00           C  
+HETATM    5  C3  LIG    35C      3.035  -0.868  20.237  0.00  0.00           C  
+HETATM    6  C4  LIG    35C      1.891  -1.267  20.899  0.00  0.00           C  
+HETATM    7  C5  LIG    35C      1.301  -2.464  20.531  0.00  0.00           C  
+HETATM    8  C6  LIG    35C      1.815  -3.267  19.529  0.00  0.00           C  
+HETATM    9  O7  LIG    35C      3.488  -3.637  17.899  0.00  0.00           O  
+HETATM   10  O8  LIG    35C      4.677  -1.260  18.569  0.00  0.00           O  
+HETATM   11  H1  LIG    35C      1.465  -0.658  21.688  0.00  0.00           H  
+HETATM   12  H2  LIG    35C      1.327  -4.197  19.259  0.00  0.00           H  
+HETATM   13  H3  LIG    35C      4.270  -3.224  17.553  0.00  0.00           H  
+HETATM   14  H4  LIG    35C      4.910  -1.911  17.917  0.00  0.00           H  
+CONECT    1    7
+CONECT    2    5
+CONECT    3    4    8    9
+CONECT    4    3    5   10
+CONECT    5    4    2    6
+CONECT    6    5    7   11
+CONECT    7    6    1    8
+CONECT    8    3    7   12
+CONECT    9    3   13
+CONECT   10    4   14
+CONECT   11    6
+CONECT   12    8
+CONECT   13    9
+CONECT   14   10
+END

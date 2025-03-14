@@ -1,0 +1,125 @@
+HETATM    1  CAB LIG    11V     -8.491   3.624  35.958  0.00  0.00           C  
+HETATM    2  CAC LIG    11V      0.369   9.359  26.701  0.00  0.00           C  
+HETATM    3  CAD LIG    11V     -8.780   2.997  34.741  0.00  0.00           C  
+HETATM    4  CAE LIG    11V     -7.189   4.045  36.239  0.00  0.00           C  
+HETATM    5  CAF LIG    11V      1.191   8.413  27.303  0.00  0.00           C  
+HETATM    6  CAG LIG    11V     -0.975   9.443  27.076  0.00  0.00           C  
+HETATM    7  CAH LIG    11V     -7.769   2.790  33.800  0.00  0.00           C  
+HETATM    8  CAI LIG    11V     -6.186   3.849  35.288  0.00  0.00           C  
+HETATM    9  CAJ LIG    11V      0.666   7.553  28.269  0.00  0.00           C  
+HETATM   10  CAK LIG    11V     -1.500   8.580  28.043  0.00  0.00           C  
+HETATM   11  CAL LIG    11V     -2.949   3.397  31.737  0.00  0.00           C  
+HETATM   12  CAM LIG    11V     -4.709  10.984  27.336  0.00  0.00           C  
+HETATM   13  CAN LIG    11V     -6.920  11.419  26.350  0.00  0.00           C  
+HETATM   14  CAO LIG    11V     -6.682   7.935  29.661  0.00  0.00           C  
+HETATM   15  CAP LIG    11V     -5.103   9.538  27.562  0.00  0.00           C  
+HETATM   16  CAQ LIG    11V     -7.324   9.972  26.647  0.00  0.00           C  
+HETATM   17  CAR LIG    11V     -6.941   8.101  28.169  0.00  0.00           C  
+HETATM   18  CAS LIG    11V     -2.165   5.716  29.064  0.00  0.00           C  
+HETATM   19  CAZ LIG    11V     -6.463   3.217  34.067  0.00  0.00           C  
+HETATM   20  NAT LIG    11V     -2.084   3.928  30.859  0.00  0.00           N  
+HETATM   21  NAW LIG    11V     -5.474   3.010  33.173  0.00  0.00           N  
+HETATM   22  OAX LIG    11V     -5.468  11.520  26.225  0.00  0.00           O  
+HETATM   23  SAY LIG    11V     -7.537   6.499  30.390  0.00  0.00           S  
+HETATM   24  CBA LIG    11V     -0.675   7.625  28.648  0.00  0.00           C  
+HETATM   25  CBF LIG    11V     -1.155   6.735  29.631  0.00  0.00           C  
+HETATM   26  NBG LIG    11V     -6.555   9.461  27.797  0.00  0.00           N1+
+HETATM   27  NBH LIG    11V     -2.706   4.845  30.168  0.00  0.00           N  
+HETATM   28 CLA  LIG    11V     -1.908   7.626  31.031  0.00  0.00          Cl  
+HETATM   29  N1  LIG    11V     -6.355   4.667  31.815  0.00  0.00           N  
+HETATM   30  C2  LIG    11V     -6.195   5.558  30.835  0.00  0.00           C  
+HETATM   31  N3  LIG    11V     -5.004   5.690  30.227  0.00  0.00           N  
+HETATM   32  C4  LIG    11V     -3.968   4.918  30.609  0.00  0.00           C  
+HETATM   33  C5  LIG    11V     -4.124   4.014  31.592  0.00  0.00           C  
+HETATM   34  C6  LIG    11V     -5.323   3.903  32.191  0.00  0.00           C  
+HETATM   35  H1  LIG    11V     -4.567   9.144  28.438  0.00  0.00           H  
+HETATM   36  H2  LIG    11V     -4.842   8.943  26.674  0.00  0.00           H  
+HETATM   37  H3  LIG    11V     -3.634  11.040  27.108  0.00  0.00           H  
+HETATM   38  H4  LIG    11V     -4.923  11.569  28.243  0.00  0.00           H  
+HETATM   39  H5  LIG    11V     -7.389  11.742  25.409  0.00  0.00           H  
+HETATM   40  H6  LIG    11V     -7.260  12.067  27.171  0.00  0.00           H  
+HETATM   41  H7  LIG    11V     -7.119   9.348  25.765  0.00  0.00           H  
+HETATM   42  H8  LIG    11V     -8.398   9.934  26.881  0.00  0.00           H  
+HETATM   43  H9  LIG    11V     -6.766  10.057  28.582  0.00  0.00           H  
+HETATM   44  H10 LIG    11V     -6.342   7.374  27.602  0.00  0.00           H  
+HETATM   45  H11 LIG    11V     -8.008   7.943  27.955  0.00  0.00           H  
+HETATM   46  H12 LIG    11V     -7.025   8.844  30.177  0.00  0.00           H  
+HETATM   47  H13 LIG    11V     -5.600   7.812  29.815  0.00  0.00           H  
+HETATM   48  H14 LIG    11V     -4.855   2.190  33.245  0.00  0.00           H  
+HETATM   49  H15 LIG    11V     -7.996   2.298  32.861  0.00  0.00           H  
+HETATM   50  H16 LIG    11V     -9.792   2.671  34.528  0.00  0.00           H  
+HETATM   51  H17 LIG    11V     -9.279   3.783  36.685  0.00  0.00           H  
+HETATM   52  H18 LIG    11V     -6.960   4.519  37.186  0.00  0.00           H  
+HETATM   53  H19 LIG    11V     -5.178   4.190  35.496  0.00  0.00           H  
+HETATM   54  H20 LIG    11V     -2.730   2.600  32.446  0.00  0.00           H  
+HETATM   55  H21 LIG    11V     -2.997   6.256  28.588  0.00  0.00           H  
+HETATM   56  H22 LIG    11V     -1.662   5.084  28.317  0.00  0.00           H  
+HETATM   57  H23 LIG    11V     -0.291   6.172  30.014  0.00  0.00           H  
+HETATM   58  H24 LIG    11V      1.311   6.816  28.733  0.00  0.00           H  
+HETATM   59  H25 LIG    11V      2.236   8.344  27.023  0.00  0.00           H  
+HETATM   60  H26 LIG    11V      0.768  10.027  25.946  0.00  0.00           H  
+HETATM   61  H27 LIG    11V     -1.616  10.184  26.613  0.00  0.00           H  
+HETATM   62  H28 LIG    11V     -2.545   8.651  28.324  0.00  0.00           H  
+CONECT    1    4   51    3
+CONECT    2    6   60    5
+CONECT    3    1   50    7
+CONECT    4    1    8   52
+CONECT    5    2   59    9
+CONECT    6    2   10   61
+CONECT    7    3   49   19
+CONECT    8    4   53   19
+CONECT    9    5   58   24
+CONECT   10    6   62   24
+CONECT   11   20   54   33
+CONECT   12   22   37   38   15
+CONECT   13   16   39   40   22
+CONECT   14   23   46   47   17
+CONECT   15   12   26   35   36
+CONECT   16   13   26   41   42
+CONECT   17   14   44   45   26
+CONECT   18   25   55   56   27
+CONECT   19    7    8   21
+CONECT   20   11   27
+CONECT   21   19   48   34
+CONECT   22   12   13
+CONECT   23   14   30
+CONECT   24    9   10   25
+CONECT   25   18   24   28   57
+CONECT   26   15   16   17   43
+CONECT   27   20   18   32
+CONECT   28   25
+CONECT   29   34   30
+CONECT   30   23   29   31
+CONECT   31   30   32
+CONECT   32   31   27   33
+CONECT   33   32   11   34
+CONECT   34   29   21   33
+CONECT   35   15
+CONECT   36   15
+CONECT   37   12
+CONECT   38   12
+CONECT   39   13
+CONECT   40   13
+CONECT   41   16
+CONECT   42   16
+CONECT   43   26
+CONECT   44   17
+CONECT   45   17
+CONECT   46   14
+CONECT   47   14
+CONECT   48   21
+CONECT   49    7
+CONECT   50    3
+CONECT   51    1
+CONECT   52    4
+CONECT   53    8
+CONECT   54   11
+CONECT   55   18
+CONECT   56   18
+CONECT   57   25
+CONECT   58    9
+CONECT   59    5
+CONECT   60    2
+CONECT   61    6
+CONECT   62   10
+END

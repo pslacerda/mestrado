@@ -1,0 +1,55 @@
+HETATM    1  C1  LIG D   8W     -3.585   7.252  14.815  0.00  0.00           C  
+HETATM    2  N1  LIG D   8W     -4.428   4.611  12.963  0.00  0.00           N  
+HETATM    3  O1  LIG D   8W     -6.002   6.212  14.151  0.00  0.00           O  
+HETATM    4  S1  LIG D   8W     -5.010   5.992  13.090  0.00  0.00           S  
+HETATM    5  C2  LIG D   8W     -2.533   8.095  15.173  0.00  0.00           C  
+HETATM    6  N2  LIG D   8W     -3.492   2.639  13.964  0.00  0.00           N  
+HETATM    7  O2  LIG D   8W     -5.549   6.423  11.779  0.00  0.00           O  
+HETATM    8  S2  LIG D   8W     -5.705   3.384  15.000  0.00  0.00           S  
+HETATM    9  C3  LIG D   8W     -1.723   8.628  14.178  0.00  0.00           C  
+HETATM   10  N3  LIG D   8W     -3.777   1.696  14.992  0.00  0.00           N  
+HETATM   11  O3  LIG D   8W     -5.149   1.183  17.964  0.00  0.00           O  
+HETATM   12  S3  LIG D   8W     -5.713   0.940  16.670  0.00  0.00           S  
+HETATM   13  C4  LIG D   8W     -1.941   8.353  12.833  0.00  0.00           C  
+HETATM   14  N4  LIG D   8W     -5.363  -0.562  16.239  0.00  0.00           N  
+HETATM   15  O4  LIG D   8W     -7.103   1.168  16.626  0.00  0.00           O  
+HETATM   16  C5  LIG D   8W     -2.986   7.501  12.476  0.00  0.00           C  
+HETATM   17  C6  LIG D   8W     -3.783   6.964  13.474  0.00  0.00           C  
+HETATM   18  C7  LIG D   8W     -4.442   3.600  13.866  0.00  0.00           C  
+HETATM   19  C8  LIG D   8W     -4.940   1.970  15.622  0.00  0.00           C  
+HETATM   20  H1  LIG D   8W     -4.235   6.829  15.572  0.00  0.00           H  
+HETATM   21  H2  LIG D   8W     -2.351   8.332  16.215  0.00  0.00           H  
+HETATM   22  H3  LIG D   8W     -0.900   9.275  14.459  0.00  0.00           H  
+HETATM   23  H4  LIG D   8W     -1.308   8.795  12.073  0.00  0.00           H  
+HETATM   24  H5  LIG D   8W     -3.171   7.262  11.435  0.00  0.00           H  
+HETATM   25  H6  LIG D   8W     -3.970   4.412  12.097  0.00  0.00           H  
+HETATM   26  H7  LIG D   8W     -5.740  -1.331  16.756  0.00  0.00           H  
+HETATM   27  H8  LIG D   8W     -4.769  -0.731  15.452  0.00  0.00           H  
+CONECT    1    5   17   20
+CONECT    2   18   25    4
+CONECT    3    4
+CONECT    4    2    3    7   17
+CONECT    5    1    9   21
+CONECT    6   10   18
+CONECT    7    4
+CONECT    8   19   18
+CONECT    9    5   13   22
+CONECT   10    6   19
+CONECT   11   12
+CONECT   12   11   14   15   19
+CONECT   13    9   16   23
+CONECT   14   12   26   27
+CONECT   15   12
+CONECT   16   13   17   24
+CONECT   17    1   16    4
+CONECT   18    2    6    8
+CONECT   19    8   10   12
+CONECT   20    1
+CONECT   21    5
+CONECT   22    9
+CONECT   23   13
+CONECT   24   16
+CONECT   25    2
+CONECT   26   14
+CONECT   27   14
+END

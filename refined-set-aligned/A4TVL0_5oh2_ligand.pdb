@@ -1,0 +1,27 @@
+HETATM    1  CAB LIG     1      24.140  18.433  -7.117  0.00  0.00           C  
+HETATM    2  CAC LIG     1      24.536  17.556  -8.309  0.00  0.00           C  
+HETATM    3  CAD LIG     1      22.705  18.062  -6.715  0.00  0.00           C  
+HETATM    4  CAF LIG     1      22.445  16.813  -7.517  0.00  0.00           C  
+HETATM    5  NAE LIG     1      23.435  16.618  -8.379  0.00  0.00           N  
+HETATM    6  OAA LIG     1      21.482  16.072  -7.352  0.00  0.00           O  
+HETATM    7  H1  LIG     1      22.635  17.861  -5.636  0.00  0.00           H  
+HETATM    8  H2  LIG     1      21.999  18.861  -6.986  0.00  0.00           H  
+HETATM    9  H3  LIG     1      24.823  18.250  -6.275  0.00  0.00           H  
+HETATM   10  H4  LIG     1      24.186  19.494  -7.402  0.00  0.00           H  
+HETATM   11  H5  LIG     1      25.489  17.039  -8.124  0.00  0.00           H  
+HETATM   12  H6  LIG     1      24.614  18.149  -9.232  0.00  0.00           H  
+HETATM   13  H7  LIG     1      23.421  15.867  -9.039  0.00  0.00           H  
+CONECT    1    2    9   10    3
+CONECT    2    1    5   11   12
+CONECT    3    1    7    8    4
+CONECT    4    3    5    6
+CONECT    5    2    4   13
+CONECT    6    4
+CONECT    7    3
+CONECT    8    3
+CONECT    9    1
+CONECT   10    1
+CONECT   11    2
+CONECT   12    2
+CONECT   13    5
+END

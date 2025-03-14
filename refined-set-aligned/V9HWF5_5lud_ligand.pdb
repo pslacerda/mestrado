@@ -1,0 +1,31 @@
+HETATM    1  N1  LIG    76X     -4.814  18.910  -7.898  0.00  0.00           N  
+HETATM    2  C2  LIG    76X     -5.604  19.922  -8.418  0.00  0.00           C  
+HETATM    3  C3  LIG    76X     -5.108  21.242  -8.452  0.00  0.00           C  
+HETATM    4  C4  LIG    76X     -3.892  21.504  -7.930  0.00  0.00           C  
+HETATM    5  C5  LIG    76X     -3.169  20.507  -7.360  0.00  0.00           C  
+HETATM    6  C6  LIG    76X     -3.608  19.225  -7.382  0.00  0.00           C  
+HETATM    7  N7  LIG    76X     -6.815  19.668  -8.936  0.00  0.00           N  
+HETATM    8  N8  LIG    76X     -5.788  22.286  -8.939  0.00  0.00           N  
+HETATM    9  H1  LIG    76X     -5.364  23.225  -8.933  0.00  0.00           H  
+HETATM   10  H2  LIG    76X     -6.735  22.151  -9.320  0.00  0.00           H  
+HETATM   11  H3  LIG    76X     -7.192  18.709  -8.919  0.00  0.00           H  
+HETATM   12  H4  LIG    76X     -7.368  20.431  -9.351  0.00  0.00           H  
+HETATM   13  H5  LIG    76X     -3.492  22.511  -7.966  0.00  0.00           H  
+HETATM   14  H6  LIG    76X     -2.226  20.740  -6.880  0.00  0.00           H  
+HETATM   15  H7  LIG    76X     -2.980  18.440  -6.978  0.00  0.00           H  
+CONECT    1    2    6
+CONECT    2    1    7    3
+CONECT    3    2    4    8
+CONECT    4    3    5   13
+CONECT    5    4    6   14
+CONECT    6    5    1   15
+CONECT    7    2   11   12
+CONECT    8    3    9   10
+CONECT    9    8
+CONECT   10    8
+CONECT   11    7
+CONECT   12    7
+CONECT   13    4
+CONECT   14    5
+CONECT   15    6
+END

@@ -1,0 +1,57 @@
+HETATM    1  N   LIG    43S     14.022   7.018   2.465  0.00  0.00           N  
+HETATM    2  C   LIG    43S     13.306   6.315   1.471  0.00  0.00           C  
+HETATM    3  O   LIG    43S      9.882   6.137  -2.362  0.00  0.00           O  
+HETATM    4  C1  LIG    43S     13.258   4.711  -0.122  0.00  0.00           C  
+HETATM    5  N1  LIG    43S     14.034   5.320   0.818  0.00  0.00           N  
+HETATM    6  C2  LIG    43S     12.521   3.363  -1.711  0.00  0.00           C  
+HETATM    7  N2  LIG    43S     13.607   3.656  -0.903  0.00  0.00           N  
+HETATM    8  C3  LIG    43S     11.893   5.030  -0.469  0.00  0.00           C  
+HETATM    9  N3  LIG    43S     11.439   4.162  -1.497  0.00  0.00           N  
+HETATM   10  C4  LIG    43S     11.284   6.054   0.271  0.00  0.00           C  
+HETATM   11  N4  LIG    43S     11.954   6.716   1.254  0.00  0.00           N  
+HETATM   12  C5  LIG    43S      9.920   6.466   0.008  0.00  0.00           C  
+HETATM   13  C7  LIG    43S      8.908   6.232  -3.435  0.00  0.00           C  
+HETATM   14  C8  LIG    43S      7.515   6.580  -2.820  0.00  0.00           C  
+HETATM   15  C9  LIG    43S      7.914   6.804  -1.370  0.00  0.00           C  
+HETATM   16  C10 LIG    43S      7.212   7.343  -0.300  0.00  0.00           C  
+HETATM   17  C11 LIG    43S      7.900   7.471   0.884  0.00  0.00           C  
+HETATM   18  C12 LIG    43S      9.185   7.049   1.084  0.00  0.00           C  
+HETATM   19 BR   LIG    43S      7.033   8.311   2.424  0.00  0.00          Br  
+HETATM   20 fura LIG    43S      9.287   6.403  -1.201  0.00  0.00           C  
+HETATM   21  H1  LIG    43S      9.114   6.085  -4.494  0.00  0.00           H  
+HETATM   22  H2  LIG    43S      6.536   6.644  -3.294  0.00  0.00           H  
+HETATM   23  H3  LIG    43S      6.176   7.647  -0.393  0.00  0.00           H  
+HETATM   24  H4  LIG    43S      9.645   7.156   2.059  0.00  0.00           H  
+HETATM   25  H5  LIG    43S     10.521   4.143  -1.965  0.00  0.00           H  
+HETATM   26  H6  LIG    43S     15.002   6.772   2.665  0.00  0.00           H  
+HETATM   27  H7  LIG    43S     13.563   7.776   2.990  0.00  0.00           H  
+HETATM   28  H8  LIG    43S     12.531   2.564  -2.451  0.00  0.00           H  
+CONECT    1   26   27    2
+CONECT    2    1    5   11
+CONECT    3   13   20
+CONECT    4    5    7    8
+CONECT    5    4    2
+CONECT    6   28    7    9
+CONECT    7    4    6
+CONECT    8    4    9   10
+CONECT    9    8    6   25
+CONECT   10    8   11   12
+CONECT   11   10    2
+CONECT   12   10   18   20
+CONECT   13    3   14   21
+CONECT   14   13   22   15
+CONECT   15   14   16   20
+CONECT   16   15   23   17
+CONECT   17   16   19   18
+CONECT   18   12   17   24
+CONECT   19   17
+CONECT   20   12    3   15
+CONECT   21   13
+CONECT   22   14
+CONECT   23   16
+CONECT   24   18
+CONECT   25    9
+CONECT   26    1
+CONECT   27    1
+CONECT   28    6
+END

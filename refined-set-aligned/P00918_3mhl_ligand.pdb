@@ -1,0 +1,73 @@
+HETATM    1  N1  LIG J  71      -3.528   9.924  11.183  0.00  0.00           N  
+HETATM    2  C2  LIG J  71      -2.663   9.218  11.943  0.00  0.00           C  
+HETATM    3  N3  LIG J  71      -2.987   8.010  12.447  0.00  0.00           N  
+HETATM    4  C4  LIG J  71      -4.205   7.467  12.175  0.00  0.00           C  
+HETATM    5  C5  LIG J  71      -5.139   8.178  11.342  0.00  0.00           C  
+HETATM    6  C6  LIG J  71      -4.756   9.479  10.829  0.00  0.00           C  
+HETATM    7  N7  LIG J  71      -4.519   6.193  12.721  0.00  0.00           N  
+HETATM    8  C8  LIG J  71      -4.312   4.419  14.377  0.00  0.00           C  
+HETATM    9  C9  LIG J  71      -5.674   4.423  14.763  0.00  0.00           C  
+HETATM   10  C10 LIG J  71      -6.124   3.317  15.571  0.00  0.00           C  
+HETATM   11  C11 LIG J  71      -5.244   2.237  15.853  0.00  0.00           C  
+HETATM   12  C12 LIG J  71      -3.906   2.260  15.479  0.00  0.00           C  
+HETATM   13  C13 LIG J  71      -3.461   3.341  14.703  0.00  0.00           C  
+HETATM   14  S14 LIG J  71      -5.865   0.961  16.838  0.00  0.00           S  
+HETATM   15  O15 LIG J  71      -5.346   1.027  18.154  0.00  0.00           O  
+HETATM   16  O16 LIG J  71      -7.321   0.971  16.655  0.00  0.00           O  
+HETATM   17  N17 LIG J  71      -5.156  -0.389  16.141  0.00  0.00           N  
+HETATM   18  N18 LIG J  71      -6.453   7.465  11.096  0.00  0.00           N  
+HETATM   19  O19 LIG J  71      -6.512   6.469  10.481  0.00  0.00           O  
+HETATM   20  O20 LIG J  71      -7.608   7.946  11.533  0.00  0.00           O  
+HETATM   21  O21 LIG J  71      -5.506  10.449   9.941  0.00  0.00           O  
+HETATM   22  C22 LIG J  71      -5.930  11.766  10.310  0.00  0.00           C  
+HETATM   23  C23 LIG J  71      -3.622   5.487  13.546  0.00  0.00           C  
+HETATM   24  H1  LIG J  71      -1.684   9.633  12.154  0.00  0.00           H  
+HETATM   25  H2  LIG J  71      -5.434   5.771  12.507  0.00  0.00           H  
+HETATM   26  H3  LIG J  71      -6.346   5.219  14.464  0.00  0.00           H  
+HETATM   27  H4  LIG J  71      -7.134   3.310  15.965  0.00  0.00           H  
+HETATM   28  H5  LIG J  71      -3.228   1.468  15.776  0.00  0.00           H  
+HETATM   29  H6  LIG J  71      -2.437   3.349  14.345  0.00  0.00           H  
+HETATM   30  H7  LIG J  71      -5.340  -1.298  16.514  0.00  0.00           H  
+HETATM   31  H8  LIG J  71      -4.550  -0.284  15.353  0.00  0.00           H  
+HETATM   32  H9  LIG J  71      -6.450  12.235   9.462  0.00  0.00           H  
+HETATM   33  H10 LIG J  71      -5.052  12.371  10.581  0.00  0.00           H  
+HETATM   34  H11 LIG J  71      -6.612  11.704  11.170  0.00  0.00           H  
+HETATM   35  H12 LIG J  71      -3.132   6.200  14.225  0.00  0.00           H  
+HETATM   36  H13 LIG J  71      -2.865   5.005  12.911  0.00  0.00           H  
+CONECT    1    2    6
+CONECT    2    1   24    3
+CONECT    3    2    4
+CONECT    4    3    5    7
+CONECT    5    4    6   18
+CONECT    6    5    1   21
+CONECT    7    4   25   23
+CONECT    8    9   13   23
+CONECT    9    8   10   26
+CONECT   10    9   11   27
+CONECT   11   10   12   14
+CONECT   12   11   13   28
+CONECT   13    8   12   29
+CONECT   14   11   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   30   31
+CONECT   18    5   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21    6   22
+CONECT   22   21   32   33   34
+CONECT   23    8    7   35   36
+CONECT   24    2
+CONECT   25    7
+CONECT   26    9
+CONECT   27   10
+CONECT   28   12
+CONECT   29   13
+CONECT   30   17
+CONECT   31   17
+CONECT   32   22
+CONECT   33   22
+CONECT   34   22
+CONECT   35   23
+CONECT   36   23
+END

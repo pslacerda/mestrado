@@ -1,0 +1,37 @@
+HETATM    1  CAA LIG     1     -30.352  38.580 -33.998  0.00  0.00           C  
+HETATM    2  CAC LIG     1     -28.545  38.793 -32.483  0.00  0.00           C  
+HETATM    3  CAD LIG     1     -29.173  40.169 -32.687  0.00  0.00           C  
+HETATM    4  CAE LIG     1     -30.548  39.898 -33.306  0.00  0.00           C  
+HETATM    5  NAB LIG     1     -29.319  37.953 -33.420  0.00  0.00           N  
+HETATM    6  OAF LIG     1     -28.898  36.680 -33.774  0.00  0.00           O  
+HETATM    7  OAG LIG     1     -30.976  38.168 -34.965  0.00  0.00           O  
+HETATM    8  OAH LIG     1     -27.175  38.780 -32.828  0.00  0.00           O  
+HETATM    9  OAJ LIG     1     -31.750  38.496 -31.271  0.00  0.00           O  
+HETATM   10  OAK LIG     1     -33.100  39.436 -33.150  0.00  0.00           O1-
+HETATM   11  OAL LIG     1     -32.134  40.925 -31.403  0.00  0.00           O1-
+HETATM   12  PAI LIG     1     -31.972  39.677 -32.183  0.00  0.00           P  
+HETATM   13  H1  LIG     1     -28.666  38.453 -31.444  0.00  0.00           H  
+HETATM   14  H2  LIG     1     -28.558  40.777 -33.367  0.00  0.00           H  
+HETATM   15  H3  LIG     1     -29.280  40.690 -31.724  0.00  0.00           H  
+HETATM   16  H4  LIG     1     -30.787  40.700 -34.020  0.00  0.00           H  
+HETATM   17  H5  LIG     1     -29.521  36.299 -34.381  0.00  0.00           H  
+HETATM   18  H6  LIG     1     -27.068  39.119 -33.709  0.00  0.00           H  
+CONECT    1    4    7    5
+CONECT    2    3    5    8   13
+CONECT    3    2    4   14   15
+CONECT    4    1    3   12   16
+CONECT    5    2    1    6
+CONECT    6    5   17
+CONECT    7    1
+CONECT    8    2   18
+CONECT    9   12
+CONECT   10   12
+CONECT   11   12
+CONECT   12    4    9   10   11
+CONECT   13    2
+CONECT   14    3
+CONECT   15    3
+CONECT   16    4
+CONECT   17    6
+CONECT   18    8
+END

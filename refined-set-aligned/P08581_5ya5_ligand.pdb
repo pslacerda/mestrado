@@ -1,0 +1,83 @@
+HETATM    1  CAA LIG     6T     24.579   8.157  42.076  0.00  0.00           C  
+HETATM    2  CAB LIG     6T     17.323  13.454  46.908  0.00  0.00           C  
+HETATM    3  CAC LIG     6T     16.829  14.647  46.361  0.00  0.00           C  
+HETATM    4  CAD LIG     6T     20.631   8.106  40.829  0.00  0.00           C  
+HETATM    5  CAE LIG     6T     21.368   8.140  38.543  0.00  0.00           C  
+HETATM    6  CAF LIG     6T     21.955   8.136  41.253  0.00  0.00           C  
+HETATM    7  CAG LIG     6T     22.686   8.174  38.967  0.00  0.00           C  
+HETATM    8  CAH LIG     6T     17.737  12.411  46.078  0.00  0.00           C  
+HETATM    9  CAI LIG     6T     16.756  14.799  44.980  0.00  0.00           C  
+HETATM   10  CAJ LIG     6T     18.000  11.702  43.576  0.00  0.00           C  
+HETATM   11  CAK LIG     6T     18.927   8.071  38.984  0.00  0.00           C  
+HETATM   12  CAR LIG     6T     20.339   8.109  39.470  0.00  0.00           C  
+HETATM   13  CAS LIG     6T     22.979   8.170  40.322  0.00  0.00           C  
+HETATM   14  CAT LIG     6T     17.711  12.444  42.429  0.00  0.00           C  
+HETATM   15  CAU LIG     6T     18.480   9.420  38.500  0.00  0.00           C  
+HETATM   16  CAV LIG     6T     17.835  11.969  41.041  0.00  0.00           C  
+HETATM   17  CAW LIG     6T     17.661  12.559  44.672  0.00  0.00           C  
+HETATM   18  CAX LIG     6T     17.181  13.735  44.135  0.00  0.00           C  
+HETATM   19  CAY LIG     6T     17.806  11.532  38.515  0.00  0.00           C  
+HETATM   20  NAL LIG     6T     18.287   9.805  37.248  0.00  0.00           N  
+HETATM   21  NAM LIG     6T     17.880  11.078  37.251  0.00  0.00           N  
+HETATM   22  NAN LIG     6T     18.186  10.729  40.680  0.00  0.00           N  
+HETATM   23  NAO LIG     6T     17.206  13.630  42.769  0.00  0.00           N  
+HETATM   24  NAZ LIG     6T     18.175  10.504  39.324  0.00  0.00           N  
+HETATM   25  OAP LIG     6T     24.292   8.205  40.725  0.00  0.00           O  
+HETATM   26  SAQ LIG     6T     17.450  12.854  39.578  0.00  0.00           S  
+HETATM   27  H1  LIG     6T     25.669   8.195  42.220  0.00  0.00           H  
+HETATM   28  H2  LIG     6T     24.185   7.222  42.501  0.00  0.00           H  
+HETATM   29  H3  LIG     6T     24.112   9.015  42.581  0.00  0.00           H  
+HETATM   30  H4  LIG     6T     23.489   8.205  38.239  0.00  0.00           H  
+HETATM   31  H5  LIG     6T     21.141   8.137  37.483  0.00  0.00           H  
+HETATM   32  H6  LIG     6T     22.186   8.133  42.312  0.00  0.00           H  
+HETATM   33  H7  LIG     6T     19.829   8.080  41.557  0.00  0.00           H  
+HETATM   34  H8  LIG     6T     18.273   7.752  39.808  0.00  0.00           H  
+HETATM   35  H9  LIG     6T     18.852   7.351  38.156  0.00  0.00           H  
+HETATM   36  H10 LIG     6T     18.399  10.689  43.627  0.00  0.00           H  
+HETATM   37  H11 LIG     6T     18.115  11.490  46.509  0.00  0.00           H  
+HETATM   38  H12 LIG     6T     17.384  13.341  47.984  0.00  0.00           H  
+HETATM   39  H13 LIG     6T     16.505  15.450  47.014  0.00  0.00           H  
+HETATM   40  H14 LIG     6T     16.379  15.720  44.550  0.00  0.00           H  
+HETATM   41  H15 LIG     6T     16.885  14.353  42.109  0.00  0.00           H  
+CONECT    1   25   27   28   29
+CONECT    2    3   38    8
+CONECT    3    2    9   39
+CONECT    4   12   33    6
+CONECT    5   12   31    7
+CONECT    6    4   32   13
+CONECT    7    5   30   13
+CONECT    8    2   37   17
+CONECT    9    3   18   40
+CONECT   10   17   36   14
+CONECT   11   15   34   35   12
+CONECT   12    4    5   11
+CONECT   13    6    7   25
+CONECT   14   10   23   16
+CONECT   15   11   20   24
+CONECT   16   14   22   26
+CONECT   17   10    8   18
+CONECT   18    9   17   23
+CONECT   19   24   26   21
+CONECT   20   15   21
+CONECT   21   20   19
+CONECT   22   16   24
+CONECT   23   14   18   41
+CONECT   24   15   19   22
+CONECT   25    1   13
+CONECT   26   19   16
+CONECT   27    1
+CONECT   28    1
+CONECT   29    1
+CONECT   30    7
+CONECT   31    5
+CONECT   32    6
+CONECT   33    4
+CONECT   34   11
+CONECT   35   11
+CONECT   36   10
+CONECT   37    8
+CONECT   38    2
+CONECT   39    3
+CONECT   40    9
+CONECT   41   23
+END

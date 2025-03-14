@@ -1,0 +1,69 @@
+HETATM    1  N   LIG F   6W     -5.298  -0.421  16.090  0.00  0.00           N  
+HETATM    2  C   LIG F   6W     -5.328   2.287  15.969  0.00  0.00           C  
+HETATM    3  O   LIG F   6W     -5.352   1.028  18.123  0.00  0.00           O  
+HETATM    4  C1  LIG F   6W     -4.019   2.396  15.500  0.00  0.00           C  
+HETATM    5  O1  LIG F   6W     -7.253   0.940  16.734  0.00  0.00           O  
+HETATM    6  S1  LIG F   6W     -3.907   5.850  13.549  0.00  0.00           S  
+HETATM    7  C2  LIG F   6W     -3.590   3.508  14.760  0.00  0.00           C  
+HETATM    8  C3  LIG F   6W     -6.194   3.346  15.635  0.00  0.00           C  
+HETATM    9  C4  LIG F   6W     -5.783   4.471  14.906  0.00  0.00           C  
+HETATM   10  C5  LIG F   6W     -4.471   4.550  14.470  0.00  0.00           C  
+HETATM   11  C6  LIG F   6W     -2.164   5.767  13.466  0.00  0.00           C  
+HETATM   12  C7  LIG F   6W     -1.598   6.674  14.547  0.00  0.00           C  
+HETATM   13  C8  LIG F   6W     -1.502   8.074  14.036  0.00  0.00           C  
+HETATM   14  C9  LIG F   6W     -1.065   9.076  14.901  0.00  0.00           C  
+HETATM   15  C10 LIG F   6W     -0.991  10.384  14.455  0.00  0.00           C  
+HETATM   16  C11 LIG F   6W     -1.348  10.681  13.149  0.00  0.00           C  
+HETATM   17  C12 LIG F   6W     -1.788   9.674  12.295  0.00  0.00           C  
+HETATM   18  C13 LIG F   6W     -1.862   8.354  12.723  0.00  0.00           C  
+HETATM   19  S   LIG F   6W     -5.834   0.968  16.779  0.00  0.00           S  
+HETATM   20  H1  LIG F   6W     -3.315   1.600  15.713  0.00  0.00           H  
+HETATM   21  H2  LIG F   6W     -2.565   3.558  14.411  0.00  0.00           H  
+HETATM   22  H3  LIG F   6W     -7.228   3.289  15.957  0.00  0.00           H  
+HETATM   23  H4  LIG F   6W     -6.483   5.269  14.687  0.00  0.00           H  
+HETATM   24  H5  LIG F   6W     -1.821   6.106  12.477  0.00  0.00           H  
+HETATM   25  H6  LIG F   6W     -1.831   4.732  13.634  0.00  0.00           H  
+HETATM   26  H7  LIG F   6W     -1.285  11.702  12.790  0.00  0.00           H  
+HETATM   27  H8  LIG F   6W     -5.539  -0.634  15.143  0.00  0.00           H  
+HETATM   28  H9  LIG F   6W     -4.731  -1.054  16.616  0.00  0.00           H  
+HETATM   29  H10 LIG F   6W     -0.596   6.320  14.833  0.00  0.00           H  
+HETATM   30  H11 LIG F   6W     -2.259   6.650  15.426  0.00  0.00           H  
+HETATM   31  H12 LIG F   6W     -2.189   7.567  12.053  0.00  0.00           H  
+HETATM   32  H13 LIG F   6W     -2.078   9.923  11.281  0.00  0.00           H  
+HETATM   33  H14 LIG F   6W     -0.656  11.170  15.122  0.00  0.00           H  
+HETATM   34  H15 LIG F   6W     -0.785   8.831  15.920  0.00  0.00           H  
+CONECT    1   27   28   19
+CONECT    2   19    4    8
+CONECT    3   19
+CONECT    4    2   20    7
+CONECT    5   19
+CONECT    6   10   11
+CONECT    7    4   21   10
+CONECT    8    2   22    9
+CONECT    9    8   23   10
+CONECT   10    6    7    9
+CONECT   11    6   24   25   12
+CONECT   12   11   29   30   13
+CONECT   13   12   14   18
+CONECT   14   13   34   15
+CONECT   15   14   33   16
+CONECT   16   15   26   17
+CONECT   17   16   32   18
+CONECT   18   13   17   31
+CONECT   19    2    1    3    5
+CONECT   20    4
+CONECT   21    7
+CONECT   22    8
+CONECT   23    9
+CONECT   24   11
+CONECT   25   11
+CONECT   26   16
+CONECT   27    1
+CONECT   28    1
+CONECT   29   12
+CONECT   30   12
+CONECT   31   18
+CONECT   32   17
+CONECT   33   15
+CONECT   34   14
+END

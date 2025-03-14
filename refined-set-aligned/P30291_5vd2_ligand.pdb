@@ -1,0 +1,119 @@
+HETATM    1  C01 LIG    34W    -14.427  10.796   7.230  0.00  0.00           C  
+HETATM    2  C02 LIG    34W    -13.280  10.437   8.086  0.00  0.00           C  
+HETATM    3  O03 LIG    34W    -13.503   9.829   9.170  0.00  0.00           O  
+HETATM    4  N04 LIG    34W    -12.009  10.759   7.699  0.00  0.00           N  
+HETATM    5  C05 LIG    34W    -10.904  10.807   8.607  0.00  0.00           C  
+HETATM    6  C06 LIG    34W     -9.621  10.303   8.041  0.00  0.00           C  
+HETATM    7  O07 LIG    34W     -9.584   9.958   6.828  0.00  0.00           O  
+HETATM    8  N08 LIG    34W     -8.473  10.206   8.797  0.00  0.00           N  
+HETATM    9  C09 LIG    34W     -7.113  10.341   8.357  0.00  0.00           C  
+HETATM   10  C10 LIG    34W     -6.665  11.684   9.030  0.00  0.00           C  
+HETATM   11  C11 LIG    34W     -7.573  11.746  10.289  0.00  0.00           C  
+HETATM   12  C12 LIG    34W     -8.327  10.380  10.207  0.00  0.00           C  
+HETATM   13  C13 LIG    34W     -7.427   9.208  10.312  0.00  0.00           C  
+HETATM   14  C14 LIG    34W     -6.662   9.185   9.144  0.00  0.00           C  
+HETATM   15  C15 LIG    34W     -5.698   8.198   8.915  0.00  0.00           C  
+HETATM   16  C16 LIG    34W     -5.526   7.216   9.915  0.00  0.00           C  
+HETATM   17  C17 LIG    34W     -6.295   7.211  11.109  0.00  0.00           C  
+HETATM   18  C18 LIG    34W     -7.258   8.233  11.306  0.00  0.00           C  
+HETATM   19  N19 LIG    34W     -6.104   6.260  12.069  0.00  0.00           N  
+HETATM   20  C20 LIG    34W     -5.341   5.132  12.173  0.00  0.00           C  
+HETATM   21  N21 LIG    34W     -5.412   4.348  13.273  0.00  0.00           N  
+HETATM   22  C22 LIG    34W     -4.688   3.223  13.422  0.00  0.00           C  
+HETATM   23  C23 LIG    34W     -3.793   2.807  12.424  0.00  0.00           C  
+HETATM   24  C24 LIG    34W     -3.723   3.633  11.273  0.00  0.00           C  
+HETATM   25  N25 LIG    34W     -4.489   4.751  11.198  0.00  0.00           N  
+HETATM   26  N26 LIG    34W     -2.896   3.337  10.237  0.00  0.00           N  
+HETATM   27  C27 LIG    34W     -2.547   4.304   9.244  0.00  0.00           C  
+HETATM   28  C28 LIG    34W     -3.540   4.326   8.066  0.00  0.00           C  
+HETATM   29  C29 LIG    34W     -2.333   4.445   7.129  0.00  0.00           C  
+HETATM   30  C30 LIG    34W     -1.499   3.782   8.238  0.00  0.00           C  
+HETATM   31  C31 LIG    34W     -3.010   1.554  12.605  0.00  0.00           C  
+HETATM   32  F32 LIG    34W     -1.643   1.734  12.575  0.00  0.00           F  
+HETATM   33  F33 LIG    34W     -3.335   0.685  11.612  0.00  0.00           F  
+HETATM   34  F34 LIG    34W     -3.286   0.942  13.789  0.00  0.00           F  
+HETATM   35  H1  LIG    34W    -14.065  11.316   6.331  0.00  0.00           H  
+HETATM   36  H2  LIG    34W    -15.108  11.457   7.787  0.00  0.00           H  
+HETATM   37  H3  LIG    34W    -14.964   9.883   6.934  0.00  0.00           H  
+HETATM   38  H4  LIG    34W    -11.844  10.971   6.736  0.00  0.00           H  
+HETATM   39  H5  LIG    34W    -11.155  10.197   9.487  0.00  0.00           H  
+HETATM   40  H6  LIG    34W    -10.757  11.853   8.915  0.00  0.00           H  
+HETATM   41  H7  LIG    34W     -6.916  10.293   7.276  0.00  0.00           H  
+HETATM   42  H8  LIG    34W     -6.847  12.542   8.366  0.00  0.00           H  
+HETATM   43  H9  LIG    34W     -5.601  11.654   9.308  0.00  0.00           H  
+HETATM   44  H10 LIG    34W     -8.273  12.593  10.237  0.00  0.00           H  
+HETATM   45  H11 LIG    34W     -6.976  11.819  11.210  0.00  0.00           H  
+HETATM   46  H12 LIG    34W     -9.232  10.339  10.831  0.00  0.00           H  
+HETATM   47  H13 LIG    34W     -5.107   8.187   8.007  0.00  0.00           H  
+HETATM   48  H14 LIG    34W     -4.783   6.441   9.767  0.00  0.00           H  
+HETATM   49  H15 LIG    34W     -7.854   8.260  12.211  0.00  0.00           H  
+HETATM   50  H16 LIG    34W     -6.668   6.434  12.913  0.00  0.00           H  
+HETATM   51  H17 LIG    34W     -4.798   2.631  14.324  0.00  0.00           H  
+HETATM   52  H18 LIG    34W     -2.508   2.386  10.165  0.00  0.00           H  
+HETATM   53  H19 LIG    34W     -2.326   5.278   9.705  0.00  0.00           H  
+HETATM   54  H20 LIG    34W     -4.216   5.193   8.054  0.00  0.00           H  
+HETATM   55  H21 LIG    34W     -4.125   3.403   7.943  0.00  0.00           H  
+HETATM   56  H22 LIG    34W     -2.039   5.477   6.887  0.00  0.00           H  
+HETATM   57  H23 LIG    34W     -2.412   3.859   6.201  0.00  0.00           H  
+HETATM   58  H24 LIG    34W     -1.434   2.686   8.170  0.00  0.00           H  
+HETATM   59  H25 LIG    34W     -0.491   4.202   8.367  0.00  0.00           H  
+CONECT    1    2   35   36   37
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5   38
+CONECT    5    4    6   39   40
+CONECT    6    5    7    8
+CONECT    7    6
+CONECT    8    6    9   12
+CONECT    9    8   10   14   41
+CONECT   10    9   11   42   43
+CONECT   11   10   12   44   45
+CONECT   12    8   11   13   46
+CONECT   13   12   14   18
+CONECT   14    9   13   15
+CONECT   15   14   16   47
+CONECT   16   15   17   48
+CONECT   17   16   18   19
+CONECT   18   13   17   49
+CONECT   19   17   20   50
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23   51
+CONECT   23   22   24   31
+CONECT   24   23   25   26
+CONECT   25   20   24
+CONECT   26   24   27   52
+CONECT   27   26   28   30   53
+CONECT   28   27   29   54   55
+CONECT   29   28   30   56   57
+CONECT   30   27   29   58   59
+CONECT   31   23   32   33   34
+CONECT   32   31
+CONECT   33   31
+CONECT   34   31
+CONECT   35    1
+CONECT   36    1
+CONECT   37    1
+CONECT   38    4
+CONECT   39    5
+CONECT   40    5
+CONECT   41    9
+CONECT   42   10
+CONECT   43   10
+CONECT   44   11
+CONECT   45   11
+CONECT   46   12
+CONECT   47   15
+CONECT   48   16
+CONECT   49   18
+CONECT   50   19
+CONECT   51   22
+CONECT   52   26
+CONECT   53   27
+CONECT   54   28
+CONECT   55   28
+CONECT   56   29
+CONECT   57   29
+CONECT   58   30
+CONECT   59   30
+END
