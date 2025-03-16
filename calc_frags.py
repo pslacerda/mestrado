@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 import seaborn as sb
-from itertools import combinations, product
+from rdkit import Chem
+from rdkit.Chem import AllChem
+from rdkit.Chem import Descriptors
 from matplotlib import pyplot as plt
 from openbabel import pybel as pb
 from collections import namedtuple
@@ -15,9 +17,15 @@ from pprint import pprint
 
 FRAG_NHA_THRESHOLD = 3
 NHA_THRESHOLD = 3
-OVERLAP_THRESHOLD = 0.9
+OVERLAP_THRESHOLD = 0.7
 FO1_THRESHOLD = 0.8
 
+
+def get_fp(mol):
+    mol = Chem.rdmolops.AddHs(mol)
+    fpgen = AllChem.GetRDKitFPGenerator(useHs=False)
+    fp = fpgen.GetFingerprint(mol)
+    return fp
 
 
 rs = pd.read_csv("refined-set-v2020.csv")
@@ -44,34 +52,10 @@ def find_proteins():
             uniprot = row.uniprot
             last_group = []
 
-
-def fp_and_bits(fp1, fp2):
+def overlap(fp1, fp2):
     assert len(fp1) == len(fp2)
-    s = 0
-    for n1, n2 in zip(fp1, fp2):
-        n = n1 & n2
-        for i in range(64):
-            s += 1 & n
-            n >>= 1
-    return s
+    return sum(fp1 & fp2) / min(sum(fp1), sum(fp2))
 
-def fp_or_bits(fp1, fp2):
-    assert len(fp1) == len(fp2)
-    s = 0
-    for n1, n2 in zip(fp1, fp2):
-        n = n1 | n2
-        for i in range(64):
-            s += 1 & n
-            n >>= 1
-    return s
-
-def fp_sum_bits(fp):
-    s = 0
-    for n in fp:
-        for i in range(64):
-            s += 1 & n
-            n >>= 1
-    return s
 
 
 count_pdb = set()
@@ -103,23 +87,22 @@ for uniprot, group in find_proteins():
         visited.add(row.ligand)
         try:
         # load molecule
-            mol = next(pb.readfile('pdb', f'refined-set-aligned/{uniprot}_{row.pdb}_ligand.pdb'))
-            mol.removeh()
-            mol.title = row.pdb.upper()
+            mol = Chem.MolFromPDBFile(f'refined-set-aligned/{uniprot}_{row.pdb}_ligand.pdb', sanitize=False)
+            # mol = Chem.MolFromPDBFile(lig_fname, sanitize=False)
         except:
             continue
         # create node
-        nha = len(mol.atoms)
+        nha = len(mol.GetAtoms())
         pki = row.pki
         le = pki / nha
-        bei = pki / mol.molwt
-        mol.addh()
-        fp = np.array(mol.calcfp('ecfp4').fp)
+        bei = pki / Descriptors.ExactMolWt(mol)
+        fp = get_fp(mol)
+
         node = Node(
             uniprot=uniprot,
             pdb=row.pdb.upper(),
             nha=nha,
-            mw=mol.molwt,
+            mw=Descriptors.ExactMolWt(mol),
             pki=pki,
             le=le,
             bei=bei,
@@ -204,9 +187,9 @@ for uniprot, group in find_proteins():
                 continue
             fp1 = n1.fp
             fp2 = n2.fp
-            overlap = fp_and_bits(fp1, fp2) / min(fp_sum_bits(fp1), fp_sum_bits(fp2))
+            ovr = overlap(fp1, fp2)
             nha_diff = abs(n1.nha - n2.nha)
-            if overlap > OVERLAP_THRESHOLD and nha_diff > 0:# and nha_diff > NHA_THRESHOLD:
+            if ovr > OVERLAP_THRESHOLD and nha_diff > 0:# and nha_diff > NHA_THRESHOLD:
                 if n1.pdb not in fo_d or n2.pdb not in fo_d:
                     continue
                 else:
